@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { useState } from 'react';
 import { Zap, Menu, X } from 'lucide-react';
 
-const APP_URL = process.env.NEXT_PUBLIC_APP_URL || 'https://app.example.com';
+const APP_URL = process.env.NEXT_PUBLIC_APP_URL || 'https://app.seoscribes.com';
 
 export default function Header() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);

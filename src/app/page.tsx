@@ -23,7 +23,7 @@ import {
   Check
 } from 'lucide-react';
 
-const APP_URL = process.env.NEXT_PUBLIC_APP_URL || 'https://app.example.com';
+const APP_URL = process.env.NEXT_PUBLIC_APP_URL || 'https://app.seoscribes.com';
 
 export default function LandingPage() {
 
