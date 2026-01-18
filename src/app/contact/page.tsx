@@ -1,1 +1,202 @@
-﻿浩潰瑲䰠湩⁫牦浯✠敮瑸氯湩❫഻椊灭牯⁴⁻牁潲䱷晥ⱴ䴠楡ⱬ䴠獥慳敧煓慵敲‬效灬楃捲敬素映潲⁭氧捵摩ⵥ敲捡❴഻ഊ攊灸牯⁴敤慦汵⁴畦据楴湯䌠湯慴瑣慐敧⤨笠਍†敲畴湲⠠਍††搼癩猠祴敬笽⁻潦瑮慆業祬›䤧瑮牥‬慳獮猭牥晩Ⱗ戠捡杫潲湵㩤✠慶⡲ⴭ杢猭捥湯慤祲✩‬業䡮楥桧㩴✠〱瘰❨素㹽਍†††⽻‪效摡牥⨠累਍†††格慥敤⁲瑳汹㵥筻਍††††慢正牧畯摮›眧楨整Ⱗ਍††††潢摲牥潂瑴浯›ㄧ硰猠汯摩瘠牡⴨戭牯敤⵲楬桧⥴Ⱗ਍††††慰摤湩㩧✠爱浥〠ധ ††素㹽਍††††搼癩挠慬獳慎敭∽潣瑮楡敮≲猠祴敬笽⁻慭坸摩桴›ㄧ〲瀰❸素㹽਍†††††䰼湩⁫牨晥∽∯猠祴敬笽ൻ †††††搠獩汰祡›椧汮湩ⵥ汦硥Ⱗ਍††††††污杩䥮整獭›挧湥整❲ബ †††††朠灡›〧㔮敲❭ബ †††††挠汯牯›瘧牡⴨琭硥⵴敳潣摮牡⥹Ⱗ਍††††††整瑸敄潣慲楴湯›渧湯❥ബ †††††映湯却穩㩥✠⸰㌹㔷敲❭ബ †††††映湯坴楥桧㩴㔠〰਍†††††絽挠慬獳慎敭∽慮⵶楬歮㸢਍††††††䄼牲睯敌瑦猠穩㵥ㅻ紸⼠ാ †††††䈠捡⁫潴䠠浯൥ ††††㰠䰯湩㹫਍††††⼼楤㹶਍†††⼼敨摡牥ാഊ ††笠⨯䠠牥⁯敓瑣潩⁮⼪ൽ ††㰠敳瑣潩⁮瑳汹㵥筻瀠摡楤杮›㐧敲⁭✰‬慢正牧畯摮›眧楨整‧絽ാ †††㰠楤⁶汣獡乳浡㵥挢湯慴湩牥•瑳汹㵥筻洠硡楗瑤㩨✠〸瀰❸‬整瑸汁杩㩮✠散瑮牥‧絽ാ ††††㰠ㅨ猠祴敬笽ൻ †††††映湯却穩㩥✠爳浥Ⱗ਍††††††潦瑮敗杩瑨›〸ⰰ਍††††††慭杲湩潂瑴浯›ㄧ㔮敲❭ബ †††††氠瑥整卲慰楣杮›ⴧ⸰㌰浥Ⱗ਍††††††潣潬㩲✠慶⡲ⴭ整瑸瀭楲慭祲✩਍†††††絽ാ †††††䜠瑥椠⁮潔捵൨ ††††㰠栯㸱਍†††††瀼猠祴敬笽ൻ †††††映湯却穩㩥✠⸱㔲敲❭ബ †††††挠汯牯›瘧牡⴨琭硥⵴敳潣摮牡⥹Ⱗ਍††††††楬敮效杩瑨›⸱ⰶ਍††††††慭坸摩桴›㘧〰硰Ⱗ਍††††††慭杲湩›〧愠瑵❯਍†††††絽ാ †††††䠠癡⁥畱獥楴湯⁳扡畯⁴灏楴汆睯‿敗爧⁥敨敲琠⁯敨灬‮桃潯敳琠敨戠獥⁴慷⁹潴爠慥档甠⹳਍†††††⼼㹰਍††††⼼楤㹶਍†††⼼敳瑣潩㹮਍਍†††⽻‪潃瑮捡⁴灏楴湯⁳⼪ൽ ††㰠敳瑣潩⁮瑳汹㵥筻瀠摡楤杮›㐧敲⁭✰‬慢正牧畯摮›瘧牡⴨戭ⵧ敳潣摮牡⥹‧絽ാ †††㰠楤⁶汣獡乳浡㵥挢湯慴湩牥•瑳汹㵥筻洠硡楗瑤㩨✠〹瀰❸素㹽਍†††††搼癩猠祴敬笽⁻楤灳慬㩹✠牧摩Ⱗ朠楲呤浥汰瑡䍥汯浵獮›爧灥慥⡴畡潴昭瑩‬業浮硡㈨〸硰‬昱⥲✩‬慧㩰✠爲浥‧絽ാ †††††笠൛ ††††††笠਍††††††††捩湯›慍汩ബ †††††††琠瑩敬›䔧慭汩匠灵潰瑲Ⱗ਍††††††††敤捳›䜧瑥栠汥⁰牦浯漠牵猠灵潰瑲琠慥❭ബ †††††††挠湯慴瑣›猧灵潰瑲潀瑰晩潬⹷潣❭ബ †††††††愠瑣潩㩮✠敓摮䔠慭汩Ⱗ਍††††††††楬歮›洧楡瑬㩯畳灰牯䁴灯楴汦睯挮浯ധ ††††††素ബ ††††††笠਍††††††††捩湯›敍獳条卥畱牡ⱥ਍††††††††楴汴㩥✠慓敬⁳湉畱物敩❳ബ †††††††搠獥㩣✠畑獥楴湯⁳扡畯⁴汰湡⁳牯攠瑮牥牰獩㽥Ⱗ਍††††††††潣瑮捡㩴✠慳敬䁳灯楴汦睯挮浯Ⱗ਍††††††††捡楴湯›䌧湯慴瑣匠污獥Ⱗ਍††††††††楬歮›洧楡瑬㩯慳敬䁳灯楴汦睯挮浯ധ ††††††素ബ ††††††笠਍††††††††捩湯›效灬楃捲敬ബ †††††††琠瑩敬›䜧湥牥污儠敵瑳潩獮Ⱗ਍††††††††敤捳›䄧祮桴湩⁧汥敳漠⁮潹牵洠湩㽤Ⱗ਍††††††††潣瑮捡㩴✠敨汬䁯灯楴汦睯挮浯Ⱗ਍††††††††捡楴湯›匧祡䠠汥潬Ⱗ਍††††††††楬歮›洧楡瑬㩯敨汬䁯灯楴汦睯挮浯ധ ††††††素਍††††††⹝慭⡰椨整Ɑ椠 㸽⠠਍†††††††搼癩欠祥笽絩猠祴敬笽ൻ †††††††瀠摡楤杮›㈧敲❭ബ †††††††戠捡杫潲湵㩤✠桷瑩❥ബ †††††††戠牯敤割摡畩㩳✠㈱硰Ⱗ਍††††††††潢摲牥›ㄧ硰猠汯摩瘠牡⴨戭牯敤⵲楬桧⥴Ⱗ਍††††††††整瑸汁杩㩮✠散瑮牥Ⱗ਍††††††††楤灳慬㩹✠汦硥Ⱗ਍††††††††汦硥楄敲瑣潩㩮✠潣畬湭Ⱗ਍††††††††污杩䥮整獭›挧湥整❲਍†††††††絽ാ †††††††㰠楤⁶瑳汹㵥筻਍†††††††††楷瑤㩨✠㘵硰Ⱗ਍†††††††††敨杩瑨›㔧瀶❸ബ ††††††††戠牯敤割摡畩㩳✠㈱硰Ⱗ਍†††††††††慢正牧畯摮›瘧牡⴨瀭楲慭祲㔭⤰Ⱗ਍†††††††††潣潬㩲✠慶⡲ⴭ牰浩牡⵹〶⤰Ⱗ਍†††††††††楤灳慬㩹✠汦硥Ⱗ਍†††††††††污杩䥮整獭›挧湥整❲ബ ††††††††樠獵楴祦潃瑮湥㩴✠散瑮牥Ⱗ਍†††††††††慭杲湩潂瑴浯›ㄧ㔮敲❭਍††††††††絽ാ ††††††††㰠瑩浥椮潣⁮楳敺笽㠲⁽㸯਍††††††††⼼楤㹶਍††††††††格″瑳汹㵥筻਍†††††††††潦瑮楓敺›ㄧ㈮爵浥Ⱗ਍†††††††††潦瑮敗杩瑨›〷ⰰ਍†††††††††慭杲湩潂瑴浯›〧㔮敲❭ബ ††††††††挠汯牯›瘧牡⴨琭硥⵴牰浩牡⥹ധ †††††††素㹽਍†††††††††楻整⹭楴汴絥਍††††††††⼼㍨ാ †††††††㰠⁰瑳汹㵥筻਍†††††††††潦瑮楓敺›〧㤮㜳爵浥Ⱗ਍†††††††††潣潬㩲✠慶⡲ⴭ整瑸猭捥湯慤祲✩ബ ††††††††洠牡楧䉮瑯潴㩭✠爱浥Ⱗ਍†††††††††楬敮效杩瑨›⸱ശ †††††††素㹽਍†††††††††楻整⹭敤捳ൽ †††††††㰠瀯ാ †††††††㰠⁰瑳汹㵥筻਍†††††††††潦瑮楓敺›〧㠮㔷敲❭ബ ††††††††挠汯牯›瘧牡⴨瀭楲慭祲㘭〰✩ബ ††††††††映湯坴楥桧㩴㘠〰ബ ††††††††洠牡楧䉮瑯潴㩭✠⸱爵浥ധ †††††††素㹽਍†††††††††楻整⹭潣瑮捡絴਍††††††††⼼㹰਍††††††††愼栠敲㵦楻整⹭楬歮⁽汣獡乳浡㵥戢湴戠湴猭捥湯慤祲•瑳汹㵥筻਍†††††††††潦瑮慆業祬›䤧瑮牥‬慳獮猭牥晩Ⱗ਍†††††††††楷瑤㩨✠〱┰Ⱗ਍†††††††††番瑳晩䍹湯整瑮›挧湥整❲਍††††††††絽ാ ††††††††笠瑩浥愮瑣潩絮਍††††††††⼼㹡਍†††††††⼼楤㹶਍††††††⤩ൽ ††††㰠搯癩ാ †††㰠搯癩ാ ††㰠猯捥楴湯ാഊ ††笠⨯䘠允匠捥楴湯⨠累਍†††猼捥楴湯猠祴敬笽⁻慰摤湩㩧✠爴浥〠Ⱗ戠捡杫潲湵㩤✠桷瑩❥素㹽਍††††搼癩挠慬獳慎敭∽潣瑮楡敮≲猠祴敬笽⁻慭坸摩桴›㠧〰硰‧絽ാ ††††㰠㉨猠祴敬笽ൻ †††††映湯却穩㩥✠爲浥Ⱗ਍††††††潦瑮敗杩瑨›〷ⰰ਍††††††慭杲湩潂瑴浯›㈧敲❭ബ †††††挠汯牯›瘧牡⴨琭硥⵴牰浩牡⥹Ⱗ਍††††††整瑸汁杩㩮✠散瑮牥ധ ††††素㹽਍††††††牆煥敵瑮祬䄠歳摥儠敵瑳潩獮਍†††††⼼㉨ാ ††††㰠楤⁶瑳汹㵥筻搠獩汰祡›昧敬❸‬汦硥楄敲瑣潩㩮✠潣畬湭Ⱗ朠灡›ㄧ㔮敲❭素㹽਍††††††孻਍†††††††ൻ †††††††焠›圧慨⁴獩礠畯⁲敲灳湯敳琠浩㽥Ⱗ਍††††††††㩡✠敗琠灹捩污祬爠獥潰摮琠⁯污⁬湩畱物敩⁳楷桴湩㈠‴潨牵⁳湯戠獵湩獥⁳慤獹‮牐潩楲祴猠灵潰瑲挠獵潴敭獲爠捥楥敶爠獥潰獮獥眠瑩楨⁮‴潨牵⹳ധ ††††††素ബ ††††††笠਍††††††††㩱✠潄礠畯漠晦牥瀠潨敮猠灵潰瑲✿ബ †††††††愠›倧潨敮猠灵潰瑲椠⁳癡楡慬汢⁥潦⁲潄業慮潴⁲汰湡挠獵潴敭獲‮汁⁬瑯敨⁲汰湡⁳湩汣摵⁥浥楡⁬湡⁤档瑡猠灵潰瑲✮਍†††††††ⱽ਍†††††††ൻ †††††††焠›䌧湡䤠猠档摥汵⁥⁡敤潭✿ബ †††††††愠›大獥‡潃瑮捡⁴畯⁲慳敬⁳整浡愠⁴慳敬䁳灯楴汦睯挮浯琠⁯捳敨畤敬愠瀠牥潳慮楬敺⁤敤潭漠⁦灏楴汆睯✮਍†††††††ⱽ਍†††††††ൻ †††††††焠›圧敨敲椠⁳潹牵挠浯慰祮氠捯瑡摥✿ബ †††††††愠›伧瑰䙩潬⁷獩愠爠浥瑯ⵥ楦獲⁴潣灭湡⁹楷桴琠慥⁭敭扭牥⁳捡潲獳琠敨唠楮整⁤瑓瑡獥愠摮䔠牵灯⹥ധ ††††††素਍††††††⹝慭⡰昨煡‬⥩㴠‾ന ††††††㰠楤⁶敫㵹楻⁽瑳汹㵥筻਍††††††††慰摤湩㩧✠⸱爵浥Ⱗ਍††††††††慢正牧畯摮›瘧牡⴨戭ⵧ敳潣摮牡⥹Ⱗ਍††††††††潢摲牥慒楤獵›ㄧ瀲❸ബ †††††††戠牯敤㩲✠瀱⁸潳楬⁤慶⡲ⴭ潢摲牥氭杩瑨✩਍†††††††絽ാ †††††††㰠㍨猠祴敬笽ൻ ††††††††映湯却穩㩥✠⸱㈱爵浥Ⱗ਍†††††††††潦瑮敗杩瑨›〶ⰰ਍†††††††††慭杲湩潂瑴浯›〧㜮爵浥Ⱗ਍†††††††††潣潬㩲✠慶⡲ⴭ整瑸瀭楲慭祲✩਍††††††††絽ാ ††††††††笠慦⹱統਍††††††††⼼㍨ാ †††††††㰠⁰瑳汹㵥筻਍†††††††††潦瑮楓敺›〧㤮㜳爵浥Ⱗ਍†††††††††潣潬㩲✠慶⡲ⴭ整瑸猭捥湯慤祲✩ബ ††††††††氠湩䡥楥桧㩴ㄠ㘮਍††††††††絽ാ ††††††††笠慦⹱絡਍††††††††⼼㹰਍†††††††⼼楤㹶਍††††††⤩ൽ ††††㰠搯癩ാ †††㰠搯癩ാ ††㰠猯捥楴湯ാ †㰠搯癩ാ ⤠഻紊਍
+﻿import Link from 'next/link';
+import { ArrowLeft, Mail, MessageSquare, HelpCircle } from 'lucide-react';
+
+export default function ContactPage() {
+  return (
+    <div style={{ fontFamily: 'Inter, sans-serif', background: 'var(--bg-secondary)', minHeight: '100vh' }}>
+      {/* Header */}
+      <header style={{
+        background: 'white',
+        borderBottom: '1px solid var(--border-light)',
+        padding: '1rem 0'
+      }}>
+        <div className="container" style={{ maxWidth: '1200px' }}>
+          <Link href="/" style={{
+            display: 'inline-flex',
+            alignItems: 'center',
+            gap: '0.5rem',
+            color: 'var(--text-secondary)',
+            textDecoration: 'none',
+            fontSize: '0.9375rem',
+            fontWeight: 500
+          }} className="nav-link">
+            <ArrowLeft size={18} />
+            Back to Home
+          </Link>
+        </div>
+      </header>
+
+      {/* Hero Section */}
+      <section style={{ padding: '4rem 0', background: 'white' }}>
+        <div className="container" style={{ maxWidth: '800px', textAlign: 'center' }}>
+          <h1 style={{
+            fontSize: '3rem',
+            fontWeight: 800,
+            marginBottom: '1.5rem',
+            letterSpacing: '-0.03em',
+            color: 'var(--text-primary)'
+          }}>
+            Get in Touch
+          </h1>
+          <p style={{
+            fontSize: '1.25rem',
+            color: 'var(--text-secondary)',
+            lineHeight: 1.6,
+            maxWidth: '600px',
+            margin: '0 auto'
+          }}>
+            Have questions about OptiFlow? We're here to help. Choose the best way to reach us.
+          </p>
+        </div>
+      </section>
+
+      {/* Contact Options */}
+      <section style={{ padding: '4rem 0', background: 'var(--bg-secondary)' }}>
+        <div className="container" style={{ maxWidth: '900px' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '2rem' }}>
+            {[
+              {
+                icon: Mail,
+                title: 'Email Support',
+                desc: 'Get help from our support team',
+                contact: 'support@optiflow.com',
+                action: 'Send Email',
+                link: 'mailto:support@optiflow.com'
+              },
+              {
+                icon: MessageSquare,
+                title: 'Sales Inquiries',
+                desc: 'Questions about plans or enterprise?',
+                contact: 'sales@optiflow.com',
+                action: 'Contact Sales',
+                link: 'mailto:sales@optiflow.com'
+              },
+              {
+                icon: HelpCircle,
+                title: 'General Questions',
+                desc: 'Anything else on your mind?',
+                contact: 'hello@optiflow.com',
+                action: 'Say Hello',
+                link: 'mailto:hello@optiflow.com'
+              }
+            ].map((item, i) => (
+              <div key={i} style={{
+                padding: '2rem',
+                background: 'white',
+                borderRadius: '12px',
+                border: '1px solid var(--border-light)',
+                textAlign: 'center',
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'center'
+              }}>
+                <div style={{
+                  width: '56px',
+                  height: '56px',
+                  borderRadius: '12px',
+                  background: 'var(--primary-50)',
+                  color: 'var(--primary-600)',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  marginBottom: '1.5rem'
+                }}>
+                  <item.icon size={28} />
+                </div>
+                <h3 style={{
+                  fontSize: '1.25rem',
+                  fontWeight: 700,
+                  marginBottom: '0.5rem',
+                  color: 'var(--text-primary)'
+                }}>
+                  {item.title}
+                </h3>
+                <p style={{
+                  fontSize: '0.9375rem',
+                  color: 'var(--text-secondary)',
+                  marginBottom: '1rem',
+                  lineHeight: 1.6
+                }}>
+                  {item.desc}
+                </p>
+                <p style={{
+                  fontSize: '0.875rem',
+                  color: 'var(--primary-600)',
+                  fontWeight: 600,
+                  marginBottom: '1rem'
+                }}>
+                  {item.contact}
+                </p>
+                <a href={item.link} className="btn btn-secondary" style={{
+                  fontFamily: 'Inter, sans-serif',
+                  width: '100%',
+                  justifyContent: 'center'
+                }}>
+                  {item.action}
+                </a>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section style={{ padding: '4rem 0', background: 'white' }}>
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 style={{
+            fontSize: '2rem',
+            fontWeight: 700,
+            marginBottom: '2rem',
+            color: 'var(--text-primary)',
+            textAlign: 'center'
+          }}>
+            Frequently Asked Questions
+          </h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
+            {[
+              {
+                q: 'What is your response time?',
+                a: 'We typically respond to all inquiries within 24 hours on business days. Priority support customers receive responses within 4 hours.'
+              },
+              {
+                q: 'Do you offer phone support?',
+                a: 'Phone support is available for Dominator plan customers. All other plans include email and chat support.'
+              },
+              {
+                q: 'Can I schedule a demo?',
+                a: 'Yes! Contact our sales team at sales@optiflow.com to schedule a personalized demo of OptiFlow.'
+              },
+              {
+                q: 'Where is your company located?',
+                a: 'OptiFlow is a remote-first company with team members across the United States and Europe.'
+              }
+            ].map((faq, i) => (
+              <div key={i} style={{
+                padding: '1.5rem',
+                background: 'var(--bg-secondary)',
+                borderRadius: '12px',
+                border: '1px solid var(--border-light)'
+              }}>
+                <h3 style={{
+                  fontSize: '1.125rem',
+                  fontWeight: 600,
+                  marginBottom: '0.75rem',
+                  color: 'var(--text-primary)'
+                }}>
+                  {faq.q}
+                </h3>
+                <p style={{
+                  fontSize: '0.9375rem',
+                  color: 'var(--text-secondary)',
+                  lineHeight: 1.6
+                }}>
+                  {faq.a}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+}
