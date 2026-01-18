@@ -1,1 +1,218 @@
-﻿浩潰瑲䰠湩⁫牦浯✠敮瑸氯湩❫഻椊灭牯⁴⁻牁潲䱷晥ⱴ䘠汩呥硥⁴⁽牦浯✠畬楣敤爭慥瑣㬧਍਍硥潰瑲搠晥畡瑬映湵瑣潩⁮敔浲偳条⡥ ൻ 爠瑥牵⁮ന †㰠楤⁶瑳汹㵥筻映湯䙴浡汩㩹✠湉整Ⱳ猠湡⵳敳楲❦‬慢正牧畯摮›瘧牡⴨戭ⵧ敳潣摮牡⥹Ⱗ洠湩效杩瑨›ㄧ〰桶‧絽ാ ††笠⨯䠠慥敤⁲⼪ൽ ††㰠敨摡牥猠祴敬笽ൻ †††戠捡杫潲湵㩤✠桷瑩❥ബ †††戠牯敤䉲瑯潴㩭✠瀱⁸潳楬⁤慶⡲ⴭ潢摲牥氭杩瑨✩ബ †††瀠摡楤杮›ㄧ敲⁭✰਍†††絽ാ †††㰠楤⁶汣獡乳浡㵥挢湯慴湩牥•瑳汹㵥筻洠硡楗瑤㩨✠㈱〰硰‧絽ാ ††††㰠楌歮栠敲㵦⼢•瑳汹㵥筻਍††††††楤灳慬㩹✠湩楬敮昭敬❸ബ †††††愠楬湧瑉浥㩳✠散瑮牥Ⱗ਍††††††慧㩰✠⸰爵浥Ⱗ਍††††††潣潬㩲✠慶⡲ⴭ整瑸猭捥湯慤祲✩ബ †††††琠硥䑴捥牯瑡潩㩮✠潮敮Ⱗ਍††††††潦瑮楓敺›〧㤮㜳爵浥Ⱗ਍††††††潦瑮敗杩瑨›〵ര ††††素⁽汣獡乳浡㵥渢癡氭湩≫ാ †††††㰠牁潲䱷晥⁴楳敺笽㠱⁽㸯਍††††††慂正琠⁯潈敭਍†††††⼼楌歮ാ †††㰠搯癩ാ ††㰠栯慥敤㹲਍਍†††⽻‪效潲匠捥楴湯⨠累਍†††猼捥楴湯猠祴敬笽⁻慰摤湩㩧✠爴浥〠㈠敲❭‬慢正牧畯摮›眧楨整‧絽ാ †††㰠楤⁶汣獡乳浡㵥挢湯慴湩牥•瑳汹㵥筻洠硡楗瑤㩨✠〸瀰❸‬整瑸汁杩㩮✠散瑮牥‧絽ാ ††††㰠楆敬敔瑸猠穩㵥㑻紸猠祴敬笽⁻潣潬㩲✠慶⡲ⴭ牰浩牡⵹〶⤰Ⱗ洠牡楧㩮✠‰畡潴ㄠ㔮敲❭素⁽㸯਍†††††格‱瑳汹㵥筻਍††††††潦瑮楓敺›㌧敲❭ബ †††††映湯坴楥桧㩴㠠〰ബ †††††洠牡楧䉮瑯潴㩭✠爱浥Ⱗ਍††††††敬瑴牥灓捡湩㩧✠〭〮攳❭ബ †††††挠汯牯›瘧牡⴨琭硥⵴牰浩牡⥹ധ ††††素㹽਍††††††敔浲⁳景匠牥楶散਍†††††⼼ㅨാ ††††㰠⁰瑳汹㵥筻਍††††††潦瑮楓敺›ㄧ敲❭ബ †††††挠汯牯›瘧牡⴨琭硥⵴敳潣摮牡⥹ധ ††††素㹽਍††††††慌瑳甠摰瑡摥›慊畮牡⁹ⰵ㈠㈰ശ ††††㰠瀯ാ †††㰠搯癩ാ ††㰠猯捥楴湯ാഊ ††笠⨯䌠湯整瑮⨠累਍†††猼捥楴湯猠祴敬笽⁻慰摤湩㩧✠爲浥〠㐠敲❭‬慢正牧畯摮›眧楨整‧絽ാ †††㰠楤⁶汣獡乳浡㵥挢湯慴湩牥•瑳汹㵥筻洠硡楗瑤㩨✠〸瀰❸素㹽਍†††††搼癩猠祴敬笽⁻潦瑮楓敺›ㄧ敲❭‬潣潬㩲✠慶⡲ⴭ整瑸猭捥湯慤祲✩‬楬敮效杩瑨›⸱‸絽ാഊ †††††㰠敳瑣潩⁮瑳汹㵥筻洠牡楧䉮瑯潴㩭✠爳浥‧絽ാ ††††††㰠㉨猠祴敬笽⁻潦瑮楓敺›ㄧ㔮敲❭‬潦瑮敗杩瑨›〷ⰰ洠牡楧䉮瑯潴㩭✠爱浥Ⱗ挠汯牯›瘧牡⴨琭硥⵴牰浩牡⥹‧絽ാ †††††††ㄠ‮捁散瑰湡散漠⁦敔浲൳ ††††††㰠栯㸲਍†††††††瀼猠祴敬笽⁻慭杲湩潂瑴浯›ㄧ敲❭素㹽਍††††††††祂愠捣獥楳杮漠⁲獵湩⁧灏楴汆睯⠠琢敨匠牥楶散⤢‬潹⁵条敲⁥潴戠⁥潢湵⁤祢琠敨敳吠牥獭漠⁦敓癲捩⹥ഠ †††††††䤠⁦潹⁵潤渠瑯愠牧敥琠⁯桴獥⁥整浲ⱳ瀠敬獡⁥潤渠瑯甠敳琠敨匠牥楶散മ ††††††㰠瀯ാ †††††㰠猯捥楴湯ാഊ †††††㰠敳瑣潩⁮瑳汹㵥筻洠牡楧䉮瑯潴㩭✠爳浥‧絽ാ ††††††㰠㉨猠祴敬笽⁻潦瑮楓敺›ㄧ㔮敲❭‬潦瑮敗杩瑨›〷ⰰ洠牡楧䉮瑯潴㩭✠爱浥Ⱗ挠汯牯›瘧牡⴨琭硥⵴牰浩牡⥹‧絽ാ †††††††㈠‮敄捳楲瑰潩⁮景匠牥楶散਍†††††††⼼㉨ാ ††††††㰠⁰瑳汹㵥筻洠牡楧䉮瑯潴㩭✠爱浥‧絽ാ †††††††传瑰䙩潬⁷獩愠⁮䥁瀭睯牥摥匠佅瀠慬晴牯⁭桴瑡瀠潲楶敤⁳敳牡档瀠牥潦浲湡散愠慮祬楳ⱳ挠湯整瑮漠瑰浩穩瑡潩⁮਍††††††††敲潣浭湥慤楴湯ⱳ愠摮愠瑵浯瑡摥挠湯整瑮朠湥牥瑡潩⁮潴汯⹳吠敨匠牥楶散椠瑮来慲整⁳楷桴䜠潯汧⁥敓牡档䌠湯潳敬ഠ †††††††愠摮漠桴牥琠楨摲瀭牡祴猠牥楶散⁳潴搠汥癩牥椠獴映湵瑣潩慮楬祴മ ††††††㰠瀯ാ †††††㰠猯捥楴湯ാഊ †††††㰠敳瑣潩⁮瑳汹㵥筻洠牡楧䉮瑯潴㩭✠爳浥‧絽ാ ††††††㰠㉨猠祴敬笽⁻潦瑮楓敺›ㄧ㔮敲❭‬潦瑮敗杩瑨›〷ⰰ洠牡楧䉮瑯潴㩭✠爱浥Ⱗ挠汯牯›瘧牡⴨琭硥⵴牰浩牡⥹‧絽ാ †††††††㌠‮捁潣湵⁴敒楧瑳慲楴湯਍†††††††⼼㉨ാ ††††††㰠⁰瑳汹㵥筻洠牡楧䉮瑯潴㩭✠爱浥‧絽ാ †††††††吠⁯獵⁥桴⁥敓癲捩ⱥ礠畯洠獵㩴਍†††††††⼼㹰਍†††††††甼⁬瑳汹㵥筻瀠摡楤杮敌瑦›ㄧ㔮敲❭‬慭杲湩潂瑴浯›ㄧ敲❭素㹽਍††††††††氼⁩瑳汹㵥筻洠牡楧䉮瑯潴㩭✠⸰爵浥‧絽倾潲楶敤愠捣牵瑡⁥湡⁤潣灭敬整爠来獩牴瑡潩⁮湩潦浲瑡潩㱮氯㹩਍††††††††氼⁩瑳汹㵥筻洠牡楧䉮瑯潴㩭✠⸰爵浥‧絽䴾楡瑮楡⁮桴⁥敳畣楲祴漠⁦潹牵愠捣畯瑮挠敲敤瑮慩獬⼼楬ാ †††††††㰠楬猠祴敬笽⁻慭杲湩潂瑴浯›〧㔮敲❭素㹽敂愠⁴敬獡⁴㠱礠慥獲漠摬漠⁲慨敶瀠牡湥慴⁬潣獮湥㱴氯㹩਍††††††††氼⁩瑳汹㵥筻洠牡楧䉮瑯潴㩭✠⸰爵浥‧絽举瑯猠慨敲礠畯⁲捡潣湵⁴楷桴漠桴牥㱳氯㹩਍††††††††氼⁩瑳汹㵥筻洠牡楧䉮瑯潴㩭✠⸰爵浥‧絽举瑯晩⁹獵椠浭摥慩整祬漠⁦湡⁹湵畡桴牯穩摥愠捣獥㱳氯㹩਍†††††††⼼汵ാ †††††㰠猯捥楴湯ാഊ †††††㰠敳瑣潩⁮瑳汹㵥筻洠牡楧䉮瑯潴㩭✠爳浥‧絽ാ ††††††㰠㉨猠祴敬笽⁻潦瑮楓敺›ㄧ㔮敲❭‬潦瑮敗杩瑨›〷ⰰ洠牡楧䉮瑯潴㩭✠爱浥Ⱗ挠汯牯›瘧牡⴨琭硥⵴牰浩牡⥹‧絽ാ †††††††㐠‮畓獢牣灩楴湯愠摮倠祡敭瑮਍†††††††⼼㉨ാ ††††††㰠⁰瑳汹㵥筻洠牡楧䉮瑯潴㩭✠爱浥‧絽ാ †††††††传瑰䙩潬⁷景敦獲戠瑯⁨牦敥愠摮瀠楡⁤畳獢牣灩楴湯瀠慬獮‮慐摩猠扵捳楲瑰潩獮ഺ ††††††㰠瀯ാ ††††††㰠汵猠祴敬笽⁻慰摤湩䱧晥㩴✠⸱爵浥Ⱗ洠牡楧䉮瑯潴㩭✠爱浥‧絽ാ †††††††㰠楬猠祴敬笽⁻慭杲湩潂瑴浯›〧㔮敲❭素㹽牁⁥楢汬摥洠湯桴祬漠⁲湡畮污祬椠⁮摡慶据㱥氯㹩਍††††††††氼⁩瑳汹㵥筻洠牡楧䉮瑯潴㩭✠⸰爵浥‧絽䄾瑵浯瑡捩污祬爠湥睥甠汮獥⁳慣据汥敬㱤氯㹩਍††††††††氼⁩瑳汹㵥筻洠牡楧䉮瑯潴㩭✠⸰爵浥‧絽䄾敲渠湯爭晥湵慤汢⁥硥散瑰愠⁳敲畱物摥戠⁹慬㱷氯㹩਍††††††††氼⁩瑳汹㵥筻洠牡楧䉮瑯潴㩭✠⸰爵浥‧絽䴾祡戠⁥畳橢捥⁴潴瀠楲散挠慨杮獥眠瑩⁨〳搠祡⁳潮楴散⼼楬ാ ††††††㰠甯㹬਍††††††⼼敳瑣潩㹮਍਍††††††猼捥楴湯猠祴敬笽⁻慭杲湩潂瑴浯›㌧敲❭素㹽਍†††††††格′瑳汹㵥筻映湯却穩㩥✠⸱爵浥Ⱗ映湯坴楥桧㩴㜠〰‬慭杲湩潂瑴浯›ㄧ敲❭‬潣潬㩲✠慶⡲ⴭ整瑸瀭楲慭祲✩素㹽਍††††††††⸵䄠捣灥慴汢⁥獕൥ ††††††㰠栯㸲਍†††††††瀼猠祴敬笽⁻慭杲湩潂瑴浯›ㄧ敲❭素㹽਍††††††††潙⁵条敲⁥潮⁴潴ഺ ††††††㰠瀯ാ ††††††㰠汵猠祴敬笽⁻慰摤湩䱧晥㩴✠⸱爵浥Ⱗ洠牡楧䉮瑯潴㩭✠爱浥‧絽ാ †††††††㰠楬猠祴敬笽⁻慭杲湩潂瑴浯›〧㔮敲❭素㹽獕⁥桴⁥敓癲捩⁥潦⁲湡⁹汩敬慧⁬異灲獯㱥氯㹩਍††††††††氼⁩瑳汹㵥筻洠牡楧䉮瑯潴㩭✠⸰爵浥‧絽䄾瑴浥瑰琠⁯慧湩甠慮瑵潨楲敺⁤捡散獳琠⁯畯⁲祳瑳浥㱳氯㹩਍††††††††氼⁩瑳汹㵥筻洠牡楧䉮瑯潴㩭✠⸰爵浥‧絽䤾瑮牥敦敲眠瑩⁨牯搠獩畲瑰琠敨匠牥楶散⼼楬ാ †††††††㰠楬猠祴敬笽⁻慭杲湩潂瑴浯›〧㔮敲❭素㹽捓慲数‬潣祰‬牯爠癥牥敳攠杮湩敥⁲桴⁥敓癲捩㱥氯㹩਍††††††††氼⁩瑳汹㵥筻洠牡楧䉮瑯潴㩭✠⸰爵浥‧絽唾敳琠敨匠牥楶散琠⁯敧敮慲整猠慰⁭牯洠污捩潩獵挠湯整瑮⼼楬ാ †††††††㰠楬猠祴敬笽⁻慭杲湩潂瑴浯›〧㔮敲❭素㹽敒敳汬漠⁲敲楤瑳楲畢整琠敨匠牥楶散眠瑩潨瑵瀠牥業獳潩㱮氯㹩਍†††††††⼼汵ാ †††††㰠猯捥楴湯ാഊ †††††㰠敳瑣潩⁮瑳汹㵥筻洠牡楧䉮瑯潴㩭✠爳浥‧絽ാ ††††††㰠㉨猠祴敬笽⁻潦瑮楓敺›ㄧ㔮敲❭‬潦瑮敗杩瑨›〷ⰰ洠牡楧䉮瑯潴㩭✠爱浥Ⱗ挠汯牯›瘧牡⴨琭硥⵴牰浩牡⥹‧絽ാ †††††††㘠‮湉整汬捥畴污倠潲数瑲൹ ††††††㰠栯㸲਍†††††††瀼猠祴敬笽⁻慭杲湩潂瑴浯›ㄧ敲❭素㹽਍††††††††灏楴汆睯愠摮椠獴漠楲楧慮⁬潣瑮湥ⱴ映慥畴敲ⱳ愠摮映湵瑣潩慮楬祴愠敲漠湷摥戠⁹灏楴汆睯䤠据‮湡⁤牡⁥਍††††††††牰瑯捥整⁤祢椠瑮牥慮楴湯污挠灯特杩瑨‬牴摡浥牡Ⱬ愠摮漠桴牥椠瑮汥敬瑣慵⁬牰灯牥祴氠睡⹳਍†††††††⼼㹰਍†††††††瀼猠祴敬笽⁻慭杲湩潂瑴浯›ㄧ敲❭素㹽਍††††††††潃瑮湥⁴敧敮慲整⁤祢漠牵䄠⁉潴汯⁳獩瀠潲楶敤⁤潴礠畯映牯礠畯⁲獵⹥夠畯爠瑥楡⁮睯敮獲楨⁰景挠湯整瑮ഠ †††††††礠畯挠敲瑡⁥獵湩⁧桴⁥敓癲捩ⱥ戠瑵朠慲瑮甠⁳⁡楬散獮⁥潴甠敳椠⁴潴椠灭潲敶漠牵猠牥楶散⹳਍†††††††⼼㹰਍††††††⼼敳瑣潩㹮਍਍††††††猼捥楴湯猠祴敬笽⁻慭杲湩潂瑴浯›㌧敲❭素㹽਍†††††††格′瑳汹㵥筻映湯却穩㩥✠⸱爵浥Ⱗ映湯坴楥桧㩴㜠〰‬慭杲湩潂瑴浯›ㄧ敲❭‬潣潬㩲✠慶⡲ⴭ整瑸瀭楲慭祲✩素㹽਍††††††††⸷吠楨摲倭牡祴匠牥楶散൳ ††††††㰠栯㸲਍†††††††瀼猠祴敬笽⁻慭杲湩潂瑴浯›ㄧ敲❭素㹽਍††††††††灏楴汆睯椠瑮来慲整⁳楷桴琠楨摲瀭牡祴猠牥楶散⁳楬敫䜠潯汧⁥敓牡档䌠湯潳敬‮潙牵甠敳漠⁦桴獥⁥敳癲捩獥ഠ †††††††椠⁳畳橢捥⁴潴琠敨物爠獥数瑣癩⁥整浲⁳湡⁤潣摮瑩潩獮‮敗愠敲渠瑯爠獥潰獮扩敬映牯琠楨摲瀭牡祴猠牥楶散⹳਍†††††††⼼㹰਍††††††⼼敳瑣潩㹮਍਍††††††猼捥楴湯猠祴敬笽⁻慭杲湩潂瑴浯›㌧敲❭素㹽਍†††††††格′瑳汹㵥筻映湯却穩㩥✠⸱爵浥Ⱗ映湯坴楥桧㩴㜠〰‬慭杲湩潂瑴浯›ㄧ敲❭‬潣潬㩲✠慶⡲ⴭ整瑸瀭楲慭祲✩素㹽਍††††††††⸸䐠獩汣楡敭獲愠摮䰠浩瑩瑡潩獮਍†††††††⼼㉨ാ ††††††㰠⁰瑳汹㵥筻洠牡楧䉮瑯潴㩭✠爱浥‧絽ാ †††††††吠䕈匠剅䥖䕃䤠⁓剐噏䑉䑅∠十䤠≓圠呉佈呕圠剁䅒呎䕉⁓䙏䄠奎䬠义⹄圠⁅佄丠呏䜠䅕䅒呎䕅ഺ ††††††㰠瀯ാ ††††††㰠汵猠祴敬笽⁻慰摤湩䱧晥㩴✠⸱爵浥Ⱗ洠牡楧䉮瑯潴㩭✠爱浥‧絽ാ †††††††㰠楬猠祴敬笽⁻慭杲湩潂瑴浯›〧㔮敲❭素㹽灓捥晩捩匠佅爠獥汵獴漠⁲慲歮湩⁧浩牰癯浥湥獴⼼楬ാ †††††††㰠楬猠祴敬笽⁻慭杲湩潂瑴浯›〧㔮敲❭素㹽湕湩整牲灵整⁤牯攠牲牯昭敲⁥敳癲捩㱥氯㹩਍††††††††氼⁩瑳汹㵥筻洠牡楧䉮瑯潴㩭✠⸰爵浥‧絽䄾捣牵捡⁹景䄠ⵉ敧敮慲整⁤潣瑮湥㱴氯㹩਍††††††††氼⁩瑳汹㵥筻洠牡楧䉮瑯潴㩭✠⸰爵浥‧絽䌾浯慰楴楢楬祴眠瑩⁨污⁬祳瑳浥⁳牯戠潲獷牥㱳氯㹩਍†††††††⼼汵ാ ††††††㰠⁰瑳汹㵥筻洠牡楧䉮瑯潴㩭✠爱浥‧絽ാ †††††††吠⁏䡔⁅䅍䥘啍⁍塅䕔呎倠剅䥍呔䑅䈠⁙䅌ⱗ传呐䙉佌⁗䡓䱁⁌低⁔䕂䰠䅉䱂⁅但⁒乁⁙义䥄䕒呃‬义䥃䕄呎䱁‬਍††††††††偓䍅䅉ⱌ传⁒佃华充䕕呎䅉⁌䅄䅍䕇⁓剁卉义⁇剆䵏夠問⁒单⁅䙏吠䕈匠剅䥖䕃മ ††††††㰠瀯ാ †††††㰠猯捥楴湯ാഊ †††††㰠敳瑣潩⁮瑳汹㵥筻洠牡楧䉮瑯潴㩭✠爳浥‧絽ാ ††††††㰠㉨猠祴敬笽⁻潦瑮楓敺›ㄧ㔮敲❭‬潦瑮敗杩瑨›〷ⰰ洠牡楧䉮瑯潴㩭✠爱浥Ⱗ挠汯牯›瘧牡⴨琭硥⵴牰浩牡⥹‧絽ാ †††††††㤠‮敔浲湩瑡潩൮ ††††††㰠栯㸲਍†††††††瀼猠祴敬笽⁻慭杲湩潂瑴浯›ㄧ敲❭素㹽਍††††††††敗洠祡琠牥業慮整漠⁲畳灳湥⁤潹牵愠捣畯瑮椠浭摥慩整祬‬楷桴畯⁴牰潩⁲潮楴散‬潦⁲湡⁹牢慥档漠⁦桴獥⁥敔浲⹳ഠ †††††††夠畯洠祡挠湡散⁬潹牵猠扵捳楲瑰潩⁮瑡愠祮琠浩⁥桴潲杵⁨潹牵愠捣畯瑮猠瑥楴杮⹳਍†††††††⼼㹰਍††††††⼼敳瑣潩㹮਍਍††††††猼捥楴湯猠祴敬笽⁻慭杲湩潂瑴浯›㌧敲❭素㹽਍†††††††格′瑳汹㵥筻映湯却穩㩥✠⸱爵浥Ⱗ映湯坴楥桧㩴㜠〰‬慭杲湩潂瑴浯›ㄧ敲❭‬潣潬㩲✠慶⡲ⴭ整瑸瀭楲慭祲✩素㹽਍††††††††〱‮桃湡敧⁳潴吠牥獭਍†††††††⼼㉨ാ ††††††㰠⁰瑳汹㵥筻洠牡楧䉮瑯潴㩭✠爱浥‧絽ാ †††††††圠⁥敲敳癲⁥桴⁥楲桧⁴潴洠摯晩⁹桴獥⁥敔浲⁳瑡愠祮琠浩⹥圠⁥楷汬渠瑯晩⁹潹⁵景猠杩楮楦慣瑮挠慨杮獥瘠慩ഠ †††††††攠慭汩漠⁲桴潲杵⁨桴⁥敓癲捩⹥䌠湯楴畮摥甠敳愠瑦牥挠慨杮獥挠湯瑳瑩瑵獥愠捣灥慴据⁥景琠敨渠睥吠牥獭മ ††††††㰠瀯ാ †††††㰠猯捥楴湯ാഊ †††††㰠敳瑣潩⁮瑳汹㵥筻洠牡楧䉮瑯潴㩭✠爳浥‧絽ാ ††††††㰠㉨猠祴敬笽⁻潦瑮楓敺›ㄧ㔮敲❭‬潦瑮敗杩瑨›〷ⰰ洠牡楧䉮瑯潴㩭✠爱浥Ⱗ挠汯牯›瘧牡⴨琭硥⵴牰浩牡⥹‧絽ാ †††††††ㄠ⸱䜠癯牥楮杮䰠睡਍†††††††⼼㉨ാ ††††††㰠⁰瑳汹㵥筻洠牡楧䉮瑯潴㩭✠爱浥‧絽ാ †††††††吠敨敳吠牥獭猠慨汬戠⁥潧敶湲摥戠⁹桴⁥慬獷漠⁦桴⁥瑓瑡⁥景䌠污晩牯楮ⱡ唠楮整⁤瑓瑡獥‬楷桴畯⁴敲慧摲琠⁯਍††††††††瑩⁳潣普楬瑣漠⁦慬⁷牰癯獩潩獮മ ††††††㰠瀯ാ †††††㰠猯捥楴湯ാഊ †††††㰠敳瑣潩㹮਍†††††††格′瑳汹㵥筻映湯却穩㩥✠⸱爵浥Ⱗ映湯坴楥桧㩴㜠〰‬慭杲湩潂瑴浯›ㄧ敲❭‬潣潬㩲✠慶⡲ⴭ整瑸瀭楲慭祲✩素㹽਍††††††††㈱‮潃瑮捡⁴湉潦浲瑡潩൮ ††††††㰠栯㸲਍†††††††瀼猠祴敬笽⁻慭杲湩潂瑴浯›ㄧ敲❭素㹽਍††††††††潆⁲畱獥楴湯⁳扡畯⁴桴獥⁥敔浲ⱳ瀠敬獡⁥潣瑮捡⁴獵愠㩴਍†††††††⼼㹰਍†††††††瀼猠祴敬笽⁻慭杲湩潂瑴浯›〧㔮敲❭素㹽਍††††††††浅楡㩬㰠⁡牨晥∽慭汩潴氺来污潀瑰晩潬⹷潣≭猠祴敬笽⁻潣潬㩲✠慶⡲ⴭ牰浩牡⵹〶⤰Ⱗ琠硥䑴捥牯瑡潩㩮✠潮敮‧絽氾来污潀瑰晩潬⹷潣㱭愯ാ ††††††㰠瀯ാ ††††††㰠㹰਍††††††††摁牤獥㩳传瑰䙩潬⁷湉⹣‬㈱″䕓⁏瑓敲瑥‬慓⁮牆湡楣捳Ɐ䌠⁁㐹〱വ ††††††㰠瀯ാ †††††㰠猯捥楴湯ാ ††††㰠搯癩ാ †††㰠搯癩ാ ††㰠猯捥楴湯ാ †㰠搯癩ാ ⤠഻紊਍
+﻿import Link from 'next/link';
+import { ArrowLeft, FileText } from 'lucide-react';
+
+export default function TermsPage() {
+    return (
+        <div style={{ fontFamily: 'Inter, sans-serif', background: 'var(--bg-secondary)', minHeight: '100vh' }}>
+            {/* Header */}
+            <header style={{
+                background: 'white',
+                borderBottom: '1px solid var(--border-light)',
+                padding: '1rem 0'
+            }}>
+                <div className="container" style={{ maxWidth: '1200px' }}>
+                    <Link href="/" style={{
+                        display: 'inline-flex',
+                        alignItems: 'center',
+                        gap: '0.5rem',
+                        color: 'var(--text-secondary)',
+                        textDecoration: 'none',
+                        fontSize: '0.9375rem',
+                        fontWeight: 500
+                    }} className="nav-link">
+                        <ArrowLeft size={18} />
+                        Back to Home
+                    </Link>
+                </div>
+            </header>
+
+            {/* Hero Section */}
+            <section style={{ padding: '4rem 0 2rem', background: 'white' }}>
+                <div className="container" style={{ maxWidth: '800px', textAlign: 'center' }}>
+                    <FileText size={48} style={{ color: 'var(--primary-600)', margin: '0 auto 1.5rem' }} />
+                    <h1 style={{
+                        fontSize: '3rem',
+                        fontWeight: 800,
+                        marginBottom: '1rem',
+                        letterSpacing: '-0.03em',
+                        color: 'var(--text-primary)'
+                    }}>
+                        Terms of Service
+                    </h1>
+                    <p style={{
+                        fontSize: '1rem',
+                        color: 'var(--text-secondary)'
+                    }}>
+                        Last updated: January 5, 2025
+                    </p>
+                </div>
+            </section>
+
+            {/* Content */}
+            <section style={{ padding: '2rem 0 4rem', background: 'white' }}>
+                <div className="container" style={{ maxWidth: '800px' }}>
+                    <div style={{ fontSize: '1rem', color: 'var(--text-secondary)', lineHeight: 1.8 }}>
+
+                        <section style={{ marginBottom: '3rem' }}>
+                            <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1rem', color: 'var(--text-primary)' }}>
+                                1. Acceptance of Terms
+                            </h2>
+                            <p style={{ marginBottom: '1rem' }}>
+                                By accessing or using OptiFlow (the "Service"), you agree to be bound by these Terms of Service.
+                                If you do not agree to these terms, please do not use the Service.
+                            </p>
+                        </section>
+
+                        <section style={{ marginBottom: '3rem' }}>
+                            <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1rem', color: 'var(--text-primary)' }}>
+                                2. Description of Service
+                            </h2>
+                            <p style={{ marginBottom: '1rem' }}>
+                                OptiFlow is an AI-powered SEO platform that provides search performance analysis, content optimization
+                                recommendations, and automated content generation tools. The Service integrates with Google Search Console
+                                and other third-party services to deliver its functionality.
+                            </p>
+                        </section>
+
+                        <section style={{ marginBottom: '3rem' }}>
+                            <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1rem', color: 'var(--text-primary)' }}>
+                                3. Account Registration
+                            </h2>
+                            <p style={{ marginBottom: '1rem' }}>
+                                To use the Service, you must:
+                            </p>
+                            <ul style={{ paddingLeft: '1.5rem', marginBottom: '1rem' }}>
+                                <li style={{ marginBottom: '0.5rem' }}>Provide accurate and complete registration information</li>
+                                <li style={{ marginBottom: '0.5rem' }}>Maintain the security of your account credentials</li>
+                                <li style={{ marginBottom: '0.5rem' }}>Be at least 18 years old or have parental consent</li>
+                                <li style={{ marginBottom: '0.5rem' }}>Not share your account with others</li>
+                                <li style={{ marginBottom: '0.5rem' }}>Notify us immediately of any unauthorized access</li>
+                            </ul>
+                        </section>
+
+                        <section style={{ marginBottom: '3rem' }}>
+                            <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1rem', color: 'var(--text-primary)' }}>
+                                4. Subscription and Payment
+                            </h2>
+                            <p style={{ marginBottom: '1rem' }}>
+                                OptiFlow offers both free and paid subscription plans. Paid subscriptions:
+                            </p>
+                            <ul style={{ paddingLeft: '1.5rem', marginBottom: '1rem' }}>
+                                <li style={{ marginBottom: '0.5rem' }}>Are billed monthly or annually in advance</li>
+                                <li style={{ marginBottom: '0.5rem' }}>Automatically renew unless cancelled</li>
+                                <li style={{ marginBottom: '0.5rem' }}>Are non-refundable except as required by law</li>
+                                <li style={{ marginBottom: '0.5rem' }}>May be subject to price changes with 30 days notice</li>
+                            </ul>
+                        </section>
+
+                        <section style={{ marginBottom: '3rem' }}>
+                            <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1rem', color: 'var(--text-primary)' }}>
+                                5. Acceptable Use
+                            </h2>
+                            <p style={{ marginBottom: '1rem' }}>
+                                You agree not to:
+                            </p>
+                            <ul style={{ paddingLeft: '1.5rem', marginBottom: '1rem' }}>
+                                <li style={{ marginBottom: '0.5rem' }}>Use the Service for any illegal purpose</li>
+                                <li style={{ marginBottom: '0.5rem' }}>Attempt to gain unauthorized access to our systems</li>
+                                <li style={{ marginBottom: '0.5rem' }}>Interfere with or disrupt the Service</li>
+                                <li style={{ marginBottom: '0.5rem' }}>Scrape, copy, or reverse engineer the Service</li>
+                                <li style={{ marginBottom: '0.5rem' }}>Use the Service to generate spam or malicious content</li>
+                                <li style={{ marginBottom: '0.5rem' }}>Resell or redistribute the Service without permission</li>
+                            </ul>
+                        </section>
+
+                        <section style={{ marginBottom: '3rem' }}>
+                            <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1rem', color: 'var(--text-primary)' }}>
+                                6. Intellectual Property
+                            </h2>
+                            <p style={{ marginBottom: '1rem' }}>
+                                OptiFlow and its original content, features, and functionality are owned by OptiFlow Inc. and are
+                                protected by international copyright, trademark, and other intellectual property laws.
+                            </p>
+                            <p style={{ marginBottom: '1rem' }}>
+                                Content generated by our AI tools is provided to you for your use. You retain ownership of content
+                                you create using the Service, but grant us a license to use it to improve our services.
+                            </p>
+                        </section>
+
+                        <section style={{ marginBottom: '3rem' }}>
+                            <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1rem', color: 'var(--text-primary)' }}>
+                                7. Third-Party Services
+                            </h2>
+                            <p style={{ marginBottom: '1rem' }}>
+                                OptiFlow integrates with third-party services like Google Search Console. Your use of these services
+                                is subject to their respective terms and conditions. We are not responsible for third-party services.
+                            </p>
+                        </section>
+
+                        <section style={{ marginBottom: '3rem' }}>
+                            <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1rem', color: 'var(--text-primary)' }}>
+                                8. Disclaimers and Limitations
+                            </h2>
+                            <p style={{ marginBottom: '1rem' }}>
+                                THE SERVICE IS PROVIDED "AS IS" WITHOUT WARRANTIES OF ANY KIND. WE DO NOT GUARANTEE:
+                            </p>
+                            <ul style={{ paddingLeft: '1.5rem', marginBottom: '1rem' }}>
+                                <li style={{ marginBottom: '0.5rem' }}>Specific SEO results or ranking improvements</li>
+                                <li style={{ marginBottom: '0.5rem' }}>Uninterrupted or error-free service</li>
+                                <li style={{ marginBottom: '0.5rem' }}>Accuracy of AI-generated content</li>
+                                <li style={{ marginBottom: '0.5rem' }}>Compatibility with all systems or browsers</li>
+                            </ul>
+                            <p style={{ marginBottom: '1rem' }}>
+                                TO THE MAXIMUM EXTENT PERMITTED BY LAW, OPTIFLOW SHALL NOT BE LIABLE FOR ANY DIRECT, INDIRECT,
+                                SPECIAL, OR CONSEQUENTIAL DAMAGES ARISING FROM YOUR USE OF THE SERVICE.
+                            </p>
+                        </section>
+
+                        <section style={{ marginBottom: '3rem' }}>
+                            <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1rem', color: 'var(--text-primary)' }}>
+                                9. Termination
+                            </h2>
+                            <p style={{ marginBottom: '1rem' }}>
+                                We may terminate or suspend your account immediately, without prior notice, for any breach of these Terms.
+                                You may cancel your subscription at any time through your account settings.
+                            </p>
+                        </section>
+
+                        <section style={{ marginBottom: '3rem' }}>
+                            <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1rem', color: 'var(--text-primary)' }}>
+                                10. Changes to Terms
+                            </h2>
+                            <p style={{ marginBottom: '1rem' }}>
+                                We reserve the right to modify these Terms at any time. We will notify you of significant changes via
+                                email or through the Service. Continued use after changes constitutes acceptance of the new Terms.
+                            </p>
+                        </section>
+
+                        <section style={{ marginBottom: '3rem' }}>
+                            <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1rem', color: 'var(--text-primary)' }}>
+                                11. Governing Law
+                            </h2>
+                            <p style={{ marginBottom: '1rem' }}>
+                                These Terms shall be governed by the laws of the State of California, United States, without regard to
+                                its conflict of law provisions.
+                            </p>
+                        </section>
+
+                        <section>
+                            <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1rem', color: 'var(--text-primary)' }}>
+                                12. Contact Information
+                            </h2>
+                            <p style={{ marginBottom: '1rem' }}>
+                                For questions about these Terms, please contact us at:
+                            </p>
+                            <p style={{ marginBottom: '0.5rem' }}>
+                                Email: <a href="mailto:legal@optiflow.com" style={{ color: 'var(--primary-600)', textDecoration: 'none' }}>legal@optiflow.com</a>
+                            </p>
+                            <p>
+                                Address: OptiFlow Inc., 123 SEO Street, San Francisco, CA 94104
+                            </p>
+                        </section>
+
+                    </div>
+                </div>
+            </section>
+        </div>
+    );
+}

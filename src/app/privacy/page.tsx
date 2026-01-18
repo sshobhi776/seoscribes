@@ -1,1 +1,199 @@
-﻿浩潰瑲䰠湩⁫牦浯✠敮瑸氯湩❫഻椊灭牯⁴⁻牁潲䱷晥ⱴ匠楨汥⁤⁽牦浯✠畬楣敤爭慥瑣㬧਍਍硥潰瑲搠晥畡瑬映湵瑣潩⁮牐癩捡偹条⡥ ൻ 爠瑥牵⁮ന †㰠楤⁶瑳汹㵥筻映湯䙴浡汩㩹✠湉整Ⱳ猠湡⵳敳楲❦‬慢正牧畯摮›瘧牡⴨戭ⵧ敳潣摮牡⥹Ⱗ洠湩效杩瑨›ㄧ〰桶‧絽ാ ††笠⨯䠠慥敤⁲⼪ൽ ††㰠敨摡牥猠祴敬笽ൻ †††戠捡杫潲湵㩤✠桷瑩❥ബ †††戠牯敤䉲瑯潴㩭✠瀱⁸潳楬⁤慶⡲ⴭ潢摲牥氭杩瑨✩ബ †††瀠摡楤杮›ㄧ敲⁭✰਍†††絽ാ †††㰠楤⁶汣獡乳浡㵥挢湯慴湩牥•瑳汹㵥筻洠硡楗瑤㩨✠㈱〰硰‧絽ാ ††††㰠楌歮栠敲㵦⼢•瑳汹㵥筻਍††††††楤灳慬㩹✠湩楬敮昭敬❸ബ †††††愠楬湧瑉浥㩳✠散瑮牥Ⱗ਍††††††慧㩰✠⸰爵浥Ⱗ਍††††††潣潬㩲✠慶⡲ⴭ整瑸猭捥湯慤祲✩ബ †††††琠硥䑴捥牯瑡潩㩮✠潮敮Ⱗ਍††††††潦瑮楓敺›〧㤮㜳爵浥Ⱗ਍††††††潦瑮敗杩瑨›〵ര ††††素⁽汣獡乳浡㵥渢癡氭湩≫ാ †††††㰠牁潲䱷晥⁴楳敺笽㠱⁽㸯਍††††††慂正琠⁯潈敭਍†††††⼼楌歮ാ †††㰠搯癩ാ ††㰠栯慥敤㹲਍਍†††⽻‪效潲匠捥楴湯⨠累਍†††猼捥楴湯猠祴敬笽⁻慰摤湩㩧✠爴浥〠㈠敲❭‬慢正牧畯摮›眧楨整‧絽ാ †††㰠楤⁶汣獡乳浡㵥挢湯慴湩牥•瑳汹㵥筻洠硡楗瑤㩨✠〸瀰❸‬整瑸汁杩㩮✠散瑮牥‧絽ാ ††††㰠桓敩摬猠穩㵥㑻紸猠祴敬笽⁻潣潬㩲✠慶⡲ⴭ牰浩牡⵹〶⤰Ⱗ洠牡楧㩮✠‰畡潴ㄠ㔮敲❭素⁽㸯਍†††††格‱瑳汹㵥筻਍††††††潦瑮楓敺›㌧敲❭ബ †††††映湯坴楥桧㩴㠠〰ബ †††††洠牡楧䉮瑯潴㩭✠爱浥Ⱗ਍††††††敬瑴牥灓捡湩㩧✠〭〮攳❭ബ †††††挠汯牯›瘧牡⴨琭硥⵴牰浩牡⥹ധ ††††素㹽਍††††††牐癩捡⁹潐楬祣਍†††††⼼ㅨാ ††††㰠⁰瑳汹㵥筻਍††††††潦瑮楓敺›ㄧ敲❭ബ †††††挠汯牯›瘧牡⴨琭硥⵴敳潣摮牡⥹ധ ††††素㹽਍††††††慌瑳甠摰瑡摥›慊畮牡⁹ⰵ㈠㈰ശ ††††㰠瀯ാ †††㰠搯癩ാ ††㰠猯捥楴湯ാഊ ††笠⨯䌠湯整瑮⨠累਍†††猼捥楴湯猠祴敬笽⁻慰摤湩㩧✠爲浥〠㐠敲❭‬慢正牧畯摮›眧楨整‧絽ാ †††㰠楤⁶汣獡乳浡㵥挢湯慴湩牥•瑳汹㵥筻洠硡楗瑤㩨✠〸瀰❸素㹽਍†††††搼癩猠祴敬笽⁻潦瑮楓敺›ㄧ敲❭‬潣潬㩲✠慶⡲ⴭ整瑸猭捥湯慤祲✩‬楬敮效杩瑨›⸱‸絽ാഊ †††††㰠敳瑣潩⁮瑳汹㵥筻洠牡楧䉮瑯潴㩭✠爳浥‧絽ാ ††††††㰠㉨猠祴敬笽⁻潦瑮楓敺›ㄧ㔮敲❭‬潦瑮敗杩瑨›〷ⰰ洠牡楧䉮瑯潴㩭✠爱浥Ⱗ挠汯牯›瘧牡⴨琭硥⵴牰浩牡⥹‧絽ാ †††††††䤠瑮潲畤瑣潩൮ ††††††㰠栯㸲਍†††††††瀼猠祴敬笽⁻慭杲湩潂瑴浯›ㄧ敲❭素㹽਍††††††††灏楴汆睯䤠据‮∨敷∬∠畯Ⱳ•牯∠獵⤢椠⁳潣浭瑩整⁤潴瀠潲整瑣湩⁧潹牵瀠楲慶祣‮桔獩倠楲慶祣倠汯捩⁹硥汰楡獮ഠ †††††††栠睯眠⁥潣汬捥ⱴ甠敳‬楤捳潬敳‬湡⁤慳敦畧牡⁤潹牵椠普牯慭楴湯眠敨⁮潹⁵獵⁥畯⁲䕓⁏汰瑡潦浲愠摮猠牥楶散⹳਍†††††††⼼㹰਍††††††⼼敳瑣潩㹮਍਍††††††猼捥楴湯猠祴敬笽⁻慭杲湩潂瑴浯›㌧敲❭素㹽਍†††††††格′瑳汹㵥筻映湯却穩㩥✠⸱爵浥Ⱗ映湯坴楥桧㩴㜠〰‬慭杲湩潂瑴浯›ㄧ敲❭‬潣潬㩲✠慶⡲ⴭ整瑸瀭楲慭祲✩素㹽਍††††††††湉潦浲瑡潩⁮敗䌠汯敬瑣਍†††††††⼼㉨ാ ††††††㰠㍨猠祴敬笽⁻潦瑮楓敺›ㄧㄮ㔲敲❭‬潦瑮敗杩瑨›〶ⰰ洠牡楧䉮瑯潴㩭✠⸰㔷敲❭‬潣潬㩲✠慶⡲ⴭ整瑸瀭楲慭祲✩素㹽਍††††††††捁潣湵⁴湉潦浲瑡潩൮ ††††††㰠栯㸳਍†††††††瀼猠祴敬笽⁻慭杲湩潂瑴浯›ㄧ敲❭素㹽਍††††††††桗湥礠畯挠敲瑡⁥湡愠捣畯瑮‬敷挠汯敬瑣礠畯⁲慮敭‬浥楡⁬摡牤獥ⱳ挠浯慰祮渠浡ⱥ愠摮瀠獡睳牯⹤਍†††††††⼼㹰਍†††††††਍†††††††格″瑳汹㵥筻映湯却穩㩥✠⸱㈱爵浥Ⱗ映湯坴楥桧㩴㘠〰‬慭杲湩潂瑴浯›〧㜮爵浥Ⱗ挠汯牯›瘧牡⴨琭硥⵴牰浩牡⥹‧絽ാ †††††††䜠潯汧⁥敓牡档䌠湯潳敬䐠瑡ൡ ††††††㰠栯㸳਍†††††††瀼猠祴敬笽⁻慭杲湩潂瑴浯›ㄧ敲❭素㹽਍††††††††桗湥礠畯挠湯敮瑣礠畯⁲潇杯敬匠慥捲⁨潃獮汯ⱥ眠⁥捡散獳愠摮猠潴敲猠慥捲⁨数晲牯慭据⁥慤慴椠据畬楤杮ഠ †††††††焠敵楲獥‬浩牰獥楳湯ⱳ挠楬正ⱳ愠摮瀠獯瑩潩獮‮桔獩搠瑡⁡獩甠敳⁤潳敬祬琠⁯牰癯摩⁥畯⁲䕓⁏湡污獹獩猠牥楶散⹳਍†††††††⼼㹰਍†††††††਍†††††††格″瑳汹㵥筻映湯却穩㩥✠⸱㈱爵浥Ⱗ映湯坴楥桧㩴㘠〰‬慭杲湩潂瑴浯›〧㜮爵浥Ⱗ挠汯牯›瘧牡⴨琭硥⵴牰浩牡⥹‧絽ാ †††††††唠慳敧䐠瑡ൡ ††††††㰠栯㸳਍†††††††瀼猠祴敬笽⁻慭杲湩潂瑴浯›ㄧ敲❭素㹽਍††††††††敗愠瑵浯瑡捩污祬挠汯敬瑣椠普牯慭楴湯愠潢瑵栠睯礠畯椠瑮牥捡⁴楷桴漠牵瀠慬晴牯Ɑ椠据畬楤杮瀠条獥瘠獩瑩摥‬਍††††††††敦瑡牵獥甠敳Ɽ愠摮琠浩⁥灳湥⁴湯琠敨瀠慬晴牯⹭਍†††††††⼼㹰਍††††††⼼敳瑣潩㹮਍਍††††††猼捥楴湯猠祴敬笽⁻慭杲湩潂瑴浯›㌧敲❭素㹽਍†††††††格′瑳汹㵥筻映湯却穩㩥✠⸱爵浥Ⱗ映湯坴楥桧㩴㜠〰‬慭杲湩潂瑴浯›ㄧ敲❭‬潣潬㩲✠慶⡲ⴭ整瑸瀭楲慭祲✩素㹽਍††††††††潈⁷敗唠敳夠畯⁲湉潦浲瑡潩൮ ††††††㰠栯㸲਍†††††††甼⁬瑳汹㵥筻瀠摡楤杮敌瑦›ㄧ㔮敲❭‬慭杲湩潂瑴浯›ㄧ敲❭素㹽਍††††††††氼⁩瑳汹㵥筻洠牡楧䉮瑯潴㩭✠⸰爵浥‧絽倾潲楶敤愠摮洠楡瑮楡⁮畯⁲䕓⁏湡污獹獩愠摮挠湯整瑮朠湥牥瑡潩⁮敳癲捩獥⼼楬ാ †††††††㰠楬猠祴敬笽⁻慭杲湩潂瑴浯›〧㔮敲❭素㹽湁污穹⁥潹牵猠慥捲⁨数晲牯慭据⁥湡⁤摩湥楴祦漠瑰浩穩瑡潩⁮灯潰瑲湵瑩敩㱳氯㹩਍††††††††氼⁩瑳汹㵥筻洠牡楧䉮瑯潴㩭✠⸰爵浥‧絽匾湥⁤潹⁵敳癲捩⁥灵慤整ⱳ猠捥牵瑩⁹污牥獴‬湡⁤畳灰牯⁴敭獳条獥⼼楬ാ †††††††㰠楬猠祴敬笽⁻慭杲湩潂瑴浯›〧㔮敲❭素㹽浉牰癯⁥湡⁤敤敶潬⁰敮⁷敦瑡牵獥映牯漠牵瀠慬晴牯㱭氯㹩਍††††††††氼⁩瑳汹㵥筻洠牡楧䉮瑯潴㩭✠⸰爵浥‧絽䌾浯汰⁹楷桴氠来污漠汢杩瑡潩獮愠摮攠普牯散漠牵琠牥獭⼼楬ാ ††††††㰠甯㹬਍††††††⼼敳瑣潩㹮਍਍††††††猼捥楴湯猠祴敬笽⁻慭杲湩潂瑴浯›㌧敲❭素㹽਍†††††††格′瑳汹㵥筻映湯却穩㩥✠⸱爵浥Ⱗ映湯坴楥桧㩴㜠〰‬慭杲湩潂瑴浯›ㄧ敲❭‬潣潬㩲✠慶⡲ⴭ整瑸瀭楲慭祲✩素㹽਍††††††††慄慴匠捥牵瑩൹ ††††††㰠栯㸲਍†††††††瀼猠祴敬笽⁻慭杲湩潂瑴浯›ㄧ敲❭素㹽਍††††††††敗椠灭敬敭瑮椠摮獵牴⵹瑳湡慤摲猠捥牵瑩⁹敭獡牵獥琠⁯牰瑯捥⁴潹牵搠瑡ⱡ椠据畬楤杮攠据祲瑰潩⁮瑡爠獥⁴湡⁤਍††††††††湩琠慲獮瑩‬敳畣敲愠瑵敨瑮捩瑡潩Ɱ愠摮爠来汵牡猠捥牵瑩⁹畡楤獴‮潈敷敶Ⱳ渠⁯敭桴摯漠⁦牴湡浳獩楳湯漠敶⁲਍††††††††桴⁥湩整湲瑥椠⁳〱┰猠捥牵⹥਍†††††††⼼㹰਍††††††⼼敳瑣潩㹮਍਍††††††猼捥楴湯猠祴敬笽⁻慭杲湩潂瑴浯›㌧敲❭素㹽਍†††††††格′瑳汹㵥筻映湯却穩㩥✠⸱爵浥Ⱗ映湯坴楥桧㩴㜠〰‬慭杲湩潂瑴浯›ㄧ敲❭‬潣潬㩲✠慶⡲ⴭ整瑸瀭楲慭祲✩素㹽਍††††††††慄慴匠慨楲杮਍†††††††⼼㉨ാ ††††††㰠⁰瑳汹㵥筻洠牡楧䉮瑯潴㩭✠爱浥‧絽ാ †††††††圠⁥潤渠瑯猠汥⁬潹牵瀠牥潳慮⁬湩潦浲瑡潩⹮圠⁥慭⁹桳牡⁥潹牵搠瑡⁡楷桴ഺ ††††††㰠瀯ാ ††††††㰠汵猠祴敬笽⁻慰摤湩䱧晥㩴✠⸱爵浥Ⱗ洠牡楧䉮瑯潴㩭✠爱浥‧絽ാ †††††††㰠楬猠祴敬笽⁻慭杲湩潂瑴浯›〧㔮敲❭素㹽敓癲捩⁥牰癯摩牥⁳桷⁯敨灬甠⁳灯牥瑡⁥畯⁲汰瑡潦浲⠠⹥⹧‬潨瑳湩Ⱨ愠慮祬楴獣㰩氯㹩਍††††††††氼⁩瑳汹㵥筻洠牡楧䉮瑯潴㩭✠⸰爵浥‧絽䰾睡攠普牯散敭瑮眠敨⁮敲畱物摥戠⁹慬㱷氯㹩਍††††††††氼⁩瑳汹㵥筻洠牡楧䉮瑯潴㩭✠⸰爵浥‧絽伾桴牥瀠牡楴獥眠瑩⁨潹牵攠灸楬楣⁴潣獮湥㱴氯㹩਍†††††††⼼汵ാ †††††㰠猯捥楴湯ാഊ †††††㰠敳瑣潩⁮瑳汹㵥筻洠牡楧䉮瑯潴㩭✠爳浥‧絽ാ ††††††㰠㉨猠祴敬笽⁻潦瑮楓敺›ㄧ㔮敲❭‬潦瑮敗杩瑨›〷ⰰ洠牡楧䉮瑯潴㩭✠爱浥Ⱗ挠汯牯›瘧牡⴨琭硥⵴牰浩牡⥹‧絽ാ †††††††夠畯⁲楒桧獴਍†††††††⼼㉨ാ ††††††㰠⁰瑳汹㵥筻洠牡楧䉮瑯潴㩭✠爱浥‧絽ാ †††††††夠畯栠癡⁥桴⁥楲桧⁴潴ഺ ††††††㰠瀯ാ ††††††㰠汵猠祴敬笽⁻慰摤湩䱧晥㩴✠⸱爵浥Ⱗ洠牡楧䉮瑯潴㩭✠爱浥‧絽ാ †††††††㰠楬猠祴敬笽⁻慭杲湩潂瑴浯›〧㔮敲❭素㹽捁散獳愠摮搠睯汮慯⁤潹牵搠瑡㱡氯㹩਍††††††††氼⁩瑳汹㵥筻洠牡楧䉮瑯潴㩭✠⸰爵浥‧絽䌾牯敲瑣椠慮捣牵瑡⁥湩潦浲瑡潩㱮氯㹩਍††††††††氼⁩瑳汹㵥筻洠牡楧䉮瑯潴㩭✠⸰爵浥‧絽䐾汥瑥⁥潹牵愠捣畯瑮愠摮愠獳捯慩整⁤慤慴⼼楬ാ †††††††㰠楬猠祴敬笽⁻慭杲湩潂瑴浯›〧㔮敲❭素㹽灏⵴畯⁴景洠牡敫楴杮挠浯畭楮慣楴湯㱳氯㹩਍††††††††氼⁩瑳汹㵥筻洠牡楧䉮瑯潴㩭✠⸰爵浥‧絽刾癥歯⁥潇杯敬匠慥捲⁨潃獮汯⁥捡散獳愠⁴湡⁹楴敭⼼楬ാ ††††††㰠甯㹬਍††††††⼼敳瑣潩㹮਍਍††††††猼捥楴湯猠祴敬笽⁻慭杲湩潂瑴浯›㌧敲❭素㹽਍†††††††格′瑳汹㵥筻映湯却穩㩥✠⸱爵浥Ⱗ映湯坴楥桧㩴㜠〰‬慭杲湩潂瑴浯›ㄧ敲❭‬潣潬㩲✠慶⡲ⴭ整瑸瀭楲慭祲✩素㹽਍††††††††潃歯敩⁳湡⁤牔捡楫杮਍†††††††⼼㉨ാ ††††††㰠⁰瑳汹㵥筻洠牡楧䉮瑯潴㩭✠爱浥‧絽ാ †††††††圠⁥獵⁥潣歯敩⁳湡⁤楳業慬⁲整档潮潬楧獥琠⁯慭湩慴湩礠畯⁲敳獳潩Ɱ爠浥浥敢⁲潹牵瀠敲敦敲据獥‬湡⁤湡污穹⁥਍††††††††汰瑡潦浲甠慳敧‮潙⁵慣⁮潣瑮潲⁬潣歯敩⁳桴潲杵⁨潹牵戠潲獷牥猠瑥楴杮⹳਍†††††††⼼㹰਍††††††⼼敳瑣潩㹮਍਍††††††猼捥楴湯猠祴敬笽⁻慭杲湩潂瑴浯›㌧敲❭素㹽਍†††††††格′瑳汹㵥筻映湯却穩㩥✠⸱爵浥Ⱗ映湯坴楥桧㩴㜠〰‬慭杲湩潂瑴浯›ㄧ敲❭‬潣潬㩲✠慶⡲ⴭ整瑸瀭楲慭祲✩素㹽਍††††††††慄慴删瑥湥楴湯਍†††††††⼼㉨ാ ††††††㰠⁰瑳汹㵥筻洠牡楧䉮瑯潴㩭✠爱浥‧絽ാ †††††††圠⁥敲慴湩礠畯⁲慤慴映牯愠⁳潬杮愠⁳潹牵愠捣畯瑮椠⁳捡楴敶漠⁲獡渠敥敤⁤潴瀠潲楶敤猠牥楶散⹳圠敨⁮潹⁵਍††††††††敤敬整礠畯⁲捡潣湵ⱴ眠⁥楷汬搠汥瑥⁥潹牵瀠牥潳慮⁬湩潦浲瑡潩⁮楷桴湩㌠‰慤獹‬硥散瑰眠敨敲爠煥極敲⁤祢氠睡മ ††††††㰠瀯ാ †††††㰠猯捥楴湯ാഊ †††††㰠敳瑣潩⁮瑳汹㵥筻洠牡楧䉮瑯潴㩭✠爳浥‧絽ാ ††††††㰠㉨猠祴敬笽⁻潦瑮楓敺›ㄧ㔮敲❭‬潦瑮敗杩瑨›〷ⰰ洠牡楧䉮瑯潴㩭✠爱浥Ⱗ挠汯牯›瘧牡⴨琭硥⵴牰浩牡⥹‧絽ാ †††††††䌠慨杮獥琠⁯桔獩倠汯捩൹ ††††††㰠栯㸲਍†††††††瀼猠祴敬笽⁻慭杲湩潂瑴浯›ㄧ敲❭素㹽਍††††††††敗洠祡甠摰瑡⁥桴獩倠楲慶祣倠汯捩⁹牦浯琠浩⁥潴琠浩⹥圠⁥楷汬渠瑯晩⁹潹⁵景猠杩楮楦慣瑮挠慨杮獥瘠慩攠慭汩ഠ †††††††漠⁲桴潲杵⁨桴⁥汰瑡潦浲‮潙牵挠湯楴畮摥甠敳漠⁦灏楴汆睯愠瑦牥挠慨杮獥挠湯瑳瑩瑵獥愠捣灥慴据⁥景琠敨甠摰瑡摥瀠汯捩⹹਍†††††††⼼㹰਍††††††⼼敳瑣潩㹮਍਍††††††猼捥楴湯ാ ††††††㰠㉨猠祴敬笽⁻潦瑮楓敺›ㄧ㔮敲❭‬潦瑮敗杩瑨›〷ⰰ洠牡楧䉮瑯潴㩭✠爱浥Ⱗ挠汯牯›瘧牡⴨琭硥⵴牰浩牡⥹‧絽ാ †††††††䌠湯慴瑣唠൳ ††††††㰠栯㸲਍†††††††瀼猠祴敬笽⁻慭杲湩潂瑴浯›ㄧ敲❭素㹽਍††††††††晉礠畯栠癡⁥畱獥楴湯⁳扡畯⁴桴獩倠楲慶祣倠汯捩⁹牯漠牵搠瑡⁡牰捡楴散ⱳ瀠敬獡⁥潣瑮捡⁴獵愠㩴਍†††††††⼼㹰਍†††††††瀼猠祴敬笽⁻慭杲湩潂瑴浯›〧㔮敲❭素㹽਍††††††††浅楡㩬㰠⁡牨晥∽慭汩潴瀺楲慶祣潀瑰晩潬⹷潣≭猠祴敬笽⁻潣潬㩲✠慶⡲ⴭ牰浩牡⵹〶⤰Ⱗ琠硥䑴捥牯瑡潩㩮✠潮敮‧絽瀾楲慶祣潀瑰晩潬⹷潣㱭愯ാ ††††††㰠瀯ാ ††††††㰠㹰਍††††††††摁牤獥㩳传瑰䙩潬⁷湉⹣‬㈱″䕓⁏瑓敲瑥‬慓⁮牆湡楣捳Ɐ䌠⁁㐹〱വ ††††††㰠瀯ാ †††††㰠猯捥楴湯ാ ††††㰠搯癩ാ †††㰠搯癩ാ ††㰠猯捥楴湯ാ †㰠搯癩ാ ⤠഻紊਍
+﻿import Link from 'next/link';
+<parameter name="ArrowLeft, Shield } from 'lucide-react';
+
+export default function PrivacyPage() {
+  return (
+    <div style={{ fontFamily: 'Inter, sans-serif', background: 'var(--bg-secondary)', minHeight: '100vh' }}>
+      {/* Header */}
+      <header style={{
+        background: 'white',
+        borderBottom: '1px solid var(--border-light)',
+        padding: '1rem 0'
+      }}>
+        <div className="container" style={{ maxWidth: '1200px' }}>
+          <Link href="/" style={{
+            display: 'inline-flex',
+            alignItems: 'center',
+            gap: '0.5rem',
+            color: 'var(--text-secondary)',
+            textDecoration: 'none',
+            fontSize: '0.9375rem',
+            fontWeight: 500
+          }} className="nav-link">
+            <ArrowLeft size={18} />
+            Back to Home
+          </Link>
+        </div>
+      </header>
+
+      {/* Hero Section */}
+      <section style={{ padding: '4rem 0 2rem', background: 'white' }}>
+        <div className="container" style={{ maxWidth: '800px', textAlign: 'center' }}>
+          <Shield size={48} style={{ color: 'var(--primary-600)', margin: '0 auto 1.5rem' }} />
+          <h1 style={{
+            fontSize: '3rem',
+            fontWeight: 800,
+            marginBottom: '1rem',
+            letterSpacing: '-0.03em',
+            color: 'var(--text-primary)'
+          }}>
+            Privacy Policy
+          </h1>
+          <p style={{
+            fontSize: '1rem',
+            color: 'var(--text-secondary)'
+          }}>
+            Last updated: January 5, 2025
+          </p>
+        </div>
+      </section>
+
+      {/* Content */}
+      <section style={{ padding: '2rem 0 4rem', background: 'white' }}>
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <div style={{ fontSize: '1rem', color: 'var(--text-secondary)', lineHeight: 1.8 }}>
+
+            <section style={{ marginBottom: '3rem' }}>
+              <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1rem', color: 'var(--text-primary)' }}>
+                Introduction
+              </h2>
+              <p style={{ marginBottom: '1rem' }}>
+                OptiFlow Inc. ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains
+                how we collect, use, disclose, and safeguard your information when you use our SEO platform and services.
+              </p>
+            </section>
+
+            <section style={{ marginBottom: '3rem' }}>
+              <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1rem', color: 'var(--text-primary)' }}>
+                Information We Collect
+              </h2>
+              
+              <h3 style={{ fontSize: '1.125rem', fontWeight: 600, marginBottom: '0.75rem', color: 'var(--text-primary)' }}>
+                Account Information
+              </h3>
+              <p style={{ marginBottom: '1rem' }}>
+                When you create an account, we collect your name, email address, company name, and password.
+              </p>
+              
+              <h3 style={{ fontSize: '1.125rem', fontWeight: 600, marginBottom: '0.75rem', color: 'var(--text-primary)' }}>
+                Google Search Console Data
+              </h3>
+              <p style={{ marginBottom: '1rem' }}>
+                When you connect your Google Search Console, we access and store search performance data including
+                queries, impressions, clicks, and positions. This data is used solely to provide our SEO analysis services.
+              </p>
+              
+              <h3 style={{ fontSize: '1.125rem', fontWeight: 600, marginBottom: '0.75rem', color: 'var(--text-primary)' }}>
+                Usage Data
+              </h3>
+              <p style={{ marginBottom: '1rem' }}>
+                We automatically collect information about how you interact with our platform, including pages visited,
+                features used, and time spent on the platform.
+              </p>
+            </section>
+
+            <section style={{ marginBottom: '3rem' }}>
+              <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1rem', color: 'var(--text-primary)' }}>
+                How We Use Your Information
+              </h2>
+              <ul style={{ paddingLeft: '1.5rem', marginBottom: '1rem' }}>
+                <li style={{ marginBottom: '0.5rem' }}>Provide and maintain our SEO analysis and content generation services</li>
+                <li style={{ marginBottom: '0.5rem' }}>Analyze your search performance and identify optimization opportunities</li>
+                <li style={{ marginBottom: '0.5rem' }}>Send you service updates, security alerts, and support messages</li>
+                <li style={{ marginBottom: '0.5rem' }}>Improve and develop new features for our platform</li>
+                <li style={{ marginBottom: '0.5rem' }}>Comply with legal obligations and enforce our terms</li>
+              </ul>
+            </section>
+
+            <section style={{ marginBottom: '3rem' }}>
+              <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1rem', color: 'var(--text-primary)' }}>
+                Data Security
+              </h2>
+              <p style={{ marginBottom: '1rem' }}>
+                We implement industry-standard security measures to protect your data, including encryption at rest and
+                in transit, secure authentication, and regular security audits. However, no method of transmission over
+                the internet is 100% secure.
+              </p>
+            </section>
+
+            <section style={{ marginBottom: '3rem' }}>
+              <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1rem', color: 'var(--text-primary)' }}>
+                Data Sharing
+              </h2>
+              <p style={{ marginBottom: '1rem' }}>
+                We do not sell your personal information. We may share your data with:
+              </p>
+              <ul style={{ paddingLeft: '1.5rem', marginBottom: '1rem' }}>
+                <li style={{ marginBottom: '0.5rem' }}>Service providers who help us operate our platform (e.g., hosting, analytics)</li>
+                <li style={{ marginBottom: '0.5rem' }}>Law enforcement when required by law</li>
+                <li style={{ marginBottom: '0.5rem' }}>Other parties with your explicit consent</li>
+              </ul>
+            </section>
+
+            <section style={{ marginBottom: '3rem' }}>
+              <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1rem', color: 'var(--text-primary)' }}>
+                Your Rights
+              </h2>
+              <p style={{ marginBottom: '1rem' }}>
+                You have the right to:
+              </p>
+              <ul style={{ paddingLeft: '1.5rem', marginBottom: '1rem' }}>
+                <li style={{ marginBottom: '0.5rem' }}>Access and download your data</li>
+                <li style={{ marginBottom: '0.5rem' }}>Correct inaccurate information</li>
+                <li style={{ marginBottom: '0.5rem' }}>Delete your account and associated data</li>
+                <li style={{ marginBottom: '0.5rem' }}>Opt-out of marketing communications</li>
+                <li style={{ marginBottom: '0.5rem' }}>Revoke Google Search Console access at any time</li>
+              </ul>
+            </section>
+
+            <section style={{ marginBottom: '3rem' }}>
+              <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1rem', color: 'var(--text-primary)' }}>
+                Cookies and Tracking
+              </h2>
+              <p style={{ marginBottom: '1rem' }}>
+                We use cookies and similar technologies to maintain your session, remember your preferences, and analyze
+                platform usage. You can control cookies through your browser settings.
+              </p>
+            </section>
+
+            <section style={{ marginBottom: '3rem' }}>
+              <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1rem', color: 'var(--text-primary)' }}>
+                Data Retention
+              </h2>
+              <p style={{ marginBottom: '1rem' }}>
+                We retain your data for as long as your account is active or as needed to provide services. When you
+                delete your account, we will delete your personal information within 30 days, except where required by law.
+              </p>
+            </section>
+
+            <section style={{ marginBottom: '3rem' }}>
+              <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1rem', color: 'var(--text-primary)' }}>
+                Changes to This Policy
+              </h2>
+              <p style={{ marginBottom: '1rem' }}>
+                We may update this Privacy Policy from time to time. We will notify you of significant changes via email
+                or through the platform. Your continued use of OptiFlow after changes constitutes acceptance of the updated policy.
+              </p>
+            </section>
+
+            <section>
+              <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1rem', color: 'var(--text-primary)' }}>
+                Contact Us
+              </h2>
+              <p style={{ marginBottom: '1rem' }}>
+                If you have questions about this Privacy Policy or our data practices, please contact us at:
+              </p>
+              <p style={{ marginBottom: '0.5rem' }}>
+                Email: <a href="mailto:privacy@optiflow.com" style={{ color: 'var(--primary-600)', textDecoration: 'none' }}>privacy@optiflow.com</a>
+              </p>
+              <p>
+                Address: OptiFlow Inc., 123 SEO Street, San Francisco, CA 94104
+              </p>
+            </section>
+
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+}
