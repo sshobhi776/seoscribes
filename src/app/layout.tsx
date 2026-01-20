@@ -99,7 +99,7 @@ export default function RootLayout({
                   "@type": "Question",
                   "name": "What is SEOScribes?",
                   "acceptedAnswer": {
-                    "@type": "AcceptedAnswer",
+                    "@type": "Answer",
                     "text": "SEOScribes is an AI-native SEO platform designed to automate content creation and ranking recovery. It connects directly to your Google Search Console to detect traffic drops and identify content gaps using real performance data."
                   }
                 },
@@ -107,7 +107,7 @@ export default function RootLayout({
                   "@type": "Question",
                   "name": "How does SEOScribes help with AEO and GEO?",
                   "acceptedAnswer": {
-                    "@type": "AcceptedAnswer",
+                    "@type": "Answer",
                     "text": "SEOScribes optimizes for Answer Engine Optimization (AEO) and Generative Engine Optimization (GEO) by using structured data, clear semantic hierarchies, and LLM-optimized content structures. This increases the likelihood of your content being cited by AI models like ChatGPT, Perplexity, and Google SGE."
                   }
                 },
@@ -115,7 +115,7 @@ export default function RootLayout({
                   "@type": "Question",
                   "name": "How is SEOScribes different from generic AI writing tools?",
                   "acceptedAnswer": {
-                    "@type": "AcceptedAnswer",
+                    "@type": "Answer",
                     "text": "Unlike generic tools that write based on prompts alone, SEOScribes uses your actual Google Search Console data and real-time SERP analysis of the top 10 competitors to ensure your content is statistically more likely to rank and recover lost traffic."
                   }
                 },
@@ -123,7 +123,7 @@ export default function RootLayout({
                   "@type": "Question",
                   "name": "Does SEOScribes support WordPress?",
                   "acceptedAnswer": {
-                    "@type": "AcceptedAnswer",
+                    "@type": "Answer",
                     "text": "Yes, SEOScribes is built for a seamless workflow, allowing you to generate, optimize, and prepare content for easy publishing to WordPress and other CMS platforms."
                   }
                 }
