@@ -31,6 +31,35 @@ export default function LandingPage() {
   return (
     <div className="page-wrapper" style={{ fontFamily: 'Inter, sans-serif', background: 'var(--bg-secondary)' }}>
       <style jsx>{`
+        .hero-grid-pattern {
+          position: absolute;
+          inset: 0;
+          background-image: 
+            linear-gradient(to right, var(--primary-100) 1px, transparent 1px),
+            linear-gradient(to bottom, var(--primary-100) 1px, transparent 1px);
+          background-size: 40px 40px;
+          mask-image: radial-gradient(circle at 50% 0%, black 10%, transparent 80%);
+          -webkit-mask-image: radial-gradient(circle at 50% 0%, black 10%, transparent 80%);
+          opacity: 0.5;
+          pointer-events: none;
+          z-index: 0;
+        }
+        .hero-glow-effect {
+          position: absolute;
+          top: 0;
+          left: 50%;
+          transform: translateX(-50%);
+          width: 100%;
+          height: 100%;
+          background: radial-gradient(circle at 50% 0%, rgba(99, 102, 241, 0.15) 0%, transparent 50%);
+          z-index: 1;
+          pointer-events: none;
+          animation: pulse-glow 8s ease-in-out infinite;
+        }
+        @keyframes pulse-glow {
+          0%, 100% { opacity: 0.7; transform: translateX(-50%) scale(1); }
+          50% { opacity: 1; transform: translateX(-50%) scale(1.1); }
+        }
         @media (max-width: 1024px) {
           .how-it-works-step > div {
             grid-template-columns: 1fr !important;
@@ -102,6 +131,31 @@ export default function LandingPage() {
         .how-it-works-step:hover .step-illustration {
           transform: none;
         }
+        .cta-grid-pattern {
+          position: absolute;
+          inset: 0;
+          background-image: 
+            linear-gradient(to right, rgba(255, 255, 255, 0.1) 1px, transparent 1px),
+            linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+          background-size: 30px 30px;
+          mask-image: radial-gradient(circle at 50% 50%, black 30%, transparent 90%);
+          -webkit-mask-image: radial-gradient(circle at 50% 50%, black 30%, transparent 90%);
+          opacity: 0.5;
+          pointer-events: none;
+          z-index: 0;
+        }
+        .cta-glow-effect {
+          position: absolute;
+          inset: 0;
+          background: radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.1) 0%, transparent 60%);
+          z-index: 1;
+          pointer-events: none;
+          animation: pulse-glow-cta 6s ease-in-out infinite;
+        }
+        @keyframes pulse-glow-cta {
+          0%, 100% { opacity: 0.4; transform: scale(1); }
+          50% { opacity: 0.8; transform: scale(1.1); }
+        }
       `}</style>
 
       <Header />
@@ -111,9 +165,15 @@ export default function LandingPage() {
         position: 'relative',
         padding: '6rem 0 4rem',
         overflow: 'hidden',
-        background: 'radial-gradient(circle at 50% 0%, rgba(99, 102, 241, 0.08) 0%, transparent 50%)'
+        background: 'var(--bg-secondary)'
       }}>
-        <div className="container" style={{ maxWidth: '1200px', display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center' }}>
+        {/* Grid pattern background */}
+        <div className="hero-grid-pattern" />
+
+        {/* Glow effect overlay */}
+        <div className="hero-glow-effect" />
+
+        <div className="container" style={{ position: 'relative', zIndex: 10, maxWidth: '1200px', display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center' }}>
           <div style={{
             display: 'inline-flex',
             alignItems: 'center',
@@ -1351,11 +1411,16 @@ export default function LandingPage() {
 
       {/* CTA SECTION */}
       <section style={{
+        position: 'relative',
         padding: '6rem 0',
         background: 'linear-gradient(135deg, var(--primary-600), var(--primary-800))',
-        color: 'white'
+        color: 'white',
+        overflow: 'hidden'
       }}>
-        <div className="container" style={{ maxWidth: '800px', textAlign: 'center' }}>
+        {/* Grid and Glow effects */}
+        <div className="cta-grid-pattern" />
+        <div className="cta-glow-effect" />
+        <div className="container" style={{ position: 'relative', zIndex: 10, maxWidth: '800px', textAlign: 'center' }}>
           <h2 style={{
             fontSize: '2.75rem',
             fontFamily: 'Inter, sans-serif',
