@@ -1,6 +1,6 @@
 # SEOScribes Landing Page
 
-Marketing website for SEOScribes - deployed to `example.com`
+Marketing website for SEOScribes - deployed to `seoscribes.com`
 
 ## Setup
 
@@ -17,14 +17,14 @@ Create a `.env.local` file:
 
 ```bash
 # URL of the app subdomain (for CTAs like "Get Started", "Login")
-NEXT_PUBLIC_APP_URL=https://app.example.com
+NEXT_PUBLIC_APP_URL=https://app.seoscribes.com
 ```
 
 ## Deployment (Vercel)
 
 1. Create a new Vercel project for this folder
-2. Add the domain `example.com`
-3. Set environment variable `NEXT_PUBLIC_APP_URL=https://app.example.com`
+2. Add the domain `seoscribes.com`
+3. Set environment variable `NEXT_PUBLIC_APP_URL=https://app.seoscribes.com`
 
 ## Pages
 
@@ -34,4 +34,4 @@ NEXT_PUBLIC_APP_URL=https://app.example.com
 - `/privacy` - Privacy policy
 - `/terms` - Terms of service
 
-All CTAs (Get Started, Login, Register) link to `app.example.com`.
+All CTAs (Get Started, Login, Register) link to `app.seoscribes.com`.
