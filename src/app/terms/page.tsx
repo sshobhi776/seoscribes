@@ -1,5 +1,11 @@
 ﻿import Link from 'next/link';
 import { ArrowLeft, FileText } from 'lucide-react';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+    title: "Terms of Service | SEOScribes",
+    description: "Read the SEOScribes terms of service to understand the rules and guidelines for using our platform.",
+};
 
 export default function TermsPage() {
     return (
@@ -58,7 +64,7 @@ export default function TermsPage() {
                                 1. Acceptance of Terms
                             </h2>
                             <p style={{ marginBottom: '1rem' }}>
-                                By accessing or using OptiFlow (the "Service"), you agree to be bound by these Terms of Service.
+                                By accessing or using SEOScribes (the "Service"), you agree to be bound by these Terms of Service.
                                 If you do not agree to these terms, please do not use the Service.
                             </p>
                         </section>
@@ -68,7 +74,7 @@ export default function TermsPage() {
                                 2. Description of Service
                             </h2>
                             <p style={{ marginBottom: '1rem' }}>
-                                OptiFlow is an AI-powered SEO platform that provides search performance analysis, content optimization
+                                SEOScribes is an AI-powered SEO platform that provides search performance analysis, content optimization
                                 recommendations, and automated content generation tools. The Service integrates with Google Search Console
                                 and other third-party services to deliver its functionality.
                             </p>
@@ -95,7 +101,7 @@ export default function TermsPage() {
                                 4. Subscription and Payment
                             </h2>
                             <p style={{ marginBottom: '1rem' }}>
-                                OptiFlow offers both free and paid subscription plans. Paid subscriptions:
+                                SEOScribes offers both free and paid subscription plans. Paid subscriptions:
                             </p>
                             <ul style={{ paddingLeft: '1.5rem', marginBottom: '1rem' }}>
                                 <li style={{ marginBottom: '0.5rem' }}>Are billed monthly or annually in advance</li>
@@ -127,7 +133,7 @@ export default function TermsPage() {
                                 6. Intellectual Property
                             </h2>
                             <p style={{ marginBottom: '1rem' }}>
-                                OptiFlow and its original content, features, and functionality are owned by OptiFlow Inc. and are
+                                SEOScribes and its original content, features, and functionality are owned by SEOScribes Inc. and are
                                 protected by international copyright, trademark, and other intellectual property laws.
                             </p>
                             <p style={{ marginBottom: '1rem' }}>
@@ -141,7 +147,7 @@ export default function TermsPage() {
                                 7. Third-Party Services
                             </h2>
                             <p style={{ marginBottom: '1rem' }}>
-                                OptiFlow integrates with third-party services like Google Search Console. Your use of these services
+                                SEOScribes integrates with third-party services like Google Search Console. Your use of these services
                                 is subject to their respective terms and conditions. We are not responsible for third-party services.
                             </p>
                         </section>
@@ -203,10 +209,10 @@ export default function TermsPage() {
                                 For questions about these Terms, please contact us at:
                             </p>
                             <p style={{ marginBottom: '0.5rem' }}>
-                                Email: <a href="mailto:legal@optiflow.com" style={{ color: 'var(--primary-600)', textDecoration: 'none' }}>legal@optiflow.com</a>
+                                Email: <a href="mailto:legal@seoscribes.com" style={{ color: 'var(--primary-600)', textDecoration: 'none' }}>legal@seoscribes.com</a>
                             </p>
                             <p>
-                                Address: OptiFlow Inc., 123 SEO Street, San Francisco, CA 94104
+                                Address: SEOScribes Inc., 123 SEO Street, San Francisco, CA 94104
                             </p>
                         </section>
 

@@ -39,19 +39,11 @@ export default function Footer() {
                     <div className="footer-main">
                         <div className="footer-brand">
                             <div className="logo" style={{ marginBottom: '1rem' }}>
-                                <div style={{
-                                    width: '32px',
-                                    height: '32px',
-                                    background: 'linear-gradient(135deg, var(--primary-600), var(--primary-800))',
-                                    borderRadius: '8px',
-                                    display: 'flex',
-                                    alignItems: 'center',
-                                    justifyContent: 'center',
-                                    color: 'white'
-                                }}>
-                                    <Zap size={18} fill="currentColor" />
-                                </div>
-                                <span style={{ fontFamily: 'Inter, sans-serif', fontSize: '1.125rem', fontWeight: 700 }}>OptiFlow</span>
+                                <img
+                                    src="/images/seoscribeslogo.webp"
+                                    alt="SEOScribes"
+                                    style={{ height: '32px', width: 'auto' }}
+                                />
                             </div>
                             <p style={{
                                 fontSize: '0.9375rem',
@@ -117,7 +109,7 @@ export default function Footer() {
                         alignItems: 'center'
                     }}>
                         <div style={{ fontSize: '0.875rem', color: 'var(--text-tertiary)', textAlign: 'center' }}>
-                            © 2026 OptiFlow Inc. All rights reserved.
+                            © 2026 SEOScribes. All rights reserved.
                         </div>
                     </div>
                 </div>

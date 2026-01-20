@@ -1,5 +1,11 @@
 ﻿import Link from 'next/link';
 import { ArrowLeft, Mail, MessageSquare, HelpCircle } from 'lucide-react';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: "Contact Us | SEOScribes",
+  description: "Get in touch with the SEOScribes team for support, sales, or general inquiries.",
+};
 
 export default function ContactPage() {
   return (
@@ -45,7 +51,7 @@ export default function ContactPage() {
             maxWidth: '600px',
             margin: '0 auto'
           }}>
-            Have questions about OptiFlow? We're here to help. Choose the best way to reach us.
+            Have questions about SEOScribes? We're here to help. Choose the best way to reach us.
           </p>
         </div>
       </section>
@@ -59,25 +65,9 @@ export default function ContactPage() {
                 icon: Mail,
                 title: 'Email Support',
                 desc: 'Get help from our support team',
-                contact: 'support@optiflow.com',
+                contact: 'support@seoscribes.com',
                 action: 'Send Email',
-                link: 'mailto:support@optiflow.com'
-              },
-              {
-                icon: MessageSquare,
-                title: 'Sales Inquiries',
-                desc: 'Questions about plans or enterprise?',
-                contact: 'sales@optiflow.com',
-                action: 'Contact Sales',
-                link: 'mailto:sales@optiflow.com'
-              },
-              {
-                icon: HelpCircle,
-                title: 'General Questions',
-                desc: 'Anything else on your mind?',
-                contact: 'hello@optiflow.com',
-                action: 'Say Hello',
-                link: 'mailto:hello@optiflow.com'
+                link: 'mailto:support@seoscribes.com'
               }
             ].map((item, i) => (
               <div key={i} style={{
@@ -164,11 +154,11 @@ export default function ContactPage() {
               },
               {
                 q: 'Can I schedule a demo?',
-                a: 'Yes! Contact our sales team at sales@optiflow.com to schedule a personalized demo of OptiFlow.'
+                a: 'Yes! Contact our team at support@seoscribes.com to schedule a personalized demo of SEOScribes.'
               },
               {
                 q: 'Where is your company located?',
-                a: 'OptiFlow is a remote-first company with team members across the United States and Europe.'
+                a: 'SEOScribes is a remote-first company with team members across the United States and Europe.'
               }
             ].map((faq, i) => (
               <div key={i} style={{

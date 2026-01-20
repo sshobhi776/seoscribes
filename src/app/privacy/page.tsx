@@ -1,5 +1,11 @@
 ﻿import Link from 'next/link';
 import { ArrowLeft, Shield } from 'lucide-react';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+    title: "Privacy Policy | SEOScribes",
+    description: "Read the SEOScribes privacy policy to understand how we handle and protect your data.",
+};
 
 export default function PrivacyPage() {
     return (
@@ -58,7 +64,7 @@ export default function PrivacyPage() {
                                 Introduction
                             </h2>
                             <p style={{ marginBottom: '1rem' }}>
-                                OptiFlow Inc. ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains
+                                SEOScribes Inc. ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains
                                 how we collect, use, disclose, and safeguard your information when you use our SEO platform and services.
                             </p>
                         </section>
@@ -172,7 +178,7 @@ export default function PrivacyPage() {
                             </h2>
                             <p style={{ marginBottom: '1rem' }}>
                                 We may update this Privacy Policy from time to time. We will notify you of significant changes via email
-                                or through the platform. Your continued use of OptiFlow after changes constitutes acceptance of the updated policy.
+                                or through the platform. Your continued use of SEOScribes after changes constitutes acceptance of the updated policy.
                             </p>
                         </section>
 
@@ -184,10 +190,10 @@ export default function PrivacyPage() {
                                 If you have questions about this Privacy Policy or our data practices, please contact us at:
                             </p>
                             <p style={{ marginBottom: '0.5rem' }}>
-                                Email: <a href="mailto:privacy@optiflow.com" style={{ color: 'var(--primary-600)', textDecoration: 'none' }}>privacy@optiflow.com</a>
+                                Email: <a href="mailto:privacy@seoscribes.com" style={{ color: 'var(--primary-600)', textDecoration: 'none' }}>privacy@seoscribes.com</a>
                             </p>
                             <p>
-                                Address: OptiFlow Inc., 123 SEO Street, San Francisco, CA 94104
+                                Address: SEOScribes Inc., 123 SEO Street, San Francisco, CA 94104
                             </p>
                         </section>
 

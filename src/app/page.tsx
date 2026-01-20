@@ -52,6 +52,12 @@ export default function LandingPage() {
             font-size: 0.75rem !important;
           }
         }
+        .faq-item[open] summary span {
+          transform: rotate(45deg);
+        }
+        summary::-webkit-details-marker {
+          display: none;
+        }
       `}</style>
 
       <Header />
@@ -95,8 +101,8 @@ export default function LandingPage() {
             WebkitBackgroundClip: 'text',
             WebkitTextFillColor: 'transparent'
           }}>
-            Turn Search Data into <br />
-            <span style={{ color: 'var(--primary-600)', WebkitTextFillColor: 'var(--primary-600)' }}>Ranking Content</span> Autonomously
+            AI-Powered SEO Content <br />
+            <span style={{ color: 'var(--primary-600)', WebkitTextFillColor: 'var(--primary-600)' }}>That Performs</span>
           </h1>
 
           <p style={{
@@ -107,8 +113,8 @@ export default function LandingPage() {
             maxWidth: '700px',
             lineHeight: 1.6
           }}>
-            The first AI-native SEO platform that automatically detects ranking drops, recovers lost traffic,
-            and optimizes your content for Google search results and AI answer engines like ChatGPT, Perplexity, and Gemini.
+            Transform your SEO workflow with AI-driven content creation, GSC integration, and seamless publishing.
+            From search intent to published posts—automatically.
           </p>
 
           <div style={{ display: 'flex', gap: '1rem', marginBottom: '3rem', flexWrap: 'wrap', justifyContent: 'center' }}>
@@ -296,7 +302,7 @@ export default function LandingPage() {
               maxWidth: '700px',
               margin: '0 auto'
             }}>
-              OptiFlow connects directly to your Google Search Console, analyzes your data,
+              SEOScribes connects directly to your Google Search Console, analyzes your data,
               and automatically creates content that ranks — all without leaving the platform.
             </p>
           </div>
@@ -307,7 +313,7 @@ export default function LandingPage() {
                 step: '01',
                 icon: Search,
                 title: 'Discover Growth Opportunities',
-                desc: 'OptiFlow plugs directly into your Google Search Console and market intelligence tools to pinpoint exactly what drives your growth and what holds you back. No more switching between 10 tabs — everything you need is in one place, clear and actionable.',
+                desc: 'SEOScribes plugs directly into your Google Search Console and market intelligence tools to pinpoint exactly what drives your growth and what holds you back. No more switching between 10 tabs — everything you need is in one place, clear and actionable.',
                 points: [
                   'Content Gaps: Keywords with high impressions but low clicks (quick wins)',
                   'Decay Alerts: Pages losing traffic month-over-month (urgent fixes)',
@@ -320,7 +326,7 @@ export default function LandingPage() {
                 step: '02',
                 icon: Brain,
                 title: 'Generate Optimized Content',
-                desc: 'Stop digging through complex dashboards alone. OptiFlow analyzes your data in depth and explains exactly why things happen. Why is this keyword dropping? Why isn\'t this page converting? You get clear answers with actionable fixes.',
+                desc: 'Stop digging through complex dashboards alone. SEOScribes analyzes your data in depth and explains exactly why things happen. Why is this keyword dropping? Why isn\'t this page converting? You get clear answers with actionable fixes.',
                 points: [
                   'Analyzes top 10 Google results for your target keyword',
                   'Extracts semantic topics, headings, and user intent patterns from competitors',
@@ -334,7 +340,7 @@ export default function LandingPage() {
                 step: '03',
                 icon: Zap,
                 title: 'Track & Recover Rankings',
-                desc: 'OptiFlow continuously monitors your content performance and alerts you to issues within 48 hours. Get real-time insights and one-click fixes to keep your rankings strong and recover lost traffic automatically.',
+                desc: 'SEOScribes continuously monitors your content performance and alerts you to issues within 48 hours. Get real-time insights and one-click fixes to keep your rankings strong and recover lost traffic automatically.',
                 points: [
                   'Real-time performance tracking from Google Search Console',
                   'Position tracking for all your target keywords',
@@ -666,7 +672,7 @@ export default function LandingPage() {
               maxWidth: '700px',
               margin: '0 auto'
             }}>
-              From Google rankings to AI answer engines, OptiFlow covers every aspect of modern SEO.
+              From Google rankings to AI answer engines, SEOScribes covers every aspect of modern SEO.
             </p>
           </div>
 
@@ -698,7 +704,7 @@ export default function LandingPage() {
               {
                 icon: Brain,
                 title: 'Competitor Intelligence',
-                desc: 'Outperform your competitors by learning from their strengths. OptiFlow detects what works for them — their best content structure, winning keywords, and ranking strategies — and helps you adapt those insights to your site in seconds.',
+                desc: 'Outperform your competitors by learning from their strengths. SEOScribes detects what works for them — their best content structure, winning keywords, and ranking strategies — and helps you adapt those insights to your site in seconds.',
                 features: ['Top 10 SERP analysis', 'Topic extraction', 'Content gap identification']
               },
               {
@@ -793,7 +799,7 @@ export default function LandingPage() {
               marginBottom: '1rem',
               letterSpacing: '-0.03em'
             }}>
-              Why OptiFlow Beats Traditional SEO Tools
+              Why SEOScribes Beats Traditional SEO Tools
             </h2>
             <p style={{
               fontSize: '1.125rem',
@@ -802,7 +808,7 @@ export default function LandingPage() {
               maxWidth: '700px',
               margin: '0 auto'
             }}>
-              Most SEO platforms just show you data. OptiFlow takes action.
+              Most SEO platforms just show you data. SEOScribes takes action.
             </p>
           </div>
 
@@ -860,7 +866,7 @@ export default function LandingPage() {
                 color: 'var(--primary-600)',
                 textAlign: 'center'
               }}>
-                OptiFlow
+                SEOScribes
               </h3>
               <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
                 {[
@@ -913,19 +919,19 @@ export default function LandingPage() {
                 icon: TrendingDown,
                 title: 'Recover Lost Traffic',
                 scenario: 'Your blog post that used to get 5,000 visits/month is now down to 2,000.',
-                solution: 'OptiFlow detects the decay, analyzes what changed in the SERP, and auto-refreshes your content with updated data, new insights, and improved structure. Traffic recovers within 2-4 weeks.'
+                solution: 'SEOScribes detects the decay, analyzes what changed in the SERP, and auto-refreshes your content with updated data, new insights, and improved structure. Traffic recovers within 2-4 weeks.'
               },
               {
                 icon: Target,
                 title: 'Capture Quick Wins',
                 scenario: 'You have 50 keywords with 10,000+ impressions but only 2% CTR.',
-                solution: 'OptiFlow identifies these content gaps and generates optimized articles targeting those exact queries. You start ranking within days instead of months.'
+                solution: 'SEOScribes identifies these content gaps and generates optimized articles targeting those exact queries. You start ranking within days instead of months.'
               },
               {
                 icon: MessageSquare,
                 title: 'Get Cited in AI Answers',
                 scenario: 'ChatGPT and Perplexity are answering your target queries, but never citing your content.',
-                solution: 'OptiFlow reformats your content with clear citations, structured data, and authoritative signals that AI engines prefer. Your brand becomes the go-to source.'
+                solution: 'SEOScribes reformats your content with clear citations, structured data, and authoritative signals that AI engines prefer. Your brand becomes the go-to source.'
               }
             ].map((useCase, i) => (
               <div key={i} style={{
@@ -1193,6 +1199,93 @@ export default function LandingPage() {
         </div>
       </section>
 
+      {/* FAQ SECTION */}
+      <section id="faq" style={{ padding: '6rem 0', background: 'white' }}>
+        <div className="container" style={{ maxWidth: '900px' }}>
+          <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
+            <span className="badge badge-primary" style={{ marginBottom: '1rem', fontFamily: 'Inter, sans-serif' }}>FAQ</span>
+            <h2 style={{
+              fontSize: '2.75rem',
+              fontFamily: 'Inter, sans-serif',
+              fontWeight: 800,
+              marginBottom: '1rem',
+              letterSpacing: '-0.03em'
+            }}>
+              Common Questions About SEOScribes
+            </h2>
+            <p style={{
+              fontSize: '1.125rem',
+              fontFamily: 'Inter, sans-serif',
+              color: 'var(--text-secondary)',
+              maxWidth: '700px',
+              margin: '0 auto'
+            }}>
+              Everything you need to know about our AI-powered SEO platform and how it helps you grow.
+            </p>
+          </div>
+
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
+            {[
+              {
+                q: 'What is SEOScribes?',
+                a: 'SEOScribes is an AI-native SEO platform designed to automate content creation and ranking recovery. It connects directly to your Google Search Console to detect traffic drops and generate optimized content that ranks on both traditional search engines and AI answer engines.'
+              },
+              {
+                q: 'How does SEOScribes help with AEO and GEO?',
+                a: 'SEOScribes optimizes your content for Answer Engine Optimization (AEO) and Generative Engine Optimization (GEO) by using structured data, clear semantic hierarchies, and authoritative source signals. This increases your chances of being cited by AI models like ChatGPT, Perplexity, and Google Search Generative Experience (SGE).'
+              },
+              {
+                q: 'Is it safe to use AI-generated content for SEO?',
+                a: 'Yes, when used correctly. SEOScribes focuses on high-quality, research-backed content that follows Google’s E-E-A-T (Experience, Expertise, Authoritativeness, and Trustworthiness) guidelines. Our AI acts as a researcher and writer that uses your actual GSC data to ensure relevance and accuracy.'
+              },
+              {
+                q: 'Does SEOScribes replace my current SEO tools?',
+                a: 'SEOScribes complements tools like Ahrefs or Semrush by taking the "analysis" and turning it into "action." While traditional tools tell you what is wrong, SEOScribes automatically detects the problem and generates the content needed to fix it.'
+              },
+              {
+                q: 'How long does it take to see results?',
+                a: 'Most users see improvements in ranking recovery within 2-4 weeks of updating declining content. For new content, indexing and initial ranking typically occur within 7-14 days depending on your site’s existing authority.'
+              },
+              {
+                q: 'Which CMS platforms do you support?',
+                a: 'We currently support direct publishing to WordPress, with more integrations like Shopify, Ghost, and Webflow coming soon. You can also export your content in Markdown or HTML for any other platform.'
+              }
+            ].map((faq, i) => (
+              <details key={i} style={{
+                background: 'var(--bg-secondary)',
+                borderRadius: '12px',
+                border: '1px solid var(--border-light)',
+                padding: '1.5rem',
+                cursor: 'pointer'
+              }} className="faq-item">
+                <summary style={{
+                  fontSize: '1.125rem',
+                  fontWeight: 700,
+                  fontFamily: 'Inter, sans-serif',
+                  color: 'var(--text-primary)',
+                  listStyle: 'none',
+                  display: 'flex',
+                  justifyContent: 'space-between',
+                  alignItems: 'center'
+                }}>
+                  {faq.q}
+                  <span style={{ fontSize: '1.25rem', color: 'var(--primary-600)' }}>+</span>
+                </summary>
+                <p style={{
+                  marginTop: '1rem',
+                  fontSize: '1rem',
+                  lineHeight: 1.6,
+                  color: 'var(--text-secondary)',
+                  fontFamily: 'Inter, sans-serif'
+                }}>
+                  {faq.a}
+                </p>
+              </details>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* CTA SECTION */}
       <section style={{
         padding: '6rem 0',
@@ -1217,7 +1310,7 @@ export default function LandingPage() {
             opacity: 0.9,
             lineHeight: 1.6
           }}>
-            Join 500+ content teams using OptiFlow to automate their SEO workflow,
+            Join 500+ content teams using SEOScribes to automate their SEO workflow,
             recover lost rankings, and dominate Google search results.
           </p>
           <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap' }}>

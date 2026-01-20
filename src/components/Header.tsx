@@ -39,21 +39,12 @@ export default function Header() {
                     maxWidth: '1200px',
                     padding: '0 1rem'
                 }}>
-                    <Link href="/" className="logo" style={{ gap: '0.75rem' }}>
-                        <div style={{
-                            width: '32px',
-                            height: '32px',
-                            background: 'linear-gradient(135deg, var(--primary-600), var(--primary-800))',
-                            borderRadius: '8px',
-                            display: 'flex',
-                            alignItems: 'center',
-                            justifyContent: 'center',
-                            color: 'white',
-                            boxShadow: '0 2px 4px rgba(79, 70, 229, 0.2)'
-                        }}>
-                            <Zap size={18} fill="currentColor" />
-                        </div>
-                        <span style={{ fontSize: '1.125rem', fontWeight: 700, letterSpacing: '-0.02em', fontFamily: 'Inter, sans-serif' }}>OptiFlow</span>
+                    <Link href="/" className="logo">
+                        <img
+                            src="/images/seoscribeslogo.webp"
+                            alt="SEOScribes"
+                            style={{ height: '32px', width: 'auto' }}
+                        />
                     </Link>
 
                     <nav style={{ display: 'flex', alignItems: 'center', gap: '2rem' }} className="desktop-nav">

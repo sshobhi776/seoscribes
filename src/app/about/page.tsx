@@ -1,5 +1,11 @@
 ﻿import Link from 'next/link';
 import { ArrowLeft, Target, Users, Heart } from 'lucide-react';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: "About Us | SEOScribes",
+  description: "Learn more about SEOScribes and our mission to automate SEO content creation and ranking recovery.",
+};
 
 export default function AboutPage() {
   return (
@@ -36,7 +42,7 @@ export default function AboutPage() {
             letterSpacing: '-0.03em',
             color: 'var(--text-primary)'
           }}>
-            About OptiFlow
+            About SEOScribes
           </h1>
           <p style={{
             fontSize: '1.25rem',
@@ -46,7 +52,7 @@ export default function AboutPage() {
             margin: '0 auto'
           }}>
             We're building the future of SEO—Where AI doesn't just assist, it automates.
-            OptiFlow helps content teams recover lost traffic, maintain rankings, and dominate search results.
+            SEOScribes helps content teams recover lost traffic, maintain rankings, and dominate search results.
           </p>
         </div>
       </section>
@@ -126,7 +132,7 @@ export default function AboutPage() {
           </h2>
           <div style={{ fontSize: '1rem', color: 'var(--text-secondary)', lineHeight: 1.8, display: 'flex', flexDirection: 'column', gap: '1rem' }}>
             <p>
-              OptiFlow was born from frustration. As content marketers ourselves, we watched our carefully crafted articles
+              SEOScribes was born from frustration. As content marketers ourselves, we watched our carefully crafted articles
               lose rankings overnight. By the time we noticed in our monthly reports, thousands of visitors were already gone.
             </p>
             <p>
@@ -134,11 +140,11 @@ export default function AboutPage() {
               We were stuck juggling five different platforms, copying data between spreadsheets, and manually updating content.
             </p>
             <p>
-              So we built OptiFlow—The SEO platform we wished existed. One that doesn't just report problems
+              So we built SEOScribes—The SEO platform we wished existed. One that doesn't just report problems
               but automatically detects them, generates solutions, and helps you maintain your rankings.
             </p>
             <p>
-              Today, OptiFlow helps over 500+ content teams automate their SEO workflow, recover lost traffic,
+              Today, SEOScribes helps over 500+ content teams automate their SEO workflow, recover lost traffic,
               and stay ahead of algorithm updates. We're just getting started.
             </p>
           </div>
@@ -185,7 +191,7 @@ export default function AboutPage() {
             marginBottom: '2rem',
             lineHeight: 1.6
           }}>
-            Start automating your SEO workflow today with OptiFlow.
+            Start automating your SEO workflow today with SEOScribes.
           </p>
           <Link href="/register" className="btn btn-primary" style={{
             padding: '0.75rem 2rem',

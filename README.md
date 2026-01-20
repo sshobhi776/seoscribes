@@ -1,6 +1,6 @@
-# OptiFlow Landing Page
+# SEOScribes Landing Page
 
-Marketing website for OptiFlow - deployed to `example.com`
+Marketing website for SEOScribes - deployed to `example.com`
 
 ## Setup
 
