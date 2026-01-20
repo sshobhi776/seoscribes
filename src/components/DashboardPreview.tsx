@@ -7,8 +7,8 @@ export default function DashboardPreview() {
       maxWidth: '1000px',
       background: 'white',
       borderRadius: '16px',
-      boxShadow: '0 20px 50px -12px rgba(0, 0, 0, 0.15), 0 0 0 1px rgba(0,0,0,0.05)',
-      padding: '1rem',
+      boxShadow: '0 30px 60px -12px rgba(0, 0, 0, 0.25), 0 0 0 1px rgba(0,0,0,0.05)',
+      padding: '0.5rem',
       position: 'relative'
     }}>
       <style jsx>{`
@@ -58,13 +58,13 @@ export default function DashboardPreview() {
       {/* Dashboard Content with Sidebar */}
       <div className="dashboard-grid" style={{
         display: 'grid',
-        gridTemplateColumns: '200px 1fr',
+        gridTemplateColumns: '220px 1fr',
         gap: 0,
-        border: '1px solid var(--border-light)',
-        borderRadius: '8px',
+        background: 'white',
+        borderRadius: '12px',
         overflow: 'hidden',
         fontFamily: 'Inter, sans-serif',
-        minHeight: '600px'
+        minHeight: '650px'
       }}>
         {/* Sidebar */}
         <div className="sidebar" style={{
@@ -75,14 +75,15 @@ export default function DashboardPreview() {
           flexDirection: 'column'
         }}>
           <div style={{
-            padding: '0.75rem',
-            marginBottom: '1rem',
-            borderRadius: '8px',
-            background: 'white',
-            border: '1px solid var(--border-light)',
+            padding: '0.875rem',
+            marginBottom: '1.25rem',
+            borderRadius: '12px',
+            background: 'rgba(255,255,255,0.8)',
+            border: '1px solid rgba(0,0,0,0.05)',
             display: 'flex',
             alignItems: 'center',
-            gap: '0.625rem'
+            gap: '0.75rem',
+            boxShadow: '0 1px 2px rgba(0,0,0,0.02)'
           }}>
             <div style={{
               width: '32px',
@@ -101,7 +102,7 @@ export default function DashboardPreview() {
             </div>
             <div style={{ flex: 1, minWidth: 0, textAlign: 'left' }}>
               <div style={{ fontSize: '0.8125rem', fontWeight: 600, color: 'var(--text-primary)' }}>John Doe</div>
-              <div style={{ fontSize: '0.6875rem', color: 'var(--text-tertiary)' }}>johndoe@gmail.com</div>
+              <div style={{ fontSize: '0.6875rem', color: 'var(--text-tertiary)' }}>support@seoscribes.com</div>
             </div>
           </div>
 
@@ -110,21 +111,23 @@ export default function DashboardPreview() {
               { label: 'Dashboard', icon: BarChart3, active: true },
               { label: 'Content Gaps', icon: Target, active: false },
               { label: 'Decay Alerts', icon: AlertTriangle, active: false },
-              { label: 'Generate', icon: Sparkles, active: false }
+              { label: 'AI Generate', icon: Sparkles, active: false }
             ].map((item) => (
               <div key={item.label} style={{
-                padding: '0.5rem 0.75rem',
-                borderRadius: '6px',
+                padding: '0.625rem 0.875rem',
+                borderRadius: '8px',
                 fontSize: '0.875rem',
-                fontWeight: 500,
+                fontWeight: item.active ? 600 : 500,
                 color: item.active ? 'var(--primary-700)' : 'var(--text-secondary)',
-                background: item.active ? 'var(--primary-50)' : 'transparent',
+                background: item.active ? 'white' : 'transparent',
                 display: 'flex',
                 alignItems: 'center',
-                gap: '0.625rem',
-                cursor: 'pointer'
+                gap: '0.75rem',
+                cursor: 'pointer',
+                boxShadow: item.active ? '0 1px 3px rgba(0,0,0,0.08)' : 'none',
+                transition: 'all 0.2s'
               }}>
-                <item.icon size={16} />
+                <item.icon size={16} strokeWidth={item.active ? 2.5 : 2} />
                 {item.label}
               </div>
             ))}
@@ -146,7 +149,7 @@ export default function DashboardPreview() {
                 gap: '0.625rem',
                 cursor: 'pointer'
               }}>
-                <item.icon size={16} />
+                <item.icon size={14} />
                 {item.label}
               </div>
             ))}
@@ -171,16 +174,18 @@ export default function DashboardPreview() {
             ].map((stat, i) => (
               <div key={i} className="stat-card" style={{
                 background: 'white',
-                border: '1px solid var(--border-color)',
-                borderRadius: '8px',
-                padding: '1rem',
-                boxShadow: '0 1px 3px 0 rgba(0, 0, 0, 0.04)'
+                border: '1px solid rgba(0,0,0,0.06)',
+                borderRadius: '16px',
+                padding: '1.25rem',
+                boxShadow: '0 2px 4px rgba(0,0,0,0.02)',
+                display: 'flex',
+                flexDirection: 'column'
               }}>
-                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.5rem' }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '1rem' }}>
                   <div style={{
-                    width: '28px',
-                    height: '28px',
-                    borderRadius: '6px',
+                    width: '32px',
+                    height: '32px',
+                    borderRadius: '8px',
                     background: 'var(--primary-50)',
                     display: 'flex',
                     alignItems: 'center',
@@ -190,23 +195,23 @@ export default function DashboardPreview() {
                     <stat.icon size={14} />
                   </div>
                   <span style={{
-                    padding: '2px 8px',
+                    padding: '4px 10px',
                     borderRadius: '999px',
-                    fontSize: '11px',
+                    fontSize: '0.75rem',
                     background: stat.badgeColor,
                     color: stat.badgeText,
-                    fontWeight: 500,
+                    fontWeight: 600,
                     display: 'flex',
                     alignItems: 'center',
-                    gap: '2px'
+                    gap: '4px'
                   }}>
-                    {stat.trend && <TrendingUp size={10} />}
+                    {stat.trend && <TrendingUp size={11} />}
                     {stat.badge}
                   </span>
                 </div>
-                <div style={{ fontSize: '1.75rem', fontWeight: 600, marginBottom: '2px' }} className="stat-value">{stat.value}</div>
-                <div style={{ fontSize: '0.8125rem', fontWeight: 500, color: 'var(--text-secondary)' }}>{stat.label}</div>
-                <div style={{ fontSize: '0.6875rem', color: 'var(--text-tertiary)', marginTop: '4px' }}>{stat.subtitle}</div>
+                <div style={{ fontSize: '1.5rem', fontWeight: 600, marginBottom: '4px', letterSpacing: '-0.01em', color: 'var(--text-primary)' }} className="stat-value">{stat.value}</div>
+                <div style={{ fontSize: '0.875rem', fontWeight: 600, color: 'var(--text-secondary)' }}>{stat.label}</div>
+                <div style={{ fontSize: '0.75rem', color: 'var(--text-tertiary)', marginTop: '8px', lineHeight: 1.4 }}>{stat.subtitle}</div>
               </div>
             ))}
           </div>
@@ -215,10 +220,10 @@ export default function DashboardPreview() {
           <div className="card-section" style={{ padding: '0 1.5rem 0.75rem 1.5rem', background: 'var(--bg-secondary)' }}>
             <div style={{
               background: 'white',
-              borderRadius: '12px',
-              border: '1px solid var(--border-light)',
-              padding: '1.25rem',
-              boxShadow: '0 1px 3px 0 rgba(0, 0, 0, 0.04)'
+              borderRadius: '20px',
+              border: '1px solid rgba(0,0,0,0.06)',
+              padding: '1.5rem',
+              boxShadow: '0 4px 6px rgba(0,0,0,0.02)'
             }}>
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
                 <div style={{ textAlign: 'left' }}>
@@ -264,10 +269,10 @@ export default function DashboardPreview() {
           <div className="card-section" style={{ padding: '0 1.5rem 1.5rem 1.5rem', background: 'var(--bg-secondary)' }}>
             <div style={{
               background: 'white',
-              borderRadius: '12px',
-              border: '1px solid var(--border-light)',
-              padding: '1.25rem',
-              boxShadow: '0 1px 3px 0 rgba(0, 0, 0, 0.04)'
+              borderRadius: '20px',
+              border: '1px solid rgba(0,0,0,0.06)',
+              padding: '1.5rem',
+              boxShadow: '0 4px 6px rgba(0,0,0,0.02)'
             }}>
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
                 <div style={{ textAlign: 'left' }}>
@@ -289,7 +294,7 @@ export default function DashboardPreview() {
                   <div key={i} className="table-grid" style={{ display: 'grid', gridTemplateColumns: '2fr 1fr 1fr 1fr', padding: '0.75rem', borderBottom: i === 1 ? 'none' : '1px solid var(--border-light)', alignItems: 'center', background: 'white' }}>
                     <div style={{ fontSize: '0.8125rem', fontWeight: 500, textAlign: 'left' }}>{row.page}</div>
                     <div style={{ fontSize: '0.8125rem', color: 'var(--error)', fontWeight: 600, display: 'flex', alignItems: 'center', gap: '4px' }}>
-                      <TrendingDown size={12} />
+                      <TrendingDown size={11} />
                       {row.drop}
                     </div>
                     <div>
@@ -306,14 +311,15 @@ export default function DashboardPreview() {
                     </div>
                     <div className="action-col">
                       <button style={{
-                        fontSize: '0.6875rem',
-                        padding: '4px 10px',
-                        borderRadius: '6px',
-                        border: '1px solid var(--primary-600)',
-                        background: 'var(--primary-50)',
-                        color: 'var(--primary-600)',
+                        fontSize: '0.75rem',
+                        padding: '6px 12px',
+                        borderRadius: '8px',
+                        border: 'none',
+                        background: 'var(--primary-600)',
+                        color: 'white',
                         cursor: 'pointer',
-                        fontWeight: 500
+                        fontWeight: 600,
+                        boxShadow: '0 2px 4px rgba(79, 70, 229, 0.2)'
                       }}>Fix Now</button>
                     </div>
                   </div>

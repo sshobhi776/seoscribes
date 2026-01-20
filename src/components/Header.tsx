@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { useState } from 'react';
 import { Zap, Menu, X } from 'lucide-react';
 
-const APP_URL = process.env.NEXT_PUBLIC_APP_URL || 'https://app.seoscribes.com';
+const APP_URL = process.env.NEXT_PUBLIC_APP_URL || 'https://app.seoscribes.com/';
 
 export default function Header() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -43,15 +43,22 @@ export default function Header() {
                         <img
                             src="/images/seoscribeslogo.webp"
                             alt="SEOScribes"
-                            style={{ height: '32px', width: 'auto' }}
+                            style={{ height: '38px', width: 'auto' }}
                         />
                     </Link>
 
                     <nav style={{ display: 'flex', alignItems: 'center', gap: '2rem' }} className="desktop-nav">
-                        {['Features', 'How It Works', 'Pricing'].map((item) => (
+                        {['Features', 'How It Works', 'Comparison', 'FAQ', 'Pricing'].map((item) => (
                             <Link key={item} href={`#${item.toLowerCase().replace(/\s+/g, '-')}`}
                                 className="nav-link"
-                                style={{ fontFamily: 'Inter, sans-serif' }}
+                                style={{
+                                    fontFamily: 'Inter, sans-serif',
+                                    fontSize: '0.9375rem',
+                                    fontWeight: 500,
+                                    color: 'var(--text-secondary)',
+                                    textDecoration: 'none',
+                                    transition: 'color 0.2s'
+                                }}
                             >
                                 {item}
                             </Link>
@@ -59,7 +66,7 @@ export default function Header() {
                     </nav>
 
                     <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
-                        <a href={`${APP_URL}/login`} className="btn btn-primary" style={{
+                        <a href={APP_URL} className="btn btn-primary" style={{
                             padding: '0.5rem 1.25rem',
                             borderRadius: '999px',
                             fontSize: '0.9375rem',
@@ -123,7 +130,7 @@ export default function Header() {
                             }}
                             onClick={(e) => e.stopPropagation()}
                         >
-                            {['Features', 'How It Works', 'Pricing'].map((item) => (
+                            {['Features', 'How It Works', 'Comparison', 'FAQ', 'Pricing'].map((item) => (
                                 <Link
                                     key={item}
                                     href={`#${item.toLowerCase().replace(/\s+/g, '-')}`}

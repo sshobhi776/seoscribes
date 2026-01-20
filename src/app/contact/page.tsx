@@ -1,6 +1,8 @@
 ﻿import Link from 'next/link';
-import { ArrowLeft, Mail, MessageSquare, HelpCircle } from 'lucide-react';
+import { Mail, MessageSquare, HelpCircle } from 'lucide-react';
 import type { Metadata } from 'next';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
   title: "Contact Us | SEOScribes",
@@ -10,30 +12,10 @@ export const metadata: Metadata = {
 export default function ContactPage() {
   return (
     <div style={{ fontFamily: 'Inter, sans-serif', background: 'var(--bg-secondary)', minHeight: '100vh' }}>
-      {/* Header */}
-      <header style={{
-        background: 'white',
-        borderBottom: '1px solid var(--border-light)',
-        padding: '1rem 0'
-      }}>
-        <div className="container" style={{ maxWidth: '1200px' }}>
-          <Link href="/" style={{
-            display: 'inline-flex',
-            alignItems: 'center',
-            gap: '0.5rem',
-            color: 'var(--text-secondary)',
-            textDecoration: 'none',
-            fontSize: '0.9375rem',
-            fontWeight: 500
-          }} className="nav-link">
-            <ArrowLeft size={18} />
-            Back to Home
-          </Link>
-        </div>
-      </header>
+      <Header />
 
       {/* Hero Section */}
-      <section style={{ padding: '4rem 0', background: 'white' }}>
+      <section style={{ padding: '6rem 0 4rem', background: 'white' }}>
         <div className="container" style={{ maxWidth: '800px', textAlign: 'center' }}>
           <h1 style={{
             fontSize: '3rem',
@@ -78,7 +60,8 @@ export default function ContactPage() {
                 textAlign: 'center',
                 display: 'flex',
                 flexDirection: 'column',
-                alignItems: 'center'
+                alignItems: 'center',
+                boxShadow: '0 4px 6px rgba(0,0,0,0.02)'
               }}>
                 <div style={{
                   width: '56px',
@@ -113,14 +96,15 @@ export default function ContactPage() {
                   fontSize: '0.875rem',
                   color: 'var(--primary-600)',
                   fontWeight: 600,
-                  marginBottom: '1rem'
+                  marginBottom: '1.5rem'
                 }}>
                   {item.contact}
                 </p>
                 <a href={item.link} className="btn btn-secondary" style={{
                   fontFamily: 'Inter, sans-serif',
                   width: '100%',
-                  justifyContent: 'center'
+                  justifyContent: 'center',
+                  textDecoration: 'none'
                 }}>
                   {item.action}
                 </a>
@@ -131,14 +115,15 @@ export default function ContactPage() {
       </section>
 
       {/* FAQ Section */}
-      <section style={{ padding: '4rem 0', background: 'white' }}>
+      <section style={{ padding: '6rem 0', background: 'white' }}>
         <div className="container" style={{ maxWidth: '800px' }}>
           <h2 style={{
-            fontSize: '2rem',
-            fontWeight: 700,
-            marginBottom: '2rem',
+            fontSize: '2.5rem',
+            fontWeight: 800,
+            marginBottom: '3rem',
             color: 'var(--text-primary)',
-            textAlign: 'center'
+            textAlign: 'center',
+            letterSpacing: '-0.02em'
           }}>
             Frequently Asked Questions
           </h2>
@@ -162,21 +147,21 @@ export default function ContactPage() {
               }
             ].map((faq, i) => (
               <div key={i} style={{
-                padding: '1.5rem',
+                padding: '1.5rem 2rem',
                 background: 'var(--bg-secondary)',
-                borderRadius: '12px',
+                borderRadius: '16px',
                 border: '1px solid var(--border-light)'
               }}>
                 <h3 style={{
                   fontSize: '1.125rem',
-                  fontWeight: 600,
+                  fontWeight: 700,
                   marginBottom: '0.75rem',
                   color: 'var(--text-primary)'
                 }}>
                   {faq.q}
                 </h3>
                 <p style={{
-                  fontSize: '0.9375rem',
+                  fontSize: '1rem',
                   color: 'var(--text-secondary)',
                   lineHeight: 1.6
                 }}>
@@ -187,6 +172,7 @@ export default function ContactPage() {
           </div>
         </div>
       </section>
+      <Footer />
     </div>
   );
 }

@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { Zap } from 'lucide-react';
 
-const APP_URL = process.env.NEXT_PUBLIC_APP_URL || 'https://app.seoscribes.com';
+const APP_URL = process.env.NEXT_PUBLIC_APP_URL || 'https://app.seoscribes.com/';
 
 export default function Footer() {
     return (
@@ -48,17 +48,13 @@ export default function Footer() {
                             <p style={{
                                 fontSize: '0.9375rem',
                                 color: 'var(--text-secondary)',
-                                maxWidth: '380px',
+                                maxWidth: '420px',
                                 lineHeight: 1.6,
                                 marginBottom: '1.5rem'
                             }}>
-                                The AI-native SEO platform that automatically detects ranking drops,
-                                recovers lost traffic, and optimizes for Google and AI answer engines.
+                                The AI-native SEO platform built for high-growth content teams. SEOScribes uses real performance data to automatically detect ranking drops, recover lost traffic, and outrank competitors at scale. Dominate traditional search results and gain visibility in AI answer engines—all with one automated workflow.
                             </p>
                             <div style={{ display: 'flex', gap: '1rem' }}>
-                                <a href="#" className="nav-link" style={{ fontSize: '0.875rem' }}>Twitter</a>
-                                <a href="#" className="nav-link" style={{ fontSize: '0.875rem' }}>LinkedIn</a>
-                                <a href="#" className="nav-link" style={{ fontSize: '0.875rem' }}>GitHub</a>
                             </div>
                         </div>
 
@@ -74,10 +70,12 @@ export default function Footer() {
                                 Quick Links
                             </h4>
                             <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
-                                <li><a href={`${APP_URL}/login`} className="nav-link" style={{ fontSize: '0.9375rem' }}>Get Started</a></li>
-                                <li><a href="#features" className="nav-link" style={{ fontSize: '0.9375rem' }}>Features</a></li>
+                                <li><a href="#faq" className="nav-link" style={{ fontSize: '0.9375rem' }}>FAQ</a></li>
                                 <li><a href="#pricing" className="nav-link" style={{ fontSize: '0.9375rem' }}>Pricing</a></li>
+                                <li><a href="#features" className="nav-link" style={{ fontSize: '0.9375rem' }}>Features</a></li>
+
                                 <li><a href="#how-it-works" className="nav-link" style={{ fontSize: '0.9375rem' }}>How It Works</a></li>
+
                             </ul>
                         </div>
 

@@ -1,6 +1,8 @@
 ﻿import Link from 'next/link';
 import { ArrowLeft, Shield } from 'lucide-react';
 import type { Metadata } from 'next';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
     title: "Privacy Policy | SEOScribes",
@@ -10,32 +12,24 @@ export const metadata: Metadata = {
 export default function PrivacyPage() {
     return (
         <div style={{ fontFamily: 'Inter, sans-serif', background: 'var(--bg-secondary)', minHeight: '100vh' }}>
-            {/* Header */}
-            <header style={{
-                background: 'white',
-                borderBottom: '1px solid var(--border-light)',
-                padding: '1rem 0'
-            }}>
-                <div className="container" style={{ maxWidth: '1200px' }}>
-                    <Link href="/" style={{
-                        display: 'inline-flex',
-                        alignItems: 'center',
-                        gap: '0.5rem',
-                        color: 'var(--text-secondary)',
-                        textDecoration: 'none',
-                        fontSize: '0.9375rem',
-                        fontWeight: 500
-                    }} className="nav-link">
-                        <ArrowLeft size={18} />
-                        Back to Home
-                    </Link>
-                </div>
-            </header>
+            <Header />
 
             {/* Hero Section */}
-            <section style={{ padding: '4rem 0 2rem', background: 'white' }}>
+            <section style={{ padding: '6rem 0 2rem', background: 'white' }}>
                 <div className="container" style={{ maxWidth: '800px', textAlign: 'center' }}>
-                    <Shield size={48} style={{ color: 'var(--primary-600)', margin: '0 auto 1.5rem' }} />
+                    <div style={{
+                        display: 'inline-flex',
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                        width: '64px',
+                        height: '64px',
+                        background: 'var(--primary-50)',
+                        borderRadius: '16px',
+                        marginBottom: '1.5rem',
+                        color: 'var(--primary-600)'
+                    }}>
+                        <Shield size={32} />
+                    </div>
                     <h1 style={{
                         fontSize: '3rem',
                         fontWeight: 800,
@@ -49,13 +43,13 @@ export default function PrivacyPage() {
                         fontSize: '1rem',
                         color: 'var(--text-secondary)'
                     }}>
-                        Last updated: January 5, 2025
+                        Last updated: January 20, 2026
                     </p>
                 </div>
             </section>
 
             {/* Content */}
-            <section style={{ padding: '2rem 0 4rem', background: 'white' }}>
+            <section style={{ padding: '2rem 0 6rem', background: 'white' }}>
                 <div className="container" style={{ maxWidth: '800px' }}>
                     <div style={{ fontSize: '1rem', color: 'var(--text-secondary)', lineHeight: 1.8 }}>
 
@@ -66,6 +60,7 @@ export default function PrivacyPage() {
                             <p style={{ marginBottom: '1rem' }}>
                                 SEOScribes Inc. ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains
                                 how we collect, use, disclose, and safeguard your information when you use our SEO platform and services.
+                                Our platform is designed to help you analyze search data from Google Search Console and GA4 to improve your rankings.
                             </p>
                         </section>
 
@@ -82,19 +77,20 @@ export default function PrivacyPage() {
                             </p>
 
                             <h3 style={{ fontSize: '1.125rem', fontWeight: 600, marginBottom: '0.75rem', color: 'var(--text-primary)' }}>
-                                Google Search Console Data
+                                Search Console & GA4 Data
                             </h3>
                             <p style={{ marginBottom: '1rem' }}>
-                                When you connect your Google Search Console, we access and store search performance data including
-                                queries, impressions, clicks, and positions. This data is used solely to provide our SEO analysis services.
+                                To provide our core services, SEOScribes requests access to your Google Search Console (GSC) and GA4 data.
+                                We pull and store search performance data including queries, impressions, clicks, positions, and traffic trends.
+                                This data is used exclusively to identify ranking drops, content gaps, and optimization opportunities for your site.
                             </p>
 
                             <h3 style={{ fontSize: '1.125rem', fontWeight: 600, marginBottom: '0.75rem', color: 'var(--text-primary)' }}>
-                                Usage Data
+                                CMS Integration Data
                             </h3>
                             <p style={{ marginBottom: '1rem' }}>
-                                We automatically collect information about how you interact with our platform, including pages visited,
-                                features used, and time spent on the platform.
+                                If you connect your CMS (e.g., WordPress), we store the necessary credentials and URL endpoints to facilitate
+                                automated publishing and content updates directly from the platform.
                             </p>
                         </section>
 
@@ -103,11 +99,11 @@ export default function PrivacyPage() {
                                 How We Use Your Information
                             </h2>
                             <ul style={{ paddingLeft: '1.5rem', marginBottom: '1rem' }}>
-                                <li style={{ marginBottom: '0.5rem' }}>Provide and maintain our SEO analysis and content generation services</li>
-                                <li style={{ marginBottom: '0.5rem' }}>Analyze your search performance and identify optimization opportunities</li>
-                                <li style={{ marginBottom: '0.5rem' }}>Send you service updates, security alerts, and support messages</li>
-                                <li style={{ marginBottom: '0.5rem' }}>Improve and develop new features for our platform</li>
-                                <li style={{ marginBottom: '0.5rem' }}>Comply with legal obligations and enforce our terms</li>
+                                <li style={{ marginBottom: '0.5rem' }}>Provide automated SEO analysis and content recovery suggestions</li>
+                                <li style={{ marginBottom: '0.5rem' }}>Generate optimized content using real performance data</li>
+                                <li style={{ marginBottom: '0.5rem' }}>Facilitate direct publishing to your connected CMS</li>
+                                <li style={{ marginBottom: '0.5rem' }}>Improve our AI models and platform performance</li>
+                                <li style={{ marginBottom: '0.5rem' }}>Maintain security and prevent unauthorized access</li>
                             </ul>
                         </section>
 
@@ -117,8 +113,8 @@ export default function PrivacyPage() {
                             </h2>
                             <p style={{ marginBottom: '1rem' }}>
                                 We implement industry-standard security measures to protect your data, including encryption at rest and
-                                in transit, secure authentication, and regular security audits. However, no method of transmission over
-                                the internet is 100% secure.
+                                in transit. We follow strict protocols when handling your GSC and GA4 OAuth tokens to ensure they are
+                                only used for the purposes you have authorized.
                             </p>
                         </section>
 
@@ -127,58 +123,19 @@ export default function PrivacyPage() {
                                 Data Sharing
                             </h2>
                             <p style={{ marginBottom: '1rem' }}>
-                                We do not sell your personal information. We may share your data with:
-                            </p>
-                            <ul style={{ paddingLeft: '1.5rem', marginBottom: '1rem' }}>
-                                <li style={{ marginBottom: '0.5rem' }}>Service providers who help us operate our platform (e.g., hosting, analytics)</li>
-                                <li style={{ marginBottom: '0.5rem' }}>Law enforcement when required by law</li>
-                                <li style={{ marginBottom: '0.5rem' }}>Other parties with your explicit consent</li>
-                            </ul>
-                        </section>
-
-                        <section style={{ marginBottom: '3rem' }}>
-                            <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1rem', color: 'var(--text-primary)' }}>
-                                Your Rights
-                            </h2>
-                            <p style={{ marginBottom: '1rem' }}>
-                                You have the right to:
-                            </p>
-                            <ul style={{ paddingLeft: '1.5rem', marginBottom: '1rem' }}>
-                                <li style={{ marginBottom: '0.5rem' }}>Access and download your data</li>
-                                <li style={{ marginBottom: '0.5rem' }}>Correct inaccurate information</li>
-                                <li style={{ marginBottom: '0.5rem' }}>Delete your account and associated data</li>
-                                <li style={{ marginBottom: '0.5rem' }}>Opt-out of marketing communications</li>
-                                <li style={{ marginBottom: '0.5rem' }}>Revoke Google Search Console access at any time</li>
-                            </ul>
-                        </section>
-
-                        <section style={{ marginBottom: '3rem' }}>
-                            <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1rem', color: 'var(--text-primary)' }}>
-                                Cookies and Tracking
-                            </h2>
-                            <p style={{ marginBottom: '1rem' }}>
-                                We use cookies and similar technologies to maintain your session, remember your preferences, and analyze
-                                platform usage. You can control cookies through your browser settings.
+                                We do not sell your personal information. Your integration data (GSC/GA4) is never shared with third parties
+                                for their own use. We only share data with service providers necessary to operate our platform (e.g., cloud hosting).
                             </p>
                         </section>
 
                         <section style={{ marginBottom: '3rem' }}>
                             <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1rem', color: 'var(--text-primary)' }}>
-                                Data Retention
+                                Your Rights and Controls
                             </h2>
                             <p style={{ marginBottom: '1rem' }}>
-                                We retain your data for as long as your account is active or as needed to provide services. When you
-                                delete your account, we will delete your personal information within 30 days, except where required by law.
-                            </p>
-                        </section>
-
-                        <section style={{ marginBottom: '3rem' }}>
-                            <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1rem', color: 'var(--text-primary)' }}>
-                                Changes to This Policy
-                            </h2>
-                            <p style={{ marginBottom: '1rem' }}>
-                                We may update this Privacy Policy from time to time. We will notify you of significant changes via email
-                                or through the platform. Your continued use of SEOScribes after changes constitutes acceptance of the updated policy.
+                                You have full control over your data. You can disconnect your Google Search Console, GA4, or CMS at any time
+                                through the platform settings, which will immediately cease our access to those services.
+                                You may also request a full deletion of your account and all associated data.
                             </p>
                         </section>
 
@@ -187,19 +144,16 @@ export default function PrivacyPage() {
                                 Contact Us
                             </h2>
                             <p style={{ marginBottom: '1rem' }}>
-                                If you have questions about this Privacy Policy or our data practices, please contact us at:
-                            </p>
-                            <p style={{ marginBottom: '0.5rem' }}>
-                                Email: <a href="mailto:privacy@seoscribes.com" style={{ color: 'var(--primary-600)', textDecoration: 'none' }}>privacy@seoscribes.com</a>
-                            </p>
-                            <p>
-                                Address: SEOScribes Inc., 123 SEO Street, San Francisco, CA 94104
+                                If you have questions about this Privacy Policy, please contact us at:
+                                <br />
+                                <strong>Email:</strong> support@seoscribes.com
                             </p>
                         </section>
 
                     </div>
                 </div>
             </section>
+            <Footer />
         </div>
     );
 }

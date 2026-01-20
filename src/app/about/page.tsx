@@ -1,6 +1,8 @@
 ﻿import Link from 'next/link';
-import { ArrowLeft, Target, Users, Heart } from 'lucide-react';
+import { Target, Users, Heart } from 'lucide-react';
 import type { Metadata } from 'next';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
   title: "About Us | SEOScribes",
@@ -10,36 +12,16 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   return (
     <div style={{ fontFamily: 'Inter, sans-serif', background: 'var(--bg-secondary)', minHeight: '100vh' }}>
-      {/* Header */}
-      <header style={{
-        background: 'white',
-        borderBottom: '1px solid var(--border-light)',
-        padding: '1rem 0'
-      }}>
-        <div className="container" style={{ maxWidth: '1200px' }}>
-          <Link href="/" style={{
-            display: 'inline-flex',
-            alignItems: 'center',
-            gap: '0.5rem',
-            color: 'var(--text-secondary)',
-            textDecoration: 'none',
-            fontSize: '0.9375rem',
-            fontWeight: 500
-          }} className="nav-link">
-            <ArrowLeft size={18} />
-            Back to Home
-          </Link>
-        </div>
-      </header>
+      <Header />
 
       {/* Hero Section */}
-      <section style={{ padding: '4rem 0', background: 'white' }}>
+      <section style={{ padding: '6rem 0 4rem', background: 'white' }}>
         <div className="container" style={{ maxWidth: '800px', textAlign: 'center' }}>
           <h1 style={{
-            fontSize: '3rem',
+            fontSize: '3.5rem',
             fontWeight: 800,
-            marginBottom: '1rem',
-            letterSpacing: '-0.03em',
+            marginBottom: '1.5rem',
+            letterSpacing: '-0.04em',
             color: 'var(--text-primary)'
           }}>
             About SEOScribes
@@ -79,11 +61,12 @@ export default function AboutPage() {
               }
             ].map((item, i) => (
               <div key={i} style={{
-                padding: '2rem',
+                padding: '2.5rem',
                 background: 'white',
-                borderRadius: '12px',
+                borderRadius: '16px',
                 border: '1px solid var(--border-light)',
-                textAlign: 'center'
+                textAlign: 'center',
+                boxShadow: '0 4px 6px rgba(0,0,0,0.02)'
               }}>
                 <div style={{
                   width: '56px',
@@ -94,7 +77,7 @@ export default function AboutPage() {
                   display: 'flex',
                   alignItems: 'center',
                   justifyContent: 'center',
-                  margin: '0 auto 1rem'
+                  margin: '0 auto 1.5rem'
                 }}>
                   <item.icon size={28} />
                 </div>
@@ -107,7 +90,7 @@ export default function AboutPage() {
                   {item.title}
                 </h3>
                 <p style={{
-                  fontSize: '0.9375rem',
+                  fontSize: '1rem',
                   color: 'var(--text-secondary)',
                   lineHeight: 1.6
                 }}>
@@ -120,17 +103,18 @@ export default function AboutPage() {
       </section>
 
       {/* Story Section */}
-      <section style={{ padding: '4rem 0', background: 'white' }}>
+      <section style={{ padding: '6rem 0', background: 'white' }}>
         <div className="container" style={{ maxWidth: '800px' }}>
           <h2 style={{
-            fontSize: '2rem',
-            fontWeight: 700,
-            marginBottom: '1.5rem',
-            color: 'var(--text-primary)'
+            fontSize: '2.5rem',
+            fontWeight: 800,
+            marginBottom: '2rem',
+            color: 'var(--text-primary)',
+            letterSpacing: '-0.02em'
           }}>
             Our Story
           </h2>
-          <div style={{ fontSize: '1rem', color: 'var(--text-secondary)', lineHeight: 1.8, display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+          <div style={{ fontSize: '1.125rem', color: 'var(--text-secondary)', lineHeight: 1.8, display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
             <p>
               SEOScribes was born from frustration. As content marketers ourselves, we watched our carefully crafted articles
               lose rankings overnight. By the time we noticed in our monthly reports, thousands of visitors were already gone.
@@ -144,7 +128,7 @@ export default function AboutPage() {
               but automatically detects them, generates solutions, and helps you maintain your rankings.
             </p>
             <p>
-              Today, SEOScribes helps over 500+ content teams automate their SEO workflow, recover lost traffic,
+              Today, SEOScribes helps content teams automate their SEO workflow, recover lost traffic,
               and stay ahead of algorithm updates. We're just getting started.
             </p>
           </div>
@@ -152,19 +136,32 @@ export default function AboutPage() {
       </section>
 
       {/* Team Section */}
-      <section style={{ padding: '4rem 0', background: 'var(--bg-secondary)' }}>
+      <section style={{ padding: '6rem 0', background: 'var(--bg-secondary)' }}>
         <div className="container" style={{ maxWidth: '800px', textAlign: 'center' }}>
-          <Users size={48} style={{ color: 'var(--primary-600)', margin: '0 auto 1rem' }} />
+          <div style={{
+            width: '64px',
+            height: '64px',
+            background: 'var(--primary-50)',
+            borderRadius: '16px',
+            color: 'var(--primary-600)',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            margin: '0 auto 1.5rem'
+          }}>
+            <Users size={32} />
+          </div>
           <h2 style={{
-            fontSize: '2rem',
-            fontWeight: 700,
-            marginBottom: '1rem',
-            color: 'var(--text-primary)'
+            fontSize: '2.5rem',
+            fontWeight: 800,
+            marginBottom: '1.5rem',
+            color: 'var(--text-primary)',
+            letterSpacing: '-0.02em'
           }}>
             Built by SEO Practitioners
           </h2>
           <p style={{
-            fontSize: '1.125rem',
+            fontSize: '1.25rem',
             color: 'var(--text-secondary)',
             lineHeight: 1.6
           }}>
@@ -175,33 +172,36 @@ export default function AboutPage() {
       </section>
 
       {/* CTA Section */}
-      <section style={{ padding: '4rem 0', background: 'white' }}>
+      <section style={{ padding: '6rem 0', background: 'white' }}>
         <div className="container" style={{ maxWidth: '600px', textAlign: 'center' }}>
           <h2 style={{
-            fontSize: '2rem',
-            fontWeight: 700,
+            fontSize: '2.5rem',
+            fontWeight: 800,
             marginBottom: '1rem',
-            color: 'var(--text-primary)'
+            color: 'var(--text-primary)',
+            letterSpacing: '-0.02em'
           }}>
             Join Us on This Journey
           </h2>
           <p style={{
             fontSize: '1.125rem',
             color: 'var(--text-secondary)',
-            marginBottom: '2rem',
+            marginBottom: '2.5rem',
             lineHeight: 1.6
           }}>
             Start automating your SEO workflow today with SEOScribes.
           </p>
-          <Link href="/register" className="btn btn-primary" style={{
-            padding: '0.75rem 2rem',
-            fontSize: '1rem',
-            fontFamily: 'Inter, sans-serif'
+          <Link href="https://app.seoscribes.com/" className="btn btn-primary" style={{
+            padding: '1rem 2.5rem',
+            fontSize: '1.125rem',
+            fontFamily: 'Inter, sans-serif',
+            textDecoration: 'none'
           }}>
             Get Started Free
           </Link>
         </div>
       </section>
+      <Footer />
     </div>
   );
 }
