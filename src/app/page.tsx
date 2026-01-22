@@ -1,5 +1,6 @@
 ﻿'use client';
 
+import { useEffect } from 'react';
 import DashboardPreview from '@/components/DashboardPreview';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -27,10 +28,51 @@ import {
 const APP_URL = process.env.NEXT_PUBLIC_APP_URL || 'https://app.seoscribes.com/';
 
 export default function LandingPage() {
+  useEffect(() => {
+    // Only scroll to top if there's no hash in the URL
+    if (!window.location.hash) {
+      window.history.scrollRestoration = 'manual';
+      window.scrollTo(0, 0);
+    }
+  }, []);
 
   return (
     <div className="page-wrapper" style={{ fontFamily: 'Inter, sans-serif', background: 'var(--bg-secondary)' }}>
       <style jsx>{`
+        body {
+          overflow-x: hidden;
+        }
+        .mobile-break {
+          display: none;
+        }
+        .desktop-break {
+          display: inline;
+        }
+        @media (max-width: 768px) {
+          .mobile-break {
+            display: inline;
+          }
+          .desktop-break {
+            display: none;
+          }
+          .hero-buttons {
+            gap: 0.75rem !important;
+          }
+          .hero-buttons .btn {
+            padding: 0 1.25rem !important;
+            font-size: 0.9375rem !important;
+            height: 44px !important;
+          }
+          .hero-h1 {
+            font-size: 2rem !important;
+            line-height: 1.2 !important;
+          }
+          .section-heading {
+            font-size: 1.75rem !important;
+            line-height: 1.3 !important;
+            padding: 0 1rem !important;
+          }
+        }
         .hero-grid-pattern {
           position: absolute;
           inset: 0;
@@ -72,22 +114,20 @@ export default function LandingPage() {
         @media (max-width: 768px) {
           .stats-row {
             gap: 0.75rem !important;
-            flex-wrap: nowrap !important;
-            justify-content: flex-start !important;
-            overflow-x: auto !important;
-            padding: 0 1rem 1rem !important;
-            margin: 0 -1.5rem !important;
-            -webkit-overflow-scrolling: touch;
-            scrollbar-width: none;
-          }
-          .stats-row::-webkit-scrollbar {
-            display: none;
+            flex-wrap: wrap !important;
+            justify-content: center !important;
+            padding: 0 !important;
+            margin: 0 0 1.5rem 0 !important;
           }
           .stat-item {
-            flex: 0 0 auto !important;
-            padding: 0.6rem 0.75rem !important;
-            gap: 0.6rem !important;
+            flex: 0 0 calc(50% - 0.375rem) !important;
+            padding: 0.75rem !important;
+            gap: 0.5rem !important;
             border-radius: 12px !important;
+          }
+          .stat-item:nth-child(3) {
+            flex: 0 0 100% !important;
+            justify-content: center !important;
           }
           .stat-icon-wrapper {
             width: 32px !important;
@@ -187,13 +227,13 @@ export default function LandingPage() {
             fontFamily: 'Inter, sans-serif'
           }}>
             <Sparkles size={14} className="text-primary-600" />
-            <span style={{ fontSize: '0.875rem', fontWeight: 600, color: 'var(--text-secondary)' }}>
+            <span style={{ fontSize: '0.875rem', fontWeight: 600, color: 'var(--text-secondary)', lineHeight: 1.4 }}>
               New: AI-Powered Content Decay Detection & Recovery
             </span>
             <ChevronRight size={14} style={{ color: 'var(--gray-400)' }} />
           </div>
 
-          <h1 style={{
+          <h1 className="hero-h1" style={{
             fontSize: '3.5rem',
             fontFamily: 'Inter, sans-serif',
             fontWeight: 800,
@@ -205,7 +245,7 @@ export default function LandingPage() {
             WebkitBackgroundClip: 'text',
             WebkitTextFillColor: 'transparent'
           }}>
-            Rank and Grow Your Content <br />
+            Rank and Grow Your Content{' '}
             <span style={{
               background: 'linear-gradient(90deg, var(--primary-500) 0%, var(--primary-600) 100%)',
               WebkitBackgroundClip: 'text',
@@ -226,7 +266,7 @@ export default function LandingPage() {
             Scale your content growth with an AI-driven platform built on actual performance data — wherever your customers search.
           </p>
 
-          <div style={{ display: 'flex', gap: '1.25rem', marginBottom: '4rem', flexWrap: 'wrap', justifyContent: 'center' }}>
+          <div className="hero-buttons" style={{ display: 'flex', gap: '1.25rem', marginBottom: '4rem', flexWrap: 'wrap', justifyContent: 'center' }}>
             <a href={APP_URL} className="btn btn-primary" style={{
               padding: '0 2rem',
               fontSize: '1.0625rem',
@@ -237,7 +277,7 @@ export default function LandingPage() {
               boxShadow: '0 10px 20px -5px rgba(79, 70, 229, 0.3)',
               border: 'none'
             }}>
-              Start Free Trial <ArrowRight size={20} />
+              Get Started Free <ArrowRight size={20} />
             </a>
             <a href="#how-it-works" className="btn" style={{
               background: 'white',
@@ -911,7 +951,7 @@ export default function LandingPage() {
       <section id="comparison" style={{ padding: '6rem 0', background: 'white' }}>
         <div className="container" style={{ maxWidth: '1200px' }}>
           <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
-            <h2 style={{
+            <h2 className="section-heading" style={{
               fontSize: '2.75rem',
               fontFamily: 'Inter, sans-serif',
               fontWeight: 800,
@@ -1185,7 +1225,7 @@ export default function LandingPage() {
                   'AI Answer Optimization',
                   'Email Support'
                 ],
-                cta: 'Start Free Trial',
+                cta: 'Get Started Free',
                 link: APP_URL,
                 highlight: false,
                 badge: null
@@ -1202,7 +1242,7 @@ export default function LandingPage() {
                   'Performance Monitoring',
                   'Priority Support'
                 ],
-                cta: 'Start Free Trial',
+                cta: 'Get Started Free',
                 link: APP_URL,
                 highlight: true,
                 badge: 'Most Popular'
@@ -1317,7 +1357,7 @@ export default function LandingPage() {
             fontFamily: 'Inter, sans-serif',
             color: 'var(--text-tertiary)'
           }}>
-            All paid plans include a 14-day free trial • Cancel anytime
+            Free forever • No credit card required • Cancel anytime
           </p>
         </div>
       </section>
@@ -1383,7 +1423,7 @@ export default function LandingPage() {
               }} className="faq-item">
                 <summary style={{
                   fontSize: '1.125rem',
-                  fontWeight: 700,
+                  fontWeight: 600,
                   fontFamily: 'Inter, sans-serif',
                   color: 'var(--text-primary)',
                   listStyle: 'none',
@@ -1443,17 +1483,17 @@ export default function LandingPage() {
           </p>
           <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap' }}>
             <a href={APP_URL} className="btn" style={{
-              padding: '0 2.5rem',
-              fontSize: '1.125rem',
-              height: '60px',
-              borderRadius: '14px',
+              padding: '0 2rem',
+              fontSize: '1.0625rem',
+              height: '54px',
+              borderRadius: '12px',
               background: 'white',
               color: 'var(--primary-600)',
               fontWeight: 700,
               fontFamily: 'Inter, sans-serif',
               boxShadow: '0 20px 40px -10px rgba(0,0,0,0.2)'
             }}>
-              Start Your Free Trial <ArrowRight size={22} />
+              Get Started Free <ArrowRight size={20} />
             </a>
           </div>
           <p style={{
@@ -1462,7 +1502,7 @@ export default function LandingPage() {
             fontFamily: 'Inter, sans-serif',
             opacity: 0.8
           }}>
-            No credit card required • 14-day free trial • Cancel anytime
+            No credit card required • Free forever • Cancel anytime
           </p>
         </div>
       </section>

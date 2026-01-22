@@ -42,7 +42,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" style={{ scrollBehavior: 'smooth' }}>
       <head>
         <link rel="icon" href="/images/seoscibesfavicon.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
