@@ -55,6 +55,10 @@ export default function LandingPage() {
           .desktop-break {
             display: none;
           }
+          .hero-h1-part1,
+          .hero-h1-part2 {
+            display: inline !important;
+          }
           .hero-buttons {
             gap: 0.75rem !important;
           }
@@ -245,8 +249,8 @@ export default function LandingPage() {
             WebkitBackgroundClip: 'text',
             WebkitTextFillColor: 'transparent'
           }}>
-            Rank and Grow Your Content{' '}
-            <span style={{
+            <span className="hero-h1-part1">Rank and Grow Your Content{' '}</span>
+            <span className="hero-h1-part2" style={{
               background: 'linear-gradient(90deg, var(--primary-500) 0%, var(--primary-600) 100%)',
               WebkitBackgroundClip: 'text',
               WebkitTextFillColor: 'transparent',
