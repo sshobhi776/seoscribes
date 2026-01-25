@@ -1,6 +1,6 @@
 ﻿'use client';
 
-import { useEffect } from 'react';
+import { useEffect, Fragment } from 'react';
 import DashboardPreview from '@/components/DashboardPreview';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -22,7 +22,8 @@ import {
   Zap,
   ShieldCheck,
   Layout,
-  Check
+  Check,
+  Globe
 } from 'lucide-react';
 
 const APP_URL = process.env.NEXT_PUBLIC_APP_URL || 'https://app.seoscribes.com/';
@@ -38,176 +39,13 @@ export default function LandingPage() {
 
   return (
     <div className="page-wrapper" style={{ fontFamily: 'Inter, sans-serif', background: 'var(--bg-secondary)' }}>
-      <style jsx>{`
-        body {
-          overflow-x: hidden;
-        }
-        .mobile-break {
-          display: none;
-        }
-        .desktop-break {
-          display: inline;
-        }
-        @media (max-width: 768px) {
-          .mobile-break {
-            display: inline;
-          }
-          .desktop-break {
-            display: none;
-          }
-          .hero-h1-part1,
-          .hero-h1-part2 {
-            display: inline !important;
-          }
-          .hero-buttons {
-            gap: 0.75rem !important;
-          }
-          .hero-buttons .btn {
-            padding: 0 1.25rem !important;
-            font-size: 0.9375rem !important;
-            height: 44px !important;
-          }
-          .hero-h1 {
-            font-size: 2rem !important;
-            line-height: 1.2 !important;
-          }
-          .section-heading {
-            font-size: 1.75rem !important;
-            line-height: 1.3 !important;
-            padding: 0 1rem !important;
-          }
-        }
-        .hero-grid-pattern {
-          position: absolute;
-          inset: 0;
-          background-image: 
-            linear-gradient(to right, var(--primary-100) 1px, transparent 1px),
-            linear-gradient(to bottom, var(--primary-100) 1px, transparent 1px);
-          background-size: 40px 40px;
-          mask-image: radial-gradient(circle at 50% 0%, black 10%, transparent 80%);
-          -webkit-mask-image: radial-gradient(circle at 50% 0%, black 10%, transparent 80%);
-          opacity: 0.5;
-          pointer-events: none;
-          z-index: 0;
-        }
-        .hero-glow-effect {
-          position: absolute;
-          top: 0;
-          left: 50%;
-          transform: translateX(-50%);
-          width: 100%;
-          height: 100%;
-          background: radial-gradient(circle at 50% 0%, rgba(99, 102, 241, 0.15) 0%, transparent 50%);
-          z-index: 1;
-          pointer-events: none;
-          animation: pulse-glow 8s ease-in-out infinite;
-        }
-        @keyframes pulse-glow {
-          0%, 100% { opacity: 0.7; transform: translateX(-50%) scale(1); }
-          50% { opacity: 1; transform: translateX(-50%) scale(1.1); }
-        }
-        @media (max-width: 1024px) {
-          .how-it-works-step > div {
-            grid-template-columns: 1fr !important;
-            direction: ltr !important;
-          }
-          .how-it-works-step > div > div:last-child {
-            height: 350px !important;
-          }
-        }
-        @media (max-width: 768px) {
-          .stats-row {
-            gap: 0.75rem !important;
-            flex-wrap: wrap !important;
-            justify-content: center !important;
-            padding: 0 !important;
-            margin: 0 0 1.5rem 0 !important;
-          }
-          .stat-item {
-            flex: 0 0 calc(50% - 0.375rem) !important;
-            padding: 0.75rem !important;
-            gap: 0.5rem !important;
-            border-radius: 12px !important;
-          }
-          .stat-item:nth-child(3) {
-            flex: 0 0 100% !important;
-            justify-content: center !important;
-          }
-          .stat-icon-wrapper {
-            width: 32px !important;
-            height: 32px !important;
-            border-radius: 8px !important;
-          }
-          .stat-icon-wrapper :global(svg) {
-            width: 16px !important;
-            height: 16px !important;
-          }
-          .stat-value {
-            font-size: 1.15rem !important;
-          }
-          .stat-label {
-            font-size: 0.65rem !important;
-          }
-        }
-        .faq-item[open] summary span {
-          transform: rotate(45deg);
-        }
-        summary::-webkit-details-marker {
-          display: none;
-        }
-        .how-it-works-step {
-          transition: none;
-        }
-        .how-it-works-step:hover {
-          transform: none;
-          box-shadow: 0 4px 6px rgba(0,0,0,0.02) !important;
-        }
-        .points-box {
-          transition: none;
-        }
-        .how-it-works-step:hover .points-box {
-          border-color: var(--border-light) !important;
-          box-shadow: none;
-        }
-        .step-illustration {
-          transition: none;
-        }
-        .how-it-works-step:hover .step-illustration {
-          transform: none;
-        }
-        .cta-grid-pattern {
-          position: absolute;
-          inset: 0;
-          background-image: 
-            linear-gradient(to right, rgba(255, 255, 255, 0.1) 1px, transparent 1px),
-            linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
-          background-size: 30px 30px;
-          mask-image: radial-gradient(circle at 50% 50%, black 30%, transparent 90%);
-          -webkit-mask-image: radial-gradient(circle at 50% 50%, black 30%, transparent 90%);
-          opacity: 0.5;
-          pointer-events: none;
-          z-index: 0;
-        }
-        .cta-glow-effect {
-          position: absolute;
-          inset: 0;
-          background: radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.1) 0%, transparent 60%);
-          z-index: 1;
-          pointer-events: none;
-          animation: pulse-glow-cta 6s ease-in-out infinite;
-        }
-        @keyframes pulse-glow-cta {
-          0%, 100% { opacity: 0.4; transform: scale(1); }
-          50% { opacity: 0.8; transform: scale(1.1); }
-        }
-      `}</style>
 
       <Header />
 
       {/* HERO SECTION */}
       <section style={{
         position: 'relative',
-        padding: '6rem 0 4rem',
+        padding: '12rem 0 6rem',
         overflow: 'hidden',
         background: 'var(--bg-secondary)'
       }}>
@@ -218,18 +56,7 @@ export default function LandingPage() {
         <div className="hero-glow-effect" />
 
         <div className="container" style={{ position: 'relative', zIndex: 10, maxWidth: '1200px', display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center' }}>
-          <div style={{
-            display: 'inline-flex',
-            alignItems: 'center',
-            gap: '0.5rem',
-            padding: '0.375rem 0.875rem',
-            borderRadius: '999px',
-            background: 'white',
-            border: '1px solid var(--primary-100)',
-            boxShadow: '0 1px 2px rgba(0,0,0,0.05)',
-            marginBottom: '1.5rem',
-            fontFamily: 'Inter, sans-serif'
-          }}>
+          <div className="hero-badge hero-entrance">
             <Sparkles size={14} className="text-primary-600" />
             <span style={{ fontSize: '0.875rem', fontWeight: 600, color: 'var(--text-secondary)', lineHeight: 1.4 }}>
               New: AI-Powered Content Decay Detection & Recovery
@@ -237,49 +64,37 @@ export default function LandingPage() {
             <ChevronRight size={14} style={{ color: 'var(--gray-400)' }} />
           </div>
 
-          <h1 className="hero-h1" style={{
-            fontSize: '3.5rem',
-            fontFamily: 'Inter, sans-serif',
-            fontWeight: 800,
-            lineHeight: 1.1,
-            letterSpacing: '-0.03em',
-            marginBottom: '1.5rem',
-            maxWidth: '900px',
-            background: 'linear-gradient(180deg, var(--gray-900) 0%, var(--gray-700) 100%)',
-            WebkitBackgroundClip: 'text',
-            WebkitTextFillColor: 'transparent'
-          }}>
-            <span className="hero-h1-part1">Rank and Grow Your Content{' '}</span>
+          <h1 className="hero-h1 hero-entrance delay-1">
+            <span className="hero-h1-part1" style={{
+              background: 'linear-gradient(180deg, var(--gray-900) 0%, var(--gray-600) 100%)',
+              WebkitBackgroundClip: 'text',
+              WebkitTextFillColor: 'transparent',
+            }}>Rank and Grow Your Content{' '}</span>
+            <br className="desktop-break" />
             <span className="hero-h1-part2" style={{
               background: 'linear-gradient(90deg, var(--primary-500) 0%, var(--primary-600) 100%)',
               WebkitBackgroundClip: 'text',
               WebkitTextFillColor: 'transparent',
               display: 'inline-block'
-            }}>Across Search & AI Engines</span>
+            }}>Across AI & Search Engines</span>
           </h1>
 
-          <p style={{
-            fontSize: '1.25rem',
-            fontFamily: 'Inter, sans-serif',
-            color: 'var(--text-secondary)',
-            marginBottom: '2.5rem',
-            maxWidth: '700px',
-            lineHeight: 1.6
-          }}>
+          <p className="hero-p hero-entrance delay-2">
             Dominate search rankings and gain visibility in ChatGPT, Perplexity, and Google SGE.
             Scale your content growth with an AI-driven platform built on actual performance data — wherever your customers search.
           </p>
 
-          <div className="hero-buttons" style={{ display: 'flex', gap: '1.25rem', marginBottom: '4rem', flexWrap: 'wrap', justifyContent: 'center' }}>
-            <a href={APP_URL} className="btn btn-primary" style={{
-              padding: '0 2rem',
-              fontSize: '1.0625rem',
-              height: '54px',
-              borderRadius: '12px',
+          <div className="hero-buttons hero-entrance delay-3" style={{ display: 'flex', gap: '1.25rem', marginBottom: '5rem', flexWrap: 'wrap', justifyContent: 'center' }}>
+            <a href={APP_URL} className="btn btn-primary btn-shimmer" style={{
+              padding: '0 2.5rem',
+              fontSize: '1.125rem',
+              height: '56px',
+              borderRadius: '14px',
               fontFamily: 'Inter, sans-serif',
               fontWeight: 600,
-              boxShadow: '0 10px 20px -5px rgba(79, 70, 229, 0.3)',
-              border: 'none'
+              boxShadow: '0 20px 40px -10px rgba(79, 70, 229, 0.4)',
+              border: 'none',
+              transition: 'all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275)'
             }}>
               Get Started Free <ArrowRight size={20} />
             </a>
@@ -287,9 +102,9 @@ export default function LandingPage() {
               background: 'white',
               border: '1px solid var(--border-color)',
               padding: '0 2rem',
-              fontSize: '1.0625rem',
-              height: '54px',
-              borderRadius: '12px',
+              fontSize: '1.125rem',
+              height: '56px',
+              borderRadius: '14px',
               color: 'var(--text-primary)',
               display: 'flex',
               alignItems: 'center',
@@ -297,48 +112,33 @@ export default function LandingPage() {
               fontFamily: 'Inter, sans-serif',
               fontWeight: 600,
               boxShadow: '0 1px 2px rgba(0,0,0,0.05)',
-              textDecoration: 'none'
+              textDecoration: 'none',
+              transition: 'all 0.3s ease'
             }}>
               How It Works <ChevronRight size={20} />
             </a>
           </div>
 
           {/* Stats Row */}
-          <div className="stats-row" style={{
+          <div className="stats-row hero-entrance delay-4" style={{
             display: 'flex',
-            gap: '2.5rem',
-            marginBottom: '5rem',
+            gap: '2rem',
+            marginBottom: '6rem',
             flexWrap: 'nowrap',
             justifyContent: 'center',
             fontFamily: 'Inter, sans-serif'
           }}>
             {[
-              { value: '127%', label: 'Avg Traffic Increase', icon: TrendingUp, color: '#10B981' },
-              { value: '3.2x', label: 'Faster Content Creation', icon: Zap, color: '#6366F1' },
-              { value: '89%', label: 'Ranking Recovery Rate', icon: ShieldCheck, color: '#F59E0B' }
+              { value: '127%', label: 'Avg Traffic Increase', icon: TrendingUp, color: '#10B981', bg: 'rgba(16, 185, 129, 0.1)' },
+              { value: '3.2x', label: 'Faster Content Creation', icon: Zap, color: '#6366F1', bg: 'rgba(99, 102, 241, 0.1)' },
+              { value: '89%', label: 'Ranking Recovery Rate', icon: ShieldCheck, color: '#F59E0B', bg: 'rgba(245, 158, 11, 0.1)' }
             ].map((stat, i) => (
-              <div key={i} className="stat-item" style={{
-                display: 'flex',
-                alignItems: 'center',
-                gap: '1.25rem',
-                background: 'white',
-                padding: '1.25rem 2rem',
-                borderRadius: '20px',
-                border: '1px solid var(--border-color)',
-                boxShadow: '0 4px 6px -1px rgba(0,0,0,0.02), 0 2px 4px -1px rgba(0,0,0,0.01)'
-              }}>
-                <div className="stat-icon-wrapper" style={{
-                  width: '40px',
-                  height: '40px',
-                  borderRadius: '10px',
-                  background: `${stat.color}10`,
+              <div key={i} className="stat-card">
+                <div className="stat-icon-box" style={{
+                  background: stat.bg,
                   color: stat.color,
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  flexShrink: 0
                 }}>
-                  <stat.icon size={20} />
+                  <stat.icon size={22} />
                 </div>
                 <div style={{ textAlign: 'left' }}>
                   <div className="stat-value" style={{
@@ -365,7 +165,21 @@ export default function LandingPage() {
           </div>
 
           {/* Dashboard Preview */}
-          <DashboardPreview />
+          <div className="hero-entrance delay-4" style={{ width: '100%', position: 'relative', display: 'flex', justifyContent: 'center' }}>
+            <div style={{
+              position: 'absolute',
+              top: '-20px',
+              left: '50%',
+              transform: 'translateX(-50%)',
+              width: '80%',
+              height: '100%',
+              background: 'var(--primary-200)',
+              filter: 'blur(100px)',
+              opacity: 0.15,
+              zIndex: -1
+            }} />
+            <DashboardPreview />
+          </div>
         </div>
       </section>
 
@@ -385,33 +199,54 @@ export default function LandingPage() {
       */}
 
       {/* THE PROBLEM SECTION */}
-      <section style={{ padding: '6rem 0', background: 'var(--bg-secondary)' }}>
-        <div className="container" style={{ maxWidth: '1200px' }}>
-          <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
+      <section style={{
+        padding: '8rem 0',
+        background: 'white',
+        position: 'relative',
+        overflow: 'hidden'
+      }}>
+        {/* Background Decorative Glow */}
+        <div style={{
+          position: 'absolute',
+          bottom: '-10%',
+          right: '-5%',
+          width: '40%',
+          height: '60%',
+          background: 'radial-gradient(circle at center, rgba(99, 102, 241, 0.05) 0%, transparent 70%)',
+          zIndex: 0,
+          pointerEvents: 'none'
+        }} />
+
+        <div className="container" style={{ maxWidth: '1200px', position: 'relative', zIndex: 1 }}>
+          <div style={{ textAlign: 'center', marginBottom: '5rem' }} className="hero-entrance delay-1">
+            <span className="badge badge-primary" style={{ marginBottom: '1.25rem', padding: '0.5rem 1rem' }}>The Challenge</span>
             <h2 style={{
-              fontSize: '2.75rem',
+              fontSize: '3.25rem',
               fontFamily: 'Inter, sans-serif',
               fontWeight: 800,
-              marginBottom: '1rem',
+              marginBottom: '1.5rem',
               letterSpacing: '-0.03em',
-              color: 'var(--text-primary)'
+              background: 'linear-gradient(180deg, var(--gray-900) 0%, var(--gray-700) 100%)',
+              WebkitBackgroundClip: 'text',
+              WebkitTextFillColor: 'transparent',
+              lineHeight: 1.1
             }}>
-              Your Traffic is Bleeding. Here's Why.
+              Your Traffic is Bleeding.<br className="desktop-break" /> Here's Why.
             </h2>
             <p style={{
-              fontSize: '1.125rem',
+              fontSize: '1.25rem',
               fontFamily: 'Inter, sans-serif',
               color: 'var(--text-secondary)',
               lineHeight: 1.6,
-              maxWidth: '700px',
+              maxWidth: '720px',
               margin: '0 auto'
             }}>
               Google's algorithm updates, AI answer engines, and content decay are silently killing your rankings.
-              Generic SEO tools just report the damage and require manual analysis—SEOScribes fixes it using your real performance data.
+              Generic SEO tools just report the damage—SEOScribes fixes it.
             </p>
           </div>
 
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(340px, 1fr))', gap: '2rem' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(340px, 1fr))', gap: '2.5rem' }}>
             {[
               {
                 icon: TrendingDown,
@@ -432,45 +267,46 @@ export default function LandingPage() {
                 color: 'var(--primary-600)',
                 bg: 'var(--primary-50)',
                 title: 'Fragmented Workflow',
-                desc: 'You are juggling 5+ tools: GSC for data, Ahrefs for keywords, ChatGPT for writing, Grammarly for editing, WordPress for publishing. Every handoff loses context and wastes time.'
+                desc: 'You are juggling 5+ tools: GSC for data, Ahrefs for keywords, ChatGPT for writing, Grammarly for editing. Every handoff loses context and wastes time.'
               }
             ].map((card, i) => (
-              <div key={i} style={{
-                padding: '2.5rem',
-                borderRadius: '24px',
-                background: 'white',
-                border: '1px solid var(--border-color)',
-                boxShadow: '0 4px 6px -1px rgba(0,0,0,0.02), 0 2px 4px -1px rgba(0,0,0,0.01)'
-              }}>
+              <div key={i} className={`problem-card hero-entrance delay-${i + 2}`}>
                 <div style={{
-                  width: '48px',
-                  height: '48px',
-                  borderRadius: '12px',
+                  width: '56px',
+                  height: '56px',
+                  borderRadius: '16px',
                   background: card.bg,
                   color: card.color,
                   display: 'flex',
                   alignItems: 'center',
                   justifyContent: 'center',
-                  marginBottom: '1.5rem'
+                  marginBottom: '2rem',
+                  boxShadow: `0 8px 16px ${card.color}15`,
+                  position: 'relative',
+                  zIndex: 2
                 }}>
-                  <card.icon size={24} />
+                  <card.icon size={26} strokeWidth={2.5} />
                 </div>
-                <h3 style={{
-                  fontSize: '1.25rem',
-                  fontFamily: 'Inter, sans-serif',
-                  fontWeight: 700,
-                  marginBottom: '0.75rem'
-                }}>
-                  {card.title}
-                </h3>
-                <p style={{
-                  fontSize: '1rem',
-                  fontFamily: 'Inter, sans-serif',
-                  color: 'var(--text-secondary)',
-                  lineHeight: 1.6
-                }}>
-                  {card.desc}
-                </p>
+                <div style={{ position: 'relative', zIndex: 2 }}>
+                  <h3 style={{
+                    fontSize: '1.5rem',
+                    fontFamily: 'Inter, sans-serif',
+                    fontWeight: 800,
+                    marginBottom: '1rem',
+                    color: 'var(--text-primary)',
+                    letterSpacing: '-0.01em'
+                  }}>
+                    {card.title}
+                  </h3>
+                  <p style={{
+                    fontSize: '1.0625rem',
+                    fontFamily: 'Inter, sans-serif',
+                    color: 'var(--text-secondary)',
+                    lineHeight: 1.7
+                  }}>
+                    {card.desc}
+                  </p>
+                </div>
               </div>
             ))}
           </div>
@@ -478,32 +314,37 @@ export default function LandingPage() {
       </section>
 
       {/* HOW IT WORKS - DETAILED */}
-      <section id="how-it-works" style={{ padding: '6rem 0', background: 'white' }}>
+      <section id="how-it-works" style={{ padding: '8rem 0', background: 'white', position: 'relative' }}>
         <div className="container" style={{ maxWidth: '1200px' }}>
-          <div style={{ textAlign: 'center', marginBottom: '5rem' }}>
-            <span className="badge badge-primary" style={{ marginBottom: '1rem', fontFamily: 'Inter, sans-serif' }}>How It Works</span>
+          <div style={{ textAlign: 'center', marginBottom: '6rem' }} className="hero-entrance delay-1">
+            <span className="badge badge-primary" style={{ marginBottom: '1.25rem', padding: '0.5rem 1rem' }}>How It Works</span>
             <h2 style={{
-              fontSize: '2.75rem',
+              fontSize: '3.25rem',
               fontFamily: 'Inter, sans-serif',
               fontWeight: 800,
-              marginBottom: '1rem',
-              letterSpacing: '-0.03em'
+              marginBottom: '1.5rem',
+              letterSpacing: '-0.03em',
+              background: 'linear-gradient(180deg, var(--gray-900) 0%, var(--gray-700) 100%)',
+              WebkitBackgroundClip: 'text',
+              WebkitTextFillColor: 'transparent',
+              lineHeight: 1.1
             }}>
               Automate Your Growth in 3 Steps
             </h2>
             <p style={{
-              fontSize: '1.125rem',
+              fontSize: '1.25rem',
               fontFamily: 'Inter, sans-serif',
               color: 'var(--text-secondary)',
-              maxWidth: '700px',
-              margin: '0 auto'
+              maxWidth: '720px',
+              margin: '0 auto',
+              lineHeight: 1.6
             }}>
               SEOScribes uses real performance data to automatically manage and scale your SEO,
               turning manual analysis into automated growth.
             </p>
           </div>
 
-          <div style={{ display: 'flex', flexDirection: 'column', gap: '3rem' }}>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '4rem' }}>
             {[
               {
                 step: '01',
@@ -514,7 +355,6 @@ export default function LandingPage() {
                   'Data over Guesswork: Use actual GSC performance metrics for every decision',
                   'Content Gaps: Identify keywords with high impressions but low click-through rates',
                   'Decay Alerts: Spot pages losing traffic month-over-month before they crash',
-                  'Striking Distance: Promote keywords ranking #11-20 to the first page automatically',
                   'Strategic Intelligence: Real-time insights that turn data into immediate growth'
                 ]
               },
@@ -522,12 +362,11 @@ export default function LandingPage() {
                 step: '02',
                 icon: Brain,
                 title: 'Outrank Competitors Automatically',
-                desc: 'Generate new content by simply entering a keyword. SEOScribes performs real-time search result analysis to understand exactly what it takes to outrank the top 10 competitors. We give you everything you need — from the content itself to ready-to-use schema and FAQs for maximum visibility in LLM tools like ChatGPT and Perplexity.',
+                desc: 'Generate new content by simply entering a keyword. SEOScribes performs real-time search result analysis to understand exactly what it takes to outrank the top 10 competitors. We give you everything you need — from content to schema for visibility in tools like ChatGPT.',
                 points: [
-                  'Real-time Competitor Analysis: Deep SERP scan to reverse-engineer winning rankings',
-                  'LLM Tool Visibility: Auto-generated Google Schema and FAQs for Answer Engines',
+                  'Real-time Competitor Analysis: Deep SERP scan to reverse-engineer winners',
+                  'LLM Tool Visibility: Auto-generated Schema and FAQs for Answer Engines',
                   'Outranking Strategy: Content structure designed specifically to beat current leaders',
-                  'Automated E-E-A-T: Research-backed content with citations and author signals',
                   'Ready-to-use Assets: Instant publishing with all meta-data and schema included'
                 ]
               },
@@ -535,134 +374,115 @@ export default function LandingPage() {
                 step: '03',
                 icon: Zap,
                 title: 'Refresh & Scale with Automation',
-                desc: 'SEO is never static. SEOScribes continuously monitors your site and allows you to refresh your old content completely with a single click. Maintain your peak performance and scale your rankings across your entire content portfolio without the manual grind.',
+                desc: 'SEO is never static. SEOScribes continuously monitors your site and allows you to refresh your old content completely with a single click. Maintain your peak performance and scale your rankings across your entire content portfolio.',
                 points: [
                   'Complete Content Refresh: Full updates for old articles using fresh data',
                   'Continuous Performance Monitoring: GSC-integrated tracking 24/7',
                   'Automatic Ranking Recovery: Immediate fixes for declining pages',
-                  'Portfolio Scaling: Manage 100+ pages as easily as you manage one',
                   'Zero-Guesswork Growth: Scale what works based on proven performance'
                 ]
               }
             ].map((step, i) => (
-              <div key={i} className="how-it-works-step" style={{
-                background: 'var(--bg-secondary)',
-                borderRadius: '20px',
-                padding: '3rem',
-                border: '1px solid var(--border-light)',
-                boxShadow: '0 4px 6px rgba(0,0,0,0.02)'
-              }}>
-                <div style={{
-                  display: 'grid',
-                  gridTemplateColumns: '1fr 400px',
-                  gap: '3rem',
-                  alignItems: 'center',
+              <div key={i} className={`how-it-works-step hero-entrance delay-${i + 2}`}>
+                <div className="step-direction-container" style={{
                   direction: i % 2 === 1 ? 'rtl' : 'ltr'
                 }}>
                   {/* Content Container */}
-                  <div style={{ direction: 'ltr' }}>
+                  <div className="step-content-wrapper" style={{ direction: 'ltr' }}>
                     <div style={{
                       display: 'flex',
                       alignItems: 'center',
-                      gap: '1rem',
-                      marginBottom: '1.5rem'
+                      gap: '1.25rem',
+                      marginBottom: '2rem'
                     }}>
                       <div style={{
-                        width: '48px',
-                        height: '48px',
-                        borderRadius: '12px',
+                        width: '52px',
+                        height: '52px',
+                        borderRadius: '14px',
                         background: 'linear-gradient(135deg, var(--primary-600), var(--primary-700))',
                         color: 'white',
                         display: 'flex',
                         alignItems: 'center',
                         justifyContent: 'center',
-                        boxShadow: '0 8px 16px rgba(79, 70, 229, 0.25), inset 0 0 10px rgba(255,255,255,0.2)',
-                        fontSize: '1.125rem',
+                        boxShadow: '0 8px 20px rgba(79, 70, 229, 0.2)',
+                        fontSize: '1.25rem',
                         fontWeight: 800,
                         fontFamily: 'Inter, sans-serif',
-                        flexShrink: 0,
-                        border: '2px solid rgba(255,255,255,0.1)'
+                        flexShrink: 0
                       }}>
                         {step.step}
                       </div>
                       <div style={{
-                        width: '56px',
-                        height: '56px',
-                        borderRadius: '14px',
+                        width: '60px',
+                        height: '60px',
+                        borderRadius: '16px',
                         background: 'white',
                         color: 'var(--primary-600)',
                         display: 'flex',
                         alignItems: 'center',
                         justifyContent: 'center',
-                        border: '2px solid var(--primary-100)',
+                        border: '1px solid var(--primary-100)',
                         flexShrink: 0,
-                        boxShadow: '0 2px 4px rgba(0,0,0,0.02)'
+                        boxShadow: '0 4px 12px rgba(0,0,0,0.03)'
                       }}>
-                        <step.icon size={32} />
+                        <step.icon size={30} strokeWidth={2.5} />
                       </div>
                     </div>
 
                     <h3 style={{
-                      fontSize: '1.75rem',
+                      fontSize: '2rem',
                       fontFamily: 'Inter, sans-serif',
                       fontWeight: 800,
-                      marginBottom: '1rem',
+                      marginBottom: '1.25rem',
                       letterSpacing: '-0.02em',
-                      color: 'var(--text-primary)'
+                      color: 'var(--text-primary)',
+                      lineHeight: 1.2
                     }}>
                       {step.title}
                     </h3>
 
                     <p style={{
-                      fontSize: '1.0625rem',
+                      fontSize: '1.125rem',
                       fontFamily: 'Inter, sans-serif',
                       color: 'var(--text-secondary)',
                       lineHeight: 1.7,
-                      marginBottom: '2rem'
+                      marginBottom: '2.5rem'
                     }}>
                       {step.desc}
                     </p>
 
                     <div className="points-box" style={{
                       background: 'white',
-                      borderRadius: '16px',
-                      padding: '1.75rem',
+                      borderRadius: '24px',
+                      padding: '2rem',
                       border: '1px solid var(--border-light)',
                       position: 'relative',
-                      overflow: 'hidden'
+                      overflow: 'hidden',
+                      boxShadow: '0 4px 15px rgba(0,0,0,0.02)'
                     }}>
-                      <div style={{
-                        position: 'absolute',
-                        top: 0,
-                        right: 0,
-                        width: '100px',
-                        height: '100px',
-                        background: 'radial-gradient(circle at 100% 0%, var(--primary-50) 0%, transparent 70%)',
-                        opacity: 0.5
-                      }} />
                       <ul style={{
                         listStyle: 'none',
                         padding: 0,
                         display: 'flex',
                         flexDirection: 'column',
-                        gap: '1rem',
+                        gap: '1.25rem',
                         margin: 0
                       }}>
                         {step.points.map((point, j) => (
                           <li key={j} style={{
                             display: 'flex',
                             alignItems: 'flex-start',
-                            gap: '0.75rem',
-                            fontSize: '0.9375rem',
+                            gap: '1rem',
+                            fontSize: '1rem',
                             fontFamily: 'Inter, sans-serif',
                             color: 'var(--text-secondary)',
-                            lineHeight: 1.6
+                            lineHeight: 1.5
                           }}>
                             <CheckCircle2 size={20} style={{ color: 'var(--success)', flexShrink: 0, marginTop: '2px' }} />
                             <span>
                               {point.includes(':') ? (
                                 <>
-                                  <strong style={{ color: 'var(--primary-700)', fontWeight: 600 }}>{point.split(':')[0]}:</strong>
+                                  <strong style={{ color: 'var(--gray-900)', fontWeight: 600 }}>{point.split(':')[0]}:</strong>
                                   {point.split(':').slice(1).join(':')}
                                 </>
                               ) : point}
@@ -673,137 +493,165 @@ export default function LandingPage() {
                     </div>
                   </div>
 
-                  {/* Right SVG Image */}
-                  <div className="step-illustration" style={{
-                    background: 'linear-gradient(135deg, #fdfdff 0%, #f0f2ff 100%)',
-                    borderRadius: '24px',
-                    height: '500px',
-                    width: '100%',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    padding: '2.5rem',
-                    position: 'relative',
-                    overflow: 'hidden',
-                    border: '1px solid var(--border-light)',
-                    boxShadow: 'inset 0 0 40px rgba(0,0,0,0.01)',
-                    direction: 'ltr'
-                  }}>
-                    <div style={{
-                      position: 'absolute',
-                      top: '10%',
-                      left: '10%',
-                      width: '80%',
-                      height: '80%',
-                      background: 'radial-gradient(circle at center, var(--primary-100) 0%, transparent 70%)',
-                      opacity: 0.2,
-                      filter: 'blur(40px)',
-                      zIndex: 0
-                    }} />
-                    {i === 0 && (
-                      <svg width="100%" height="100%" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        {/* Data Flow Background */}
-                        <path d="M 50 200 L 100 180 L 150 220 L 200 190 L 250 210 L 300 170 L 350 200" stroke="#E0E7FF" strokeWidth="2" fill="none" opacity="0.5" />
+                  {/* Illustration Container */}
+                  <div className="step-illustration-wrapper" style={{ direction: 'ltr' }}>
+                    <div className="step-illustration" style={{
+                      background: 'linear-gradient(135deg, #fdfdff 0%, #f4f6ff 100%)',
+                      borderRadius: '32px',
+                      height: '480px',
+                      width: '100%',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      padding: '3rem',
+                      position: 'relative',
+                      overflow: 'hidden',
+                      border: '1px solid var(--border-light)',
+                      boxShadow: 'inset 0 0 40px rgba(0,0,0,0.01)'
+                    }}>
+                      <div style={{
+                        position: 'absolute',
+                        top: '10%',
+                        left: '10%',
+                        width: '80%',
+                        height: '80%',
+                        background: 'radial-gradient(circle at center, var(--primary-200) 0%, transparent 70%)',
+                        opacity: 0.15,
+                        filter: 'blur(50px)',
+                        zIndex: 0
+                      }} />
+                      {/* STEP 1: DATA CONNECTIVITY */}
+                      {i === 0 && (
+                        <svg width="100%" height="100%" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ position: 'relative', zIndex: 1 }}>
+                          {/* Background Grid */}
+                          <g opacity="0.1">
+                            {Array.from({ length: 11 }).map((_, idx) => (
+                              <Fragment key={idx}>
+                                <line x1={0} y1={idx * 40} x2={400} y2={idx * 40} stroke="#4F46E5" strokeWidth="1" />
+                                <line x1={idx * 40} y1={0} x2={idx * 40} y2={400} stroke="#4F46E5" strokeWidth="1" />
+                              </Fragment>
+                            ))}
+                          </g>
 
-                        {/* Real-time Data nodes */}
-                        <circle cx="100" cy="180" r="4" fill="#6366F1" />
-                        <circle cx="200" cy="190" r="4" fill="#6366F1" />
-                        <circle cx="300" cy="170" r="4" fill="#6366F1" />
+                          {/* Data Clusters */}
+                          <circle cx="80" cy="120" r="40" fill="url(#grad1)" opacity="0.1" />
+                          <circle cx="320" cy="280" r="50" fill="url(#grad1)" opacity="0.1" />
 
-                        {/* Analysis Hub */}
-                        <rect x="120" y="100" width="160" height="200" rx="20" fill="white" stroke="#4F46E5" strokeWidth="2" />
-                        <rect x="140" y="130" width="120" height="12" rx="6" fill="#F1F5F9" />
-                        <rect x="140" y="150" width="100" height="12" rx="6" fill="#F1F5F9" />
+                          {/* Central Processing Hub */}
+                          <rect x="130" y="110" width="140" height="180" rx="24" fill="white" stroke="#4F46E5" strokeWidth="2" style={{ filter: 'drop-shadow(0 10px 30px rgba(0,0,0,0.1))' }} />
+                          <rect x="150" y="140" width="100" height="8" rx="4" fill="#F1F5F9" />
+                          <rect x="150" y="160" width="80" height="8" rx="4" fill="#F1F5F9" />
+                          <rect x="150" y="180" width="90" height="8" rx="4" fill="#F1F5F9" />
 
-                        {/* Scanner Beam */}
-                        <rect x="120" y="180" width="160" height="40" fill="url(#beamGradient)" opacity="0.3" />
-                        <defs>
-                          <linearGradient id="beamGradient" x1="0%" y1="0%" x2="0%" y2="100%">
-                            <stop offset="0%" stopColor="#4F46E5" stopOpacity="0" />
-                            <stop offset="50%" stopColor="#4F46E5" stopOpacity="1" />
-                            <stop offset="100%" stopColor="#4F46E5" stopOpacity="0" />
-                          </linearGradient>
-                        </defs>
+                          {/* Scanning Bar */}
+                          <rect x="130" y="210" width="140" height="40" fill="url(#scanGrad)" opacity="0.4">
+                            <animate attributeName="y" values="120;250;120" dur="4s" repeatCount="indefinite" />
+                          </rect>
 
-                        {/* GSC & Intelligence Tags */}
-                        <g transform="translate(60, 120)">
-                          <rect width="50" height="50" rx="12" fill="white" stroke="#E2E8F0" strokeWidth="1" />
-                          <text x="25" y="32" textAnchor="middle" fill="#4F46E5" fontSize="18" fontWeight="bold">G</text>
-                        </g>
-                        <g transform="translate(290, 230)">
-                          <rect width="50" height="50" rx="12" fill="white" stroke="#E2E8F0" strokeWidth="1" />
-                          <circle cx="25" cy="25" r="10" stroke="#4F46E5" strokeWidth="2" />
-                          <path d="M 25 15 L 25 35 M 15 25 L 35 25" stroke="#4F46E5" strokeWidth="2" />
-                        </g>
+                          {/* Connection Lines */}
+                          <path d="M 80 120 Q 110 120 130 150" stroke="#4F46E5" strokeWidth="2" strokeDasharray="4 4">
+                            <animate attributeName="stroke-dashoffset" from="20" to="0" dur="2s" repeatCount="indefinite" />
+                          </path>
+                          <path d="M 320 280 Q 290 280 270 250" stroke="#4F46E5" strokeWidth="2" strokeDasharray="4 4" />
 
-                        {/* Identified opportunities */}
-                        <circle cx="150" cy="240" r="8" fill="#10B981" />
-                        <circle cx="200" cy="260" r="8" fill="#F59E0B" />
-                        <circle cx="250" cy="245" r="8" fill="#6366F1" />
-                      </svg>
-                    )}
+                          {/* Source Tags */}
+                          <g transform="translate(55, 95)">
+                            <rect width="50" height="50" rx="12" fill="white" stroke="#E2E8F0" strokeWidth="1" />
+                            <text x="25" y="32" textAnchor="middle" fill="#4F46E5" fontSize="18" fontWeight="bold">G</text>
+                            <circle cx="42" cy="8" r="6" fill="#10B981" />
+                          </g>
 
-                    {i === 1 && (
-                      <svg width="100%" height="100%" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        {/* Automation Grid */}
-                        <rect x="60" y="60" width="280" height="280" rx="16" fill="white" stroke="#E2E8F0" strokeWidth="1" />
-                        <line x1="60" y1="130" x2="340" y2="130" stroke="#F1F5F9" strokeWidth="1" />
-                        <line x1="60" y1="200" x2="340" y2="200" stroke="#F1F5F9" strokeWidth="1" />
-                        <line x1="60" y1="270" x2="340" y2="270" stroke="#F1F5F9" strokeWidth="1" />
+                          {/* Results Bubbles */}
+                          <circle cx="160" cy="240" r="10" fill="#10B981" opacity="0.8">
+                            <animate attributeName="r" values="8;11;8" dur="3s" repeatCount="indefinite" />
+                          </circle>
+                          <circle cx="210" cy="255" r="12" fill="#6366F1" opacity="0.8">
+                            <animate attributeName="r" values="10;13;10" dur="4s" repeatCount="indefinite" />
+                          </circle>
 
-                        {/* AI Content Engine */}
-                        <rect x="100" y="100" width="200" height="200" rx="12" fill="white" stroke="#4F46E5" strokeWidth="2" />
-                        <rect x="120" y="125" width="160" height="10" rx="5" fill="#4F46E5" opacity="0.1" />
-                        <rect x="120" y="145" width="140" height="10" rx="5" fill="#4F46E5" opacity="0.1" />
-                        <rect x="120" y="165" width="150" height="10" rx="5" fill="#4F46E5" opacity="0.1" />
+                          <defs>
+                            <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                              <stop offset="0%" stopColor="#4F46E5" />
+                              <stop offset="100%" stopColor="#818CF8" />
+                            </linearGradient>
+                            <linearGradient id="scanGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+                              <stop offset="0%" stopColor="#4F46E5" stopOpacity="0" />
+                              <stop offset="50%" stopColor="#4F46E5" stopOpacity="0.8" />
+                              <stop offset="100%" stopColor="#4F46E5" stopOpacity="0" />
+                            </linearGradient>
+                          </defs>
+                        </svg>
+                      )}
 
-                        {/* Content Blocks being generated */}
-                        <rect x="130" y="210" width="50" height="60" rx="4" fill="#4F46E5" opacity="0.2" />
-                        <rect x="190" y="210" width="50" height="40" rx="4" fill="#4F46E5" opacity="0.5" />
-                        <rect x="250" y="210" width="30" height="50" rx="4" fill="#4F46E5" />
+                      {/* STEP 2: COMPETITIVE ANALYSIS & AI ENGINE */}
+                      {i === 1 && (
+                        <svg width="100%" height="100%" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ position: 'relative', zIndex: 1 }}>
+                          {/* Comparative Layers */}
+                          <rect x="80" y="240" width="240" height="80" rx="16" fill="white" stroke="#E2E8F0" strokeWidth="1" />
+                          <rect x="100" y="260" width="200" height="40" rx="8" fill="#F1F5F9" />
 
-                        {/* Sparkle Icons for AI */}
-                        <path d="M 330 100 L 332 110 L 342 112 L 332 114 L 330 124 L 328 114 L 318 112 L 328 110 Z" fill="#4F46E5" />
-                        <path d="M 70 300 L 72 310 L 82 312 L 72 314 L 70 324 L 68 314 L 58 312 L 68 310 Z" fill="#4F46E5" />
+                          {/* Top Ranking Piece */}
+                          <g transform="translate(120, 100)">
+                            <rect width="160" height="120" rx="20" fill="white" stroke="#4F46E5" strokeWidth="2" style={{ filter: 'drop-shadow(0 20px 40px rgba(0,0,0,0.1))' }} />
+                            <path d="M 20 40 L 140 40" stroke="#F1F5F9" strokeWidth="4" strokeLinecap="round" />
+                            <path d="M 20 60 L 110 60" stroke="#F1F5F9" strokeWidth="4" strokeLinecap="round" />
+                            <path d="M 20 80 L 130 80" stroke="#F1F5F9" strokeWidth="4" strokeLinecap="round" />
 
-                        {/* Success Indicators */}
-                        <circle cx="340" cy="200" r="15" fill="#10B981" />
-                        <path d="M 335 200 L 338 203 L 345 196" stroke="white" strokeWidth="2" fill="none" />
-                      </svg>
-                    )}
+                            {/* AI Sparkles */}
+                            <path d="M 130 20 L 132 25 L 137 26 L 132 27 L 130 32 L 128 27 L 123 26 L 128 25 Z" fill="#6366F1">
+                              <animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite" />
+                            </path>
+                          </g>
 
-                    {i === 2 && (
-                      <svg width="100%" height="100%" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        {/* Scaling Chart */}
-                        <path d="M 60 300 Q 150 280 200 150 T 340 60" stroke="#4F46E5" strokeWidth="4" fill="none" strokeLinecap="round" />
-                        <path d="M 60 300 Q 150 280 200 150 T 340 60 L 340 340 L 60 340 Z" fill="url(#scaleGradient)" />
-                        <defs>
-                          <linearGradient id="scaleGradient" x1="0%" y1="0%" x2="0%" y2="100%">
-                            <stop offset="0%" stopColor="#4F46E5" stopOpacity="0.2" />
-                            <stop offset="100%" stopColor="#4F46E5" stopOpacity="0" />
-                          </linearGradient>
-                        </defs>
+                          {/* Competitive Connectors */}
+                          <circle cx="200" cy="230" r="25" fill="white" stroke="#4F46E5" strokeWidth="1" />
+                          <path d="M 200 215 V 245 M 185 230 H 215" stroke="#4F46E5" strokeWidth="2" />
 
-                        {/* Automated nodes along the path */}
-                        <circle cx="100" cy="285" r="6" fill="white" stroke="#4F46E5" strokeWidth="2" />
-                        <circle cx="180" cy="210" r="6" fill="white" stroke="#4F46E5" strokeWidth="2" />
-                        <circle cx="260" cy="115" r="6" fill="white" stroke="#4F46E5" strokeWidth="2" />
+                          {/* Recognition Badge */}
+                          <g transform="translate(290, 80)">
+                            <circle cx="25" cy="25" r="25" fill="#10B981" />
+                            <path d="M 17 25 L 23 31 L 34 20" stroke="white" strokeWidth="3" fill="none" />
+                          </g>
 
-                        {/* Floating Metric Cards */}
-                        <rect x="80" y="100" width="100" height="60" rx="12" fill="white" stroke="#F1F5F9" strokeWidth="1" />
-                        <text x="130" y="130" textAnchor="middle" fill="#4F46E5" fontSize="20" fontWeight="bold">+127%</text>
-                        <text x="130" y="150" textAnchor="middle" fill="#64748B" fontSize="10">Avg Growth</text>
+                          {/* Floating Labels */}
+                          <rect x="50" y="150" width="60" height="24" rx="12" fill="#EEF2FF" />
+                          <text x="80" y="166" textAnchor="middle" fill="#4F46E5" fontSize="10" fontWeight="bold">TOP 1</text>
+                        </svg>
+                      )}
 
-                        <rect x="220" y="230" width="100" height="60" rx="12" fill="white" stroke="#F1F5F9" strokeWidth="1" />
-                        <text x="270" y="260" textAnchor="middle" fill="#10B981" fontSize="20" fontWeight="bold">0%</text>
-                        <text x="270" y="280" textAnchor="middle" fill="#64748B" fontSize="10">Decay Rate</text>
+                      {/* STEP 3: REFRESH & SCALE */}
+                      {i === 2 && (
+                        <svg width="100%" height="100%" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ position: 'relative', zIndex: 1 }}>
+                          {/* Infinite Graph */}
+                          <path d="M 50 320 Q 150 300 200 150 T 350 50" stroke="#4F46E5" strokeWidth="4" strokeLinecap="round" strokeDasharray="10 6">
+                            <animate attributeName="stroke-dashoffset" from="16" to="0" dur="1s" repeatCount="indefinite" />
+                          </path>
 
-                        {/* Monitoring Radar */}
-                        <circle cx="340" cy="60" r="30" stroke="#4F46E5" strokeWidth="1" strokeDasharray="4 4" opacity="0.3" />
-                        <circle cx="340" cy="60" r="15" stroke="#4F46E5" strokeWidth="1" opacity="0.5" />
-                        <circle cx="340" cy="60" r="4" fill="#4F46E5" />
-                      </svg>
-                    )}
+                          {/* Multi-Screen / Portfolio Representation */}
+                          <rect x="100" y="180" width="80" height="100" rx="12" fill="white" stroke="#E2E8F0" strokeWidth="1" opacity="0.6" />
+                          <rect x="140" y="160" width="80" height="100" rx="12" fill="white" stroke="#E2E8F0" strokeWidth="1" opacity="0.8" />
+                          <rect x="180" y="140" width="100" height="130" rx="12" fill="white" stroke="#4F46E5" strokeWidth="2" style={{ filter: 'drop-shadow(0 10px 20px rgba(0,0,0,0.05))' }} />
+
+                          {/* Refresh Icon */}
+                          <g transform="translate(260, 130)">
+                            <circle cx="20" cy="20" r="20" fill="#4F46E5" />
+                            <path d="M 20 12 A 8 8 0 1 1 14 14.5" stroke="white" strokeWidth="2" fill="none" strokeLinecap="round" />
+                            <path d="M 14 10 V 15 H 19" stroke="white" strokeWidth="2" fill="none" strokeLinecap="round" />
+                          </g>
+
+                          {/* Scale Indicators */}
+                          <g transform="translate(300, 250)">
+                            <rect width="70" height="40" rx="8" fill="#F8FAFC" stroke="#E2E8F0" strokeWidth="1" />
+                            <text x="35" y="28" textAnchor="middle" fill="#10B981" fontSize="14" fontWeight="bold">+320%</text>
+                          </g>
+
+                          {/* Radar Scan (Continuous monitoring) */}
+                          <circle cx="340" cy="340" r="40" stroke="#4F46E5" strokeWidth="1" strokeDasharray="4 4" opacity="0.2">
+                            <animate attributeName="r" values="30;50;30" dur="4s" repeatCount="indefinite" />
+                          </circle>
+                        </svg>
+                      )}
+                    </div>
                   </div>
                 </div>
               </div>
@@ -812,188 +660,242 @@ export default function LandingPage() {
         </div>
       </section>
 
-      {/* CORE FEATURES - EXPANDED */}
-      <section id="features" style={{ padding: '6rem 0', background: 'var(--bg-secondary)' }}>
-        <div className="container" style={{ maxWidth: '1200px' }}>
-          <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
-            <span className="badge badge-primary" style={{ marginBottom: '1rem', fontFamily: 'Inter, sans-serif' }}>Core Features</span>
+      {/* EVERYTHING YOU NEED TO DOMINATE SEARCH */}
+      <section id="features" style={{
+        padding: '8rem 0',
+        background: 'var(--bg-secondary)',
+        position: 'relative',
+        overflow: 'hidden'
+      }}>
+        {/* Subtle background decoration */}
+        <div style={{
+          position: 'absolute',
+          top: '0',
+          left: '50%',
+          transform: 'translateX(-50%)',
+          width: '100%',
+          height: '100%',
+          background: 'radial-gradient(circle at center, rgba(99, 102, 241, 0.03) 0%, transparent 70%)',
+          pointerEvents: 'none',
+          zIndex: 0
+        }} />
+
+        <div className="container" style={{ maxWidth: '1200px', position: 'relative', zIndex: 1 }}>
+          <div style={{ textAlign: 'center', marginBottom: '5rem' }} className="hero-entrance delay-1">
+            <span className="badge badge-primary" style={{ marginBottom: '1.25rem', padding: '0.5rem 1rem' }}>Core Features</span>
             <h2 style={{
-              fontSize: '2.75rem',
+              fontSize: '3.25rem',
               fontFamily: 'Inter, sans-serif',
               fontWeight: 800,
-              marginBottom: '1rem',
-              letterSpacing: '-0.03em'
+              marginBottom: '1.5rem',
+              letterSpacing: '-0.03em',
+              background: 'linear-gradient(180deg, var(--gray-900) 0%, var(--gray-700) 100%)',
+              WebkitBackgroundClip: 'text',
+              WebkitTextFillColor: 'transparent',
+              lineHeight: 1.1
             }}>
               Everything You Need to Dominate Search
             </h2>
             <p style={{
-              fontSize: '1.125rem',
+              fontSize: '1.25rem',
               fontFamily: 'Inter, sans-serif',
               color: 'var(--text-secondary)',
-              maxWidth: '700px',
-              margin: '0 auto'
+              maxWidth: '720px',
+              margin: '0 auto',
+              lineHeight: 1.6
             }}>
-              From Google rankings to AI answer engines, SEOScribes covers every aspect of modern SEO.
+              From Google rankings to AI answer engines, SEOScribes covers every aspect of modern SEO growth.
             </p>
           </div>
 
           <div style={{
             display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))',
-            gap: '1.5rem',
-            maxWidth: '100%'
+            gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
+            gap: '2rem'
           }}>
             {[
               {
                 icon: Search,
                 title: 'GSC Intelligence',
-                desc: 'Connect your Google Search Console and market intelligence tools to automatically analyze search data and discover opportunities. Everything syncs in one unified platform — no more juggling multiple tabs.',
-                features: ['Automatic data sync', 'Search query analysis', '12-month historical data']
+                desc: 'Connect your Google Search Console to automatically analyze search data and discover opportunities. Everything syncs in one unified platform.',
+                features: ['Automatic data sync', 'Search query analysis', 'Historical data insights']
               },
               {
                 icon: Target,
                 title: 'Content Gap Detection',
                 desc: 'Automatically find keywords where you have high impressions but low clicks — the easiest wins for quick traffic gains.',
-                features: ['High-impression keyword analysis', 'Click-through rate optimization', 'Quick-win prioritization']
+                features: ['Impression vs Click analysis', 'CTR optimization tips', 'Priority scoring']
               },
               {
                 icon: TrendingDown,
                 title: 'Traffic Decay Alerts',
                 desc: 'Get notified within 48 hours when any page starts losing rankings. Auto-refresh content with updated data and insights.',
-                features: ['Real-time rank monitoring', 'Automatic decay detection', 'One-click content refresh']
+                features: ['Real-time rank monitoring', 'Decay detection engine', 'One-click refresh']
               },
               {
                 icon: Brain,
                 title: 'Competitor Intelligence',
-                desc: 'Outperform your competitors by learning from their strengths. SEOScribes detects what works for them — their best content structure, winning keywords, and ranking strategies — and helps you adapt those insights to your site in seconds.',
-                features: ['Top 10 SERP analysis', 'Topic extraction', 'Content gap identification']
+                desc: 'Outperform your competitors by learning from their strengths. Detect what works for them and adapt those insights in seconds.',
+                features: ['SERP structure analysis', 'Topic extraction', 'Keyword gap identification']
               },
               {
                 icon: Layout,
-                title: 'Ready-to-use LLM Schema',
-                desc: 'Get automatically generated schema markup and FAQs to maximize your content visibility in AI answer engines like ChatGPT, Perplexity, and Google SGE.',
-                features: ['Automated JSON-LD Schema', 'LLM-optimized FAQ blocks', 'Answer engine citation signals']
+                title: 'AI answer Engines (GEO)',
+                desc: 'Maximize visibility in ChatGPT, Perplexity, and Google SGE with automatically generated schema markup and LLM-optimized FAQ blocks.',
+                features: ['JSON-LD Schema automation', 'LLM-optimized FAQs', 'GEO signal optimization']
               },
               {
                 icon: MessageSquare,
-                title: 'Real-time Competitor Intel',
-                desc: 'Generate new content that outranks the current top 10 by reverse-engineering their winning content structures and keyword strategies in real-time.',
-                features: ['SERP pattern recognition', 'Gap analysis vs leaders', 'Winning intent detection']
+                title: 'Intent-First Content',
+                desc: 'Generate new content that matches search intent perfectly by reverse-engineering the winning content structures of top leaders.',
+                features: ['Intent pattern recognition', 'Content structure planning', 'Topic authority building']
               },
               {
                 icon: ShieldCheck,
                 title: 'E-E-A-T Optimization',
-                desc: 'Build trust signals with automatic author bios, citation management, and fact-checking for Google quality guidelines.',
-                features: ['Author bio generation', 'Citation management', 'Fact-checking AI']
+                desc: 'Build trust signals automatically with author bio generation, citation management, and research-backed fact checking.',
+                features: ['Author signal management', 'Citation auto-generator', 'Fact-checking AI']
               },
               {
                 icon: BarChart2,
-                title: 'Performance Monitoring',
-                desc: 'Track your search performance with data from Google Search Console. Monitor position changes, clicks, and impressions.',
-                features: ['GSC position tracking', 'Traffic change alerts', 'Performance analytics']
+                title: 'Performance Lifecycle',
+                desc: 'Monitor the entire lifecycle of your content from draft to publishing, and through every ranking shift with unified analytics.',
+                features: ['Full lifecycle tracking', 'Traffic change alerts', 'ROI performance metrics']
+              },
+              {
+                icon: Globe,
+                title: 'Automated CMS Publishing',
+                desc: 'Push your optimized content directly to your site. We integrate seamlessly with WordPress, Webflow, and more for a zero-click workflow.',
+                features: ['One-click WP publishing', 'Headless CMS support', 'Instant live updates']
               }
             ].map((feat, i) => (
-              <div key={i} className='card' style={{
-                padding: '2.5rem',
-                background: 'white',
-                borderRadius: '24px',
-                border: '1px solid var(--border-color)',
-                boxShadow: '0 1px 3px rgba(0,0,0,0.05)',
-                cursor: 'default',
-                fontFamily: 'Inter, sans-serif'
-              }}>
-                <div style={{
-                  width: '48px',
-                  height: '48px',
-                  borderRadius: '12px',
-                  background: 'var(--primary-50)',
-                  color: 'var(--primary-600)',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  marginBottom: '1.25rem'
-                }}>
-                  <feat.icon size={24} />
+              <div key={i} className={`feature-card hero-entrance delay-${(i % 4) + 2}`}>
+                <div className="feature-icon-box">
+                  <feat.icon size={22} strokeWidth={2.5} />
                 </div>
-                <h3 style={{
-                  fontSize: '1.25rem',
-                  fontWeight: 700,
-                  marginBottom: '0.75rem',
-                  color: 'var(--text-primary)'
-                }}>
-                  {feat.title}
-                </h3>
-                <p style={{
-                  fontSize: '0.9375rem',
-                  color: 'var(--text-secondary)',
-                  lineHeight: 1.6,
-                  marginBottom: '1.25rem'
-                }}>
-                  {feat.desc}
-                </p>
-                <ul style={{ listStyle: 'none', padding: 0, display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
-                  {feat.features.map((item, j) => (
-                    <li key={j} style={{
-                      display: 'flex',
-                      alignItems: 'center',
-                      gap: '0.5rem',
-                      fontSize: '0.8125rem',
-                      color: 'var(--text-secondary)'
-                    }}>
-                      <Check size={14} style={{ color: 'var(--primary-600)' }} />
-                      {item}
-                    </li>
-                  ))}
-                </ul>
+                <div style={{ flex: 1 }}>
+                  <h3 style={{
+                    fontSize: '1.25rem',
+                    fontWeight: 800,
+                    marginBottom: '0.75rem',
+                    color: 'var(--text-primary)',
+                    letterSpacing: '-0.01em'
+                  }}>
+                    {feat.title}
+                  </h3>
+                  <p style={{
+                    fontSize: '0.9375rem',
+                    color: 'var(--text-secondary)',
+                    lineHeight: 1.6,
+                    marginBottom: '1.5rem'
+                  }}>
+                    {feat.desc}
+                  </p>
+                  <ul style={{ listStyle: 'none', padding: 0, display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
+                    {feat.features.map((item, j) => (
+                      <li key={j} style={{
+                        display: 'flex',
+                        alignItems: 'center',
+                        gap: '0.75rem',
+                        fontSize: '0.875rem',
+                        color: 'var(--text-secondary)',
+                        fontWeight: 500
+                      }}>
+                        <div style={{
+                          width: '18px',
+                          height: '18px',
+                          borderRadius: '50%',
+                          background: 'var(--success-light)',
+                          color: 'var(--success)',
+                          display: 'flex',
+                          alignItems: 'center',
+                          justifyContent: 'center',
+                          flexShrink: 0
+                        }}>
+                          <Check size={10} strokeWidth={3} />
+                        </div>
+                        {item}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* BENEFITS SECTION */}
-      <section id="comparison" style={{ padding: '6rem 0', background: 'white' }}>
+      {/* BENEFITS SECTION / COMPARISON */}
+      <section id="comparison" style={{
+        padding: '8rem 0',
+        background: 'white',
+        position: 'relative'
+      }}>
         <div className="container" style={{ maxWidth: '1200px' }}>
-          <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
-            <h2 className="section-heading" style={{
-              fontSize: '2.75rem',
+          <div style={{ textAlign: 'center', marginBottom: '6rem' }} className="hero-entrance delay-1">
+            <span className="badge badge-primary" style={{ marginBottom: '1.25rem', padding: '0.5rem 1rem' }}>The Difference</span>
+            <h2 style={{
+              fontSize: '3.25rem',
               fontFamily: 'Inter, sans-serif',
               fontWeight: 800,
-              marginBottom: '1rem',
-              letterSpacing: '-0.03em'
+              marginBottom: '1.5rem',
+              letterSpacing: '-0.03em',
+              background: 'linear-gradient(180deg, var(--gray-900) 0%, var(--gray-700) 100%)',
+              WebkitBackgroundClip: 'text',
+              WebkitTextFillColor: 'transparent',
+              lineHeight: 1.1
             }}>
               Scale Your SEO with Real Performance Data
             </h2>
             <p style={{
-              fontSize: '1.125rem',
+              fontSize: '1.25rem',
               fontFamily: 'Inter, sans-serif',
               color: 'var(--text-secondary)',
-              maxWidth: '700px',
-              margin: '0 auto'
+              maxWidth: '720px',
+              margin: '0 auto',
+              lineHeight: 1.6
             }}>
               Generic tools and manual analysis can't keep up with modern search. SEOScribes automates your growth using data that matters.
             </p>
           </div>
 
-          <div style={{
-            display: 'grid',
-            gridTemplateColumns: '1fr 1fr',
-            gap: '3rem',
-            maxWidth: '900px',
-            margin: '0 auto'
-          }}>
-            <div>
-              <h3 style={{
-                fontSize: '1.5rem',
-                fontFamily: 'Inter, sans-serif',
-                fontWeight: 700,
-                marginBottom: '1.5rem',
-                color: 'var(--text-tertiary)',
-                textAlign: 'center'
+          <div className="comparison-grid">
+            {/* Generic Tools */}
+            <div className="comparison-card hero-entrance delay-2" style={{
+              background: '#f8fafc',
+              border: '1px solid var(--border-light)',
+            }}>
+              <div style={{
+                display: 'flex',
+                alignItems: 'center',
+                gap: '1rem',
+                marginBottom: '2.5rem'
               }}>
-                Generic SEO Tools
-              </h3>
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+                <div style={{
+                  width: '40px',
+                  height: '40px',
+                  borderRadius: '10px',
+                  background: 'white',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  color: 'var(--text-tertiary)',
+                  border: '1px solid var(--border-light)'
+                }}>
+                  <AlertTriangle size={20} />
+                </div>
+                <h3 style={{
+                  fontSize: '1.5rem',
+                  fontFamily: 'Inter, sans-serif',
+                  fontWeight: 800,
+                  color: 'var(--text-primary)',
+                  letterSpacing: '-0.01em'
+                }}>
+                  Generic SEO Tools
+                </h3>
+              </div>
+
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '0.875rem' }}>
                 {[
                   'Identifies problems without solutions',
                   'Static spreadsheet data exports',
@@ -1006,34 +908,79 @@ export default function LandingPage() {
                 ].map((item, i) => (
                   <div key={i} style={{
                     display: 'flex',
-                    alignItems: 'flex-start',
-                    gap: '0.75rem',
-                    padding: '1.25rem',
-                    background: 'white',
-                    borderRadius: '16px',
-                    border: '1px solid var(--border-color)',
-                    fontFamily: 'Inter, sans-serif',
-                    boxShadow: '0 1px 2px rgba(0,0,0,0.03)'
+                    alignItems: 'center',
+                    gap: '1rem',
+                    padding: '1rem 1.25rem',
+                    background: 'rgba(255,255,255,0.5)',
+                    borderRadius: '14px',
+                    border: '1px solid rgba(0,0,0,0.03)',
+                    color: 'var(--text-secondary)',
+                    fontSize: '0.9375rem'
                   }}>
-                    <AlertTriangle size={20} style={{ color: 'var(--error)', flexShrink: 0, marginTop: '2px' }} />
-                    <span style={{ fontSize: '0.9375rem', color: 'var(--text-secondary)' }}>{item}</span>
+                    <div style={{ width: '6px', height: '6px', borderRadius: '50%', background: 'var(--text-tertiary)', opacity: 0.3 }} />
+                    {item}
                   </div>
                 ))}
               </div>
             </div>
 
-            <div>
-              <h3 style={{
-                fontSize: '1.5rem',
-                fontFamily: 'Inter, sans-serif',
+            {/* SEOScribes */}
+            <div className="comparison-card hero-entrance delay-3" style={{
+              background: 'linear-gradient(180deg, #f5f3ff 0%, #ede9fe 100%)',
+              border: '1px solid var(--primary-100)',
+              position: 'relative',
+              overflow: 'hidden'
+            }}>
+              {/* Highlight badge */}
+              <div style={{
+                position: 'absolute',
+                top: '2rem',
+                right: '-2rem',
+                background: 'var(--primary-600)',
+                color: 'white',
+                padding: '0.5rem 3rem',
+                fontSize: '0.75rem',
                 fontWeight: 700,
-                marginBottom: '1.5rem',
-                color: 'var(--primary-600)',
-                textAlign: 'center'
+                transform: 'rotate(45deg)',
+                boxShadow: '0 4px 10px rgba(0,0,0,0.1)',
+                zIndex: 2
               }}>
-                SEOScribes
-              </h3>
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+                RECOMMENDED
+              </div>
+
+              <div style={{
+                display: 'flex',
+                alignItems: 'center',
+                gap: '1rem',
+                marginBottom: '2.5rem',
+                position: 'relative',
+                zIndex: 1
+              }}>
+                <div style={{
+                  width: '40px',
+                  height: '40px',
+                  borderRadius: '10px',
+                  background: 'var(--primary-600)',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  color: 'white',
+                  boxShadow: '0 8px 16px rgba(79, 70, 229, 0.2)'
+                }}>
+                  <Sparkles size={20} />
+                </div>
+                <h3 style={{
+                  fontSize: '1.5rem',
+                  fontFamily: 'Inter, sans-serif',
+                  fontWeight: 800,
+                  color: 'var(--primary-700)',
+                  letterSpacing: '-0.01em'
+                }}>
+                  SEOScribes
+                </h3>
+              </div>
+
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '0.875rem', position: 'relative', zIndex: 1 }}>
                 {[
                   'Identifies and fixes in 1-click',
                   'Real-time automated dashboards',
@@ -1046,17 +993,19 @@ export default function LandingPage() {
                 ].map((item, i) => (
                   <div key={i} style={{
                     display: 'flex',
-                    alignItems: 'flex-start',
-                    gap: '0.75rem',
-                    padding: '1.25rem',
-                    background: 'var(--primary-50)',
-                    borderRadius: '16px',
+                    alignItems: 'center',
+                    gap: '1rem',
+                    padding: '1rem 1.25rem',
+                    background: 'white',
+                    borderRadius: '14px',
                     border: '1px solid var(--primary-100)',
-                    fontFamily: 'Inter, sans-serif',
-                    boxShadow: '0 1px 2px rgba(79, 70, 229, 0.05)'
+                    color: 'var(--primary-700)',
+                    fontSize: '0.9375rem',
+                    fontWeight: 600,
+                    boxShadow: '0 4px 12px rgba(79, 70, 229, 0.04)'
                   }}>
-                    <CheckCircle2 size={20} style={{ color: 'var(--primary-600)', flexShrink: 0, marginTop: '2px' }} />
-                    <span style={{ fontSize: '0.9375rem', color: 'var(--text-primary)', fontWeight: 500 }}>{item}</span>
+                    <CheckCircle2 size={18} style={{ color: 'var(--primary-600)' }} />
+                    {item}
                   </div>
                 ))}
               </div>
@@ -1066,100 +1015,136 @@ export default function LandingPage() {
       </section>
 
       {/* USE CASES */}
-      <section style={{ padding: '6rem 0', background: 'var(--bg-secondary)' }}>
-        <div className="container" style={{ maxWidth: '1200px' }}>
-          <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
+      <section id="use-cases" style={{
+        padding: '8rem 0',
+        background: 'var(--bg-secondary)',
+        position: 'relative',
+        overflow: 'hidden'
+      }}>
+        {/* Subtle decorative glow */}
+        <div style={{
+          position: 'absolute',
+          bottom: '-10%',
+          left: '5%',
+          width: '30%',
+          height: '50%',
+          background: 'radial-gradient(circle at center, rgba(99, 102, 241, 0.04) 0%, transparent 70%)',
+          pointerEvents: 'none',
+          zIndex: 0
+        }} />
+
+        <div className="container" style={{ maxWidth: '1200px', position: 'relative', zIndex: 1 }}>
+          <div style={{ textAlign: 'center', marginBottom: '5rem' }} className="hero-entrance delay-1">
+            <span className="badge badge-primary" style={{ marginBottom: '1.25rem', padding: '0.5rem 1rem' }}>Scenarios</span>
             <h2 style={{
-              fontSize: '2.75rem',
+              fontSize: '3.25rem',
               fontFamily: 'Inter, sans-serif',
               fontWeight: 800,
-              marginBottom: '1rem',
-              letterSpacing: '-0.03em'
+              marginBottom: '1.5rem',
+              letterSpacing: '-0.03em',
+              background: 'linear-gradient(180deg, var(--gray-900) 0%, var(--gray-700) 100%)',
+              WebkitBackgroundClip: 'text',
+              WebkitTextFillColor: 'transparent',
+              lineHeight: 1.1
             }}>
               Perfect For Every SEO Challenge
             </h2>
+            <p style={{
+              fontSize: '1.25rem',
+              fontFamily: 'Inter, sans-serif',
+              color: 'var(--text-secondary)',
+              maxWidth: '720px',
+              margin: '0 auto',
+              lineHeight: 1.6
+            }}>
+              Whether you are battling ranking decay or looking to scale what works, SEOScribes provides the automation you need.
+            </p>
           </div>
 
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '2rem' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: '2.5rem' }}>
             {[
               {
                 icon: TrendingDown,
                 title: 'Recover Lost Traffic',
-                scenario: 'Your blog post that used to get 5,000 visits/month is now down to 2,000.',
-                solution: 'SEOScribes detects the decay, analyzes what changed in the SERP, and auto-refreshes your content with updated data, new insights, and improved structure. Traffic recovers within 2-4 weeks.'
+                scenario: 'Your high-performing legacy content is slowly losing 10% traffic every month due to decay.',
+                solution: 'SEOScribes detects the decay instantly, reverse-engineers the new SERP leaders, and auto-refreshes your content with surgical precision.'
               },
               {
                 icon: Target,
                 title: 'Capture Quick Wins',
-                scenario: 'You have 50 keywords with 10,000+ impressions but only 2% CTR.',
-                solution: 'SEOScribes identifies these content gaps and generates optimized articles targeting those exact queries. You start ranking within days instead of months.'
+                scenario: 'You have hundreds of keywords ranking on page 2 with high impressions but zero clicks.',
+                solution: 'SEOScribes identifies these "striking distance" opportunities and optimizes your content to bridge the gap to the first page in days.'
               },
               {
                 icon: MessageSquare,
-                title: 'Get Cited in AI Answers',
-                scenario: 'ChatGPT and Perplexity are answering your target queries, but never citing your content.',
-                solution: 'SEOScribes reformats your content with clear citations, structured data, and authoritative signals that AI engines prefer. Your brand becomes the go-to source.'
+                title: 'Dominate AI Answers',
+                scenario: 'LLMs like ChatGPT are answering queries with your data but never citing your brand as the source.',
+                solution: 'SEOScribes structures your content with authoritative signals and GEO schema that ensure your brand is cited as the source in AI results.'
               }
             ].map((useCase, i) => (
-              <div key={i} style={{
-                padding: '2rem',
-                background: 'white',
-                borderRadius: '16px',
-                border: '1px solid var(--border-light)',
-                fontFamily: 'Inter, sans-serif'
-              }}>
-                <div style={{
-                  width: '48px',
-                  height: '48px',
-                  borderRadius: '12px',
-                  background: 'var(--primary-50)',
-                  color: 'var(--primary-600)',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  marginBottom: '1.25rem'
-                }}>
-                  <useCase.icon size={24} />
+              <div key={i} className={`use-case-card hero-entrance delay-${i + 2}`}>
+                <div className="use-case-icon-box">
+                  <useCase.icon size={26} strokeWidth={2.5} />
                 </div>
+
                 <h3 style={{
-                  fontSize: '1.25rem',
-                  fontWeight: 700,
-                  marginBottom: '1rem',
-                  color: 'var(--text-primary)'
+                  fontSize: '1.5rem',
+                  fontWeight: 800,
+                  marginBottom: '1.25rem',
+                  color: 'var(--text-primary)',
+                  letterSpacing: '-0.01em'
                 }}>
                   {useCase.title}
                 </h3>
-                <div style={{ marginBottom: '1rem' }}>
+
+                <div style={{
+                  background: '#f8fafc',
+                  padding: '1.5rem',
+                  borderRadius: '16px',
+                  marginBottom: '1.5rem',
+                  border: '1px solid rgba(0,0,0,0.03)',
+                  flex: 1
+                }}>
                   <p style={{
-                    fontSize: '0.875rem',
-                    fontWeight: 600,
+                    fontSize: '0.8125rem',
+                    fontWeight: 700,
                     color: 'var(--text-tertiary)',
-                    marginBottom: '0.5rem'
+                    marginBottom: '0.75rem',
+                    textTransform: 'uppercase',
+                    letterSpacing: '0.05em'
                   }}>
-                    The Problem:
-                  </p>
-                  <p style={{
-                    fontSize: '0.9375rem',
-                    color: 'var(--text-secondary)',
-                    lineHeight: 1.6,
-                    marginBottom: '1rem'
-                  }}>
-                    {useCase.scenario}
-                  </p>
-                </div>
-                <div>
-                  <p style={{
-                    fontSize: '0.875rem',
-                    fontWeight: 600,
-                    color: 'var(--primary-600)',
-                    marginBottom: '0.5rem'
-                  }}>
-                    The Solution:
+                    The Problem
                   </p>
                   <p style={{
                     fontSize: '0.9375rem',
                     color: 'var(--text-secondary)',
                     lineHeight: 1.6
+                  }}>
+                    {useCase.scenario}
+                  </p>
+                </div>
+
+                <div style={{
+                  background: 'var(--primary-50)',
+                  padding: '1.5rem',
+                  borderRadius: '16px',
+                  border: '1px solid var(--primary-100)'
+                }}>
+                  <p style={{
+                    fontSize: '0.8125rem',
+                    fontWeight: 700,
+                    color: 'var(--primary-600)',
+                    marginBottom: '0.75rem',
+                    textTransform: 'uppercase',
+                    letterSpacing: '0.05em'
+                  }}>
+                    The Solution
+                  </p>
+                  <p style={{
+                    fontSize: '0.9375rem',
+                    color: 'var(--primary-800)',
+                    lineHeight: 1.6,
+                    fontWeight: 500
                   }}>
                     {useCase.solution}
                   </p>
@@ -1171,82 +1156,108 @@ export default function LandingPage() {
       </section>
 
       {/* PRICING */}
-      <section id="pricing" style={{ padding: '5rem 0', background: 'var(--bg-secondary)' }}>
-        <div className="container" style={{ maxWidth: '1100px' }}>
-          <div style={{ textAlign: 'center', marginBottom: '3rem' }}>
+      <section id="pricing" style={{
+        padding: '8rem 0',
+        background: 'white',
+        position: 'relative',
+        overflow: 'hidden'
+      }}>
+        {/* Background Decorative Glow */}
+        <div style={{
+          position: 'absolute',
+          top: '20%',
+          right: '-10%',
+          width: '40%',
+          height: '60%',
+          background: 'radial-gradient(circle at center, rgba(99, 102, 241, 0.03) 0%, transparent 70%)',
+          zIndex: 0,
+          pointerEvents: 'none'
+        }} />
+
+        <div className="container" style={{ maxWidth: '1200px', position: 'relative', zIndex: 1 }}>
+          <div style={{ textAlign: 'center', marginBottom: '5rem' }} className="hero-entrance delay-1">
+            <span className="badge badge-primary" style={{ marginBottom: '1.25rem', padding: '0.5rem 1rem' }}>Pricing</span>
             <h2 style={{
-              fontSize: '2.5rem',
+              fontSize: '3.25rem',
               fontFamily: 'Inter, sans-serif',
               fontWeight: 800,
-              marginBottom: '0.75rem',
-              letterSpacing: '-0.03em'
+              marginBottom: '1.5rem',
+              letterSpacing: '-0.03em',
+              background: 'linear-gradient(180deg, var(--gray-900) 0%, var(--gray-700) 100%)',
+              WebkitBackgroundClip: 'text',
+              WebkitTextFillColor: 'transparent',
+              lineHeight: 1.1
             }}>
               Simple, Transparent Pricing
             </h2>
             <p style={{
-              fontSize: '1rem',
+              fontSize: '1.25rem',
               fontFamily: 'Inter, sans-serif',
-              color: 'var(--text-secondary)'
+              color: 'var(--text-secondary)',
+              maxWidth: '720px',
+              margin: '0 auto',
+              lineHeight: 1.6
             }}>
-              Start free, scale as you grow. No credit card required.
+              Start free, scale as you grow. <span style={{ color: 'var(--success)', fontWeight: 700 }}>Special Offer:</span> Optimizer plan is currently free for a limited time!
             </p>
           </div>
 
-          <div style={{
+          <div className="pricing-grid" style={{
             display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))',
-            gap: '1.25rem',
-            maxWidth: '1100px',
-            margin: '0 auto',
-            fontFamily: 'Inter, sans-serif'
+            gridTemplateColumns: 'repeat(4, 1fr)',
+            gap: '2rem',
+            maxWidth: '1200px',
+            margin: '0 auto'
           }}>
             {[
               {
                 name: 'Explorer',
                 price: 'Free',
                 period: 'forever',
+                desc: 'Perfect for new sites starting their SEO journey.',
                 features: [
-                  '1 Website',
-                  'Basic GSC Analytics',
+                  '1 Website context',
+                  'Basic GSC Insights',
                   'Content Gap Detection',
                   'Traffic Decay Alerts',
                   'Community Support'
                 ],
                 cta: 'Start Free',
                 link: APP_URL,
-                highlight: false,
-                badge: null
+                highlight: false
               },
               {
                 name: 'Optimizer',
-                price: '$29',
-                period: '/month',
+                price: 'Free',
+                period: 'Limited Time',
+                desc: 'Perfect for growing blogs. Usually $29/mo, now free for early adopters.',
                 features: [
-                  '3 Websites',
+                  '3 Websites context',
                   '15 AI Articles/month',
                   '50 Content Fixes/month',
                   'Competitor Analysis',
                   'AI Answer Optimization',
                   'Email Support'
                 ],
-                cta: 'Get Started Free',
+                cta: 'Claim Free Access',
                 link: APP_URL,
                 highlight: false,
-                badge: null
+                offer: true
               },
               {
                 name: 'Accelerator',
                 price: '$79',
                 period: '/month',
+                desc: 'Built for content agencies and power users.',
                 features: [
                   '10 Websites',
                   '50 AI Articles/month',
                   '200 Content Fixes/month',
                   'Advanced Reporting',
-                  'Performance Monitoring',
+                  'Performance Lifecycle',
                   'Priority Support'
                 ],
-                cta: 'Get Started Free',
+                cta: 'Popular Choice',
                 link: APP_URL,
                 highlight: true,
                 badge: 'Most Popular'
@@ -1255,100 +1266,118 @@ export default function LandingPage() {
                 name: 'Dominator',
                 price: '$149',
                 period: '/month',
+                desc: 'For high-scale portfolios and enterprises.',
                 features: [
                   '30 Websites',
                   '120 AI Articles/month',
-                  '500 Content Fixes/month',
-                  'API Access',
+                  'Unlimited Fixes',
+                  'API Access (Beta)',
                   'White-label Reports',
-                  'Custom Branding',
                   'Dedicated Support'
                 ],
-                cta: 'Contact Sales',
+                cta: 'Get Started',
                 link: APP_URL,
-                highlight: false,
-                badge: null
+                highlight: false
               }
             ].map((plan, i) => (
-              <div key={i} style={{
-                background: 'white',
-                borderRadius: '12px',
-                padding: '1.75rem',
-                border: plan.highlight ? '2px solid var(--primary-500)' : '1px solid var(--border-light)',
-                position: 'relative',
-                boxShadow: plan.highlight ? '0 8px 24px -8px rgba(79, 70, 229, 0.25)' : '0 2px 8px rgba(0,0,0,0.04)',
-                transition: 'transform 0.2s, box-shadow 0.2s',
-                cursor: 'default'
-              }}>
+              <div key={i} className={`pricing-card ${plan.highlight ? 'highlight' : ''} hero-entrance delay-${i + 2}`}>
                 {plan.badge && (
                   <div style={{
                     position: 'absolute',
-                    top: '-10px',
-                    left: '50%',
-                    transform: 'translateX(-50%)',
-                    background: 'linear-gradient(135deg, var(--primary-600), var(--primary-700))',
+                    top: '1.5rem',
+                    right: '1.5rem',
+                    background: 'var(--primary-600)',
                     color: 'white',
-                    padding: '3px 10px',
+                    padding: '0.375rem 0.875rem',
                     borderRadius: '99px',
-                    fontSize: '0.6875rem',
-                    fontWeight: 600,
-                    boxShadow: '0 2px 8px rgba(79, 70, 229, 0.3)'
+                    fontSize: '0.75rem',
+                    fontWeight: 700,
+                    boxShadow: '0 4px 10px rgba(79, 70, 229, 0.2)'
                   }}>
                     {plan.badge}
                   </div>
                 )}
-                <h3 style={{
-                  fontSize: '1.125rem',
-                  fontWeight: 700,
-                  marginBottom: '0.5rem',
-                  color: 'var(--text-primary)'
-                }}>
-                  {plan.name}
-                </h3>
-                <div style={{ display: 'flex', alignItems: 'baseline', gap: '0.25rem', marginBottom: '1.25rem' }}>
-                  {plan.price === 'Free' ? (
-                    <>
-                      <span style={{ fontSize: '2.25rem', fontWeight: 800, color: 'var(--text-primary)' }}>Free</span>
-                      <span style={{ fontSize: '0.8125rem', color: 'var(--text-secondary)' }}>{plan.period}</span>
-                    </>
-                  ) : (
-                    <>
-                      <span style={{ fontSize: '2.25rem', fontWeight: 800, color: 'var(--text-primary)' }}>{plan.price}</span>
-                      <span style={{ fontSize: '0.8125rem', color: 'var(--text-secondary)' }}>{plan.period}</span>
-                    </>
-                  )}
+
+                <div style={{ marginBottom: '2rem' }}>
+                  <h3 style={{
+                    fontSize: '1.25rem',
+                    fontWeight: 700,
+                    color: plan.highlight ? 'var(--primary-700)' : 'var(--text-primary)',
+                    marginBottom: '0.5rem'
+                  }}>
+                    {plan.name}
+                  </h3>
+                  <div style={{ display: 'flex', alignItems: 'baseline', gap: '0.25rem', marginBottom: '0.75rem' }}>
+                    <span style={{
+                      fontSize: '3rem',
+                      fontWeight: 800,
+                      color: 'var(--text-primary)',
+                      letterSpacing: '-0.02em'
+                    }}>
+                      {plan.price}
+                    </span>
+                    <span style={{
+                      fontSize: '1rem',
+                      color: 'var(--text-secondary)',
+                      fontWeight: 500
+                    }}>
+                      {plan.period}
+                    </span>
+                  </div>
+                  <p style={{
+                    fontSize: '0.9375rem',
+                    color: 'var(--text-secondary)',
+                    lineHeight: 1.5,
+                    minHeight: '3rem'
+                  }}>
+                    {plan.desc}
+                  </p>
                 </div>
-                <div style={{ height: '1px', background: 'var(--border-light)', marginBottom: '1.25rem' }} />
-                <ul style={{
-                  listStyle: 'none',
-                  marginBottom: '1.5rem',
+
+                <div style={{
                   display: 'flex',
                   flexDirection: 'column',
-                  gap: '0.625rem'
+                  gap: '1rem',
+                  marginBottom: '2.5rem',
+                  flex: 1
                 }}>
-                  {plan.features.map((f, j) => (
-                    <li key={j} style={{
+                  {plan.features.map((feature, j) => (
+                    <div key={j} style={{
                       display: 'flex',
                       alignItems: 'center',
-                      gap: '0.5rem',
-                      fontSize: '0.875rem',
-                      color: 'var(--text-secondary)'
+                      gap: '0.75rem',
+                      fontSize: '0.9375rem',
+                      color: 'var(--text-secondary)',
+                      fontWeight: 500
                     }}>
-                      <Check size={15} style={{ color: 'var(--primary-600)', flexShrink: 0 }} />
-                      {f}
-                    </li>
+                      <CheckCircle2 size={18} style={{
+                        color: plan.highlight ? 'var(--primary-600)' : 'var(--success)',
+                        flexShrink: 0
+                      }} />
+                      {feature}
+                    </div>
                   ))}
-                </ul>
-                <a href={plan.link} className={`btn ${plan.highlight ? 'btn-primary' : 'btn-secondary'}`} style={{
+                </div>
+                <a href={plan.link} className={`btn ${plan.highlight ? 'btn-primary' : (plan.offer ? 'btn-success' : 'btn-outline')}`} style={{
                   width: '100%',
                   justifyContent: 'center',
                   fontFamily: 'Inter, sans-serif',
-                  fontSize: '0.875rem',
-                  padding: '0.625rem 1rem',
-                  fontWeight: 600,
-                  textDecoration: 'none'
+                  fontSize: '0.9375rem',
+                  padding: '0.875rem 1rem',
+                  fontWeight: 700,
+                  textDecoration: 'none',
+                  borderRadius: '14px',
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: '0.5rem',
+                  transition: 'all 0.3s ease',
+                  background: plan.highlight ? 'var(--primary-600)' : (plan.offer ? 'var(--success)' : 'var(--gray-50)'),
+                  color: (plan.highlight || plan.offer) ? 'white' : 'var(--text-primary)',
+                  border: (plan.highlight || plan.offer) ? 'none' : '1px solid var(--border-color)',
+                  boxShadow: (plan.highlight || plan.offer) ? '0 10px 20px -5px rgba(0,0,0,0.1)' : 'none'
                 }}>
                   {plan.cta}
+                  {plan.offer && <Zap size={16} fill="white" />}
                 </a>
               </div>
             ))}
@@ -1364,34 +1393,57 @@ export default function LandingPage() {
             Free forever • No credit card required • Cancel anytime
           </p>
         </div>
-      </section>
+      </section >
 
       {/* FAQ SECTION */}
-      <section id="faq" style={{ padding: '6rem 0', background: 'white' }}>
-        <div className="container" style={{ maxWidth: '900px' }}>
-          <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
-            <span className="badge badge-primary" style={{ marginBottom: '1rem', fontFamily: 'Inter, sans-serif' }}>FAQ</span>
+      <section id="faq" style={{
+        padding: '8rem 0',
+        background: 'white',
+        position: 'relative',
+        overflow: 'hidden'
+      }}>
+        {/* Subtle Background Decoration */}
+        <div style={{
+          position: 'absolute',
+          top: '50%',
+          left: '50%',
+          transform: 'translate(-50%, -50%)',
+          width: '100%',
+          height: '100%',
+          background: 'radial-gradient(circle at center, rgba(99, 102, 241, 0.02) 0%, transparent 70%)',
+          zIndex: 0,
+          pointerEvents: 'none'
+        }} />
+
+        <div className="container" style={{ maxWidth: '800px', position: 'relative', zIndex: 1 }}>
+          <div style={{ textAlign: 'center', marginBottom: '5rem' }} className="hero-entrance delay-1">
+            <span className="badge badge-primary" style={{ marginBottom: '1.25rem', padding: '0.5rem 1rem' }}>Support</span>
             <h2 style={{
-              fontSize: '2.75rem',
+              fontSize: '3.25rem',
               fontFamily: 'Inter, sans-serif',
               fontWeight: 800,
-              marginBottom: '1rem',
-              letterSpacing: '-0.03em'
+              marginBottom: '1.5rem',
+              letterSpacing: '-0.03em',
+              background: 'linear-gradient(180deg, var(--gray-900) 0%, var(--gray-700) 100%)',
+              WebkitBackgroundClip: 'text',
+              WebkitTextFillColor: 'transparent',
+              lineHeight: 1.1
             }}>
-              Common Questions About SEOScribes
+              Common Questions
             </h2>
             <p style={{
-              fontSize: '1.125rem',
+              fontSize: '1.25rem',
               fontFamily: 'Inter, sans-serif',
               color: 'var(--text-secondary)',
-              maxWidth: '700px',
-              margin: '0 auto'
+              maxWidth: '600px',
+              margin: '0 auto',
+              lineHeight: 1.6
             }}>
               Everything you need to know about our AI-powered SEO platform and how it helps you grow.
             </p>
           </div>
 
-          <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
             {[
               {
                 q: 'What is SEOScribes?',
@@ -1403,7 +1455,7 @@ export default function LandingPage() {
               },
               {
                 q: 'Is it safe to use AI-generated content for SEO?',
-                a: 'Yes, when used correctly. SEOScribes focuses on high-quality, research-backed content that follows Google’s E-E-A-T (Experience, Expertise, Authoritativeness, and Trustworthiness) guidelines. Our AI acts as a researcher and writer that uses your actual GSC data to ensure relevance and accuracy.'
+                a: 'Yes, when used correctly. SEOScribes focuses on high-quality, research-backed content that follows Google’s E-E-A-T guidelines. Our AI acts as a researcher and writer that uses your actual GSC data to ensure relevance and accuracy.'
               },
               {
                 q: 'Does SEOScribes replace my current SEO tools?',
@@ -1418,100 +1470,137 @@ export default function LandingPage() {
                 a: 'We currently support direct publishing to WordPress, with more integrations like Shopify, Ghost, and Webflow coming soon. You can also export your content in Markdown or HTML for any other platform.'
               }
             ].map((faq, i) => (
-              <details key={i} style={{
-                background: 'var(--bg-secondary)',
-                borderRadius: '12px',
-                border: '1px solid var(--border-light)',
-                padding: '1.5rem',
-                cursor: 'pointer'
-              }} className="faq-item">
-                <summary style={{
-                  fontSize: '1.125rem',
-                  fontWeight: 600,
-                  fontFamily: 'Inter, sans-serif',
-                  color: 'var(--text-primary)',
-                  listStyle: 'none',
-                  display: 'flex',
-                  justifyContent: 'space-between',
-                  alignItems: 'center'
-                }}>
+              <details key={i} className="faq-card hero-entrance" style={{ animationDelay: `${0.1 * (i + 2)}s` }}>
+                <summary className="faq-summary">
                   {faq.q}
-                  <span style={{ fontSize: '1.25rem', color: 'var(--primary-600)' }}>+</span>
+                  <div className="faq-icon">
+                    <Check size={14} strokeWidth={3} />
+                  </div>
                 </summary>
-                <p style={{
-                  marginTop: '1rem',
+                <div className="faq-content" style={{
+                  padding: '0 2rem 1.5rem 2rem',
                   fontSize: '1rem',
                   lineHeight: 1.6,
                   color: 'var(--text-secondary)',
                   fontFamily: 'Inter, sans-serif'
                 }}>
                   {faq.a}
-                </p>
+                </div>
               </details>
             ))}
           </div>
         </div>
       </section>
 
-      {/* CTA SECTION */}
-      <section style={{
+      {/* FINAL CTA SECTION - COMPACT */}
+      <section id="cta" style={{
         position: 'relative',
         padding: '6rem 0',
-        background: 'linear-gradient(135deg, var(--primary-600), var(--primary-800))',
-        color: 'white',
-        overflow: 'hidden'
+        background: 'var(--gray-900)',
+        overflow: 'hidden',
+        display: 'flex',
+        alignItems: 'center'
       }}>
-        {/* Grid and Glow effects */}
-        <div className="cta-grid-pattern" />
-        <div className="cta-glow-effect" />
-        <div className="container" style={{ position: 'relative', zIndex: 10, maxWidth: '800px', textAlign: 'center' }}>
-          <h2 style={{
-            fontSize: '2.75rem',
-            fontFamily: 'Inter, sans-serif',
-            fontWeight: 800,
-            marginBottom: '1rem',
-            letterSpacing: '-0.03em',
-            color: 'white'
-          }}>
-            Stop Losing Traffic. Start Ranking.
-          </h2>
-          <p style={{
-            fontSize: '1.25rem',
-            fontFamily: 'Inter, sans-serif',
-            marginBottom: '2.5rem',
-            opacity: 0.9,
-            lineHeight: 1.6
-          }}>
-            Join 500+ content teams using SEOScribes to automate their SEO growth,
-            scale their rankings, and dominate search results using real performance data.
-          </p>
-          <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap' }}>
-            <a href={APP_URL} className="btn" style={{
-              padding: '0 2rem',
-              fontSize: '1.0625rem',
-              height: '54px',
-              borderRadius: '12px',
-              background: 'white',
-              color: 'var(--primary-600)',
-              fontWeight: 700,
+        {/* Deep mesh gradient background */}
+        <div style={{
+          position: 'absolute',
+          inset: 0,
+          background: 'radial-gradient(circle at 20% 30%, rgba(79, 70, 229, 0.12) 0%, transparent 50%), radial-gradient(circle at 80% 70%, rgba(124, 58, 237, 0.12) 0%, transparent 50%)',
+          zIndex: 1
+        }} />
+
+        {/* Animated grid pattern */}
+        <div className="cta-grid-pattern" style={{ opacity: 0.2, zIndex: 2 }} />
+        <div className="cta-glow-effect" style={{ zIndex: 2 }} />
+
+        <div className="container" style={{ position: 'relative', zIndex: 10, maxWidth: '1000px', textAlign: 'center' }}>
+          <div className="hero-entrance">
+            <h2 style={{
+              fontSize: '3.25rem',
               fontFamily: 'Inter, sans-serif',
-              boxShadow: '0 20px 40px -10px rgba(0,0,0,0.2)'
+              fontWeight: 800,
+              marginBottom: '1rem',
+              letterSpacing: '-0.04em',
+              color: 'white',
+              lineHeight: 1.1
             }}>
-              Get Started Free <ArrowRight size={20} />
-            </a>
+              Stop Losing Traffic. <span style={{
+                background: 'linear-gradient(90deg, #818CF8 0%, #C084FC 100%)',
+                WebkitBackgroundClip: 'text',
+                WebkitTextFillColor: 'transparent',
+                display: 'inline-block'
+              }}>Start Ranking.</span>
+            </h2>
+            <p style={{
+              fontSize: '1.1875rem',
+              fontFamily: 'Inter, sans-serif',
+              marginBottom: '2.5rem',
+              color: 'rgba(255,255,255,0.7)',
+              lineHeight: 1.6,
+              maxWidth: '680px',
+              margin: '0 auto 2.5rem auto'
+            }}>
+              Join 500+ SEO teams using SEOScribes to automate content growth and recover lost rankings with real GSC data.
+            </p>
+
+            <div style={{
+              display: 'flex',
+              flexDirection: 'column',
+              alignItems: 'center',
+              gap: '1.25rem'
+            }}>
+              <a href={APP_URL} className="btn btn-shimmer" style={{
+                padding: '0 3rem',
+                fontSize: '1.125rem',
+                height: '58px',
+                borderRadius: '14px',
+                background: 'white',
+                color: 'var(--primary-600)',
+                fontWeight: 800,
+                fontFamily: 'Inter, sans-serif',
+                boxShadow: '0 20px 40px -10px rgba(0,0,0,0.3)',
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: '0.625rem',
+                border: 'none',
+                transition: 'all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275)'
+              }}>
+                Get Started Free <ArrowRight size={20} />
+              </a>
+
+              <div style={{
+                display: 'flex',
+                alignItems: 'center',
+                gap: '1.5rem',
+                opacity: 0.5,
+                fontSize: '0.8125rem',
+                color: 'white',
+                fontWeight: 500
+              }}>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '0.375rem' }}>
+                  <CheckCircle2 size={14} /> Free Forever
+                </div>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '0.375rem' }}>
+                  <CheckCircle2 size={14} /> No Card Required
+                </div>
+              </div>
+            </div>
           </div>
-          <p style={{
-            marginTop: '1.5rem',
-            fontSize: '0.875rem',
-            fontFamily: 'Inter, sans-serif',
-            opacity: 0.8
-          }}>
-            No credit card required • Free forever • Cancel anytime
-          </p>
         </div>
+
+        {/* Decorative bottom fade */}
+        <div style={{
+          position: 'absolute',
+          bottom: 0,
+          left: 0,
+          width: '100%',
+          height: '100px',
+          background: 'linear-gradient(to top, var(--gray-900), transparent)',
+          zIndex: 3
+        }} />
       </section>
 
       <Footer />
-    </div>
+    </div >
   );
 }
