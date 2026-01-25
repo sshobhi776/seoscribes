@@ -43,12 +43,7 @@ export default function Footer() {
                                 Automate content recovery, gap analysis, and
                                 AI engine optimization with ease.
                             </p>
-                            <div style={{ display: 'flex', gap: '0.75rem' }}>
-                                <a href="#" className="social-icon"><Twitter size={18} /></a>
-                                <a href="#" className="social-icon"><Linkedin size={18} /></a>
-                                <a href="#" className="social-icon"><Github size={18} /></a>
-                                <a href="mailto:hello@seoscribes.com" className="social-icon"><Mail size={18} /></a>
-                            </div>
+                         
                         </div>
 
                         {/* Product Column */}
@@ -64,11 +59,12 @@ export default function Footer() {
                                 Product
                             </h4>
                             <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
-                                <a href="#features" className="footer-link">Features</a>
+                                 <a href="#pricing" className="footer-link">Pricing</a>
+                                 <a href="#features" className="footer-link">Features</a>
+                                
+                        
+                                <a href="#comparison" className="footer-link">Comparison</a>
                                 <a href="#how-it-works" className="footer-link">How it Works</a>
-                                <a href="#pricing" className="footer-link">Pricing</a>
-                                <a href="#comparison" className="footer-link">The Difference</a>
-                                <a href={APP_URL} className="footer-link">Live Demo</a>
                             </div>
                         </div>
 
@@ -85,11 +81,12 @@ export default function Footer() {
                                 Support
                             </h4>
                             <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
-                                <a href="#faq" className="footer-link">Help Center</a>
+                                <a href="#faq" className="footer-link">FAQs</a>
+                                 <Link href="/contact" className="footer-link">Contact Us</Link>
                                 <Link href="/privacy" className="footer-link">Privacy Policy</Link>
                                 <Link href="/terms" className="footer-link">Terms of Service</Link>
-                                <Link href="/contact" className="footer-link">Contact Sales</Link>
-                                <a href="https://blog.seoscribes.com" className="footer-link">SEO Blog</a>
+                               
+                              
                             </div>
                         </div>
 
@@ -118,39 +115,7 @@ export default function Footer() {
                                 <p style={{ fontSize: '0.8125rem', color: 'rgba(255, 255, 255, 0.5)', lineHeight: 1.5, marginBottom: '1.25rem' }}>
                                     Join 5,000+ SEO experts getting our weekly automation insights.
                                 </p>
-                                <div style={{ position: 'relative' }}>
-                                    <input
-                                        type="email"
-                                        placeholder="Email address"
-                                        style={{
-                                            width: '100%',
-                                            background: 'rgba(255,255,255,0.05)',
-                                            border: '1px solid rgba(255,255,255,0.1)',
-                                            padding: '0.75rem 1rem',
-                                            borderRadius: '10px',
-                                            color: 'white',
-                                            fontSize: '0.875rem',
-                                            fontFamily: 'Inter, sans-serif'
-                                        }}
-                                    />
-                                    <button style={{
-                                        position: 'absolute',
-                                        right: '4px',
-                                        top: '4px',
-                                        bottom: '4px',
-                                        background: 'var(--primary-600)',
-                                        border: 'none',
-                                        borderRadius: '8px',
-                                        width: '32px',
-                                        display: 'flex',
-                                        alignItems: 'center',
-                                        justifyContent: 'center',
-                                        color: 'white',
-                                        cursor: 'pointer'
-                                    }}>
-                                        <ArrowRight size={14} />
-                                    </button>
-                                </div>
+                               
                             </div>
                         </div>
                     </div>
@@ -166,7 +131,7 @@ export default function Footer() {
                         gap: '1rem'
                     }}>
                         <div style={{ fontSize: '0.875rem', color: 'rgba(255, 255, 255, 0.4)' }}>
-                            © 2026 SEOScribes. All rights reserved. Built for the era of AI Search.
+                            © 2026 SEOScribes. All rights reserved. 
                         </div>
                         <div style={{ display: 'flex', alignItems: 'center', gap: '1.5rem', fontSize: '0.875rem', color: 'rgba(255, 255, 255, 0.4)' }}>
                             <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>

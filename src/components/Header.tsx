@@ -26,14 +26,14 @@ export default function Header() {
                 top: scrolled ? '1rem' : '0',
                 left: scrolled ? '1rem' : '0',
                 right: scrolled ? '1rem' : '0',
-                background: scrolled ? 'rgba(255, 255, 255, 0.75)' : 'rgba(255, 255, 255, 0.4)',
-                backdropFilter: 'blur(16px)',
-                WebkitBackdropFilter: 'blur(16px)',
+                background: scrolled ? 'rgba(255, 255, 255, 0.75)' : 'transparent',
+                backdropFilter: scrolled ? 'blur(16px)' : 'none',
+                WebkitBackdropFilter: scrolled ? 'blur(16px)' : 'none',
                 border: scrolled ? '1px solid rgba(255, 255, 255, 0.3)' : '1px solid transparent',
                 borderRadius: scrolled ? '20px' : '0',
                 boxShadow: scrolled ? '0 10px 30px -10px rgba(0,0,0,0.1)' : 'none',
                 zIndex: 1000,
-                height: scrolled ? '64px' : '80px',
+                height: scrolled ? '56px' : '64px',
                 transition: 'all 0.4s cubic-bezier(0.16, 1, 0.3, 1)',
                 display: 'flex',
                 alignItems: 'center',
@@ -54,7 +54,7 @@ export default function Header() {
                             src="/images/seoscribeslogo.webp"
                             alt="SEOScribes"
                             style={{
-                                height: scrolled ? '32px' : '38px',
+                                height: scrolled ? '28px' : '32px',
                                 width: 'auto',
                                 transition: 'all 0.4s ease'
                             }}
@@ -88,10 +88,10 @@ export default function Header() {
                     </nav>
 
                     <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
-                        <a href={APP_URL} className="btn-shimmer" style={{
+                        <a href={APP_URL} className="btn-shimmer desktop-cta" style={{
                             background: 'var(--primary-600)',
                             color: 'white',
-                            padding: scrolled ? '0.5rem 1.25rem' : '0.625rem 1.5rem',
+                            padding: scrolled ? '0.5rem 1.25rem' : '0.5rem 1.25rem',
                             borderRadius: '12px',
                             fontSize: '0.875rem',
                             fontWeight: 700,

@@ -2,7 +2,7 @@
 
 export default function DashboardPreview() {
   return (
-    <div style={{
+    <div className="dashboard-preview-container" style={{
       width: '100%',
       maxWidth: '1000px',
       background: 'white',
@@ -30,7 +30,8 @@ export default function DashboardPreview() {
         overflow: 'hidden',
         fontFamily: 'Inter, sans-serif',
         minHeight: '650px',
-        border: '1px solid rgba(0,0,0,0.03)'
+        border: '1px solid rgba(0,0,0,0.03)',
+        position: 'relative'
       }}>
         {/* Sidebar */}
         <div className="sidebar" style={{
@@ -141,7 +142,7 @@ export default function DashboardPreview() {
           <div className="stats-grid" style={{
             padding: '1.5rem',
             display: 'grid',
-            gridTemplateColumns: 'repeat(4, 1fr)',
+            gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))',
             gap: '1rem',
           }}>
             {[
@@ -213,7 +214,7 @@ export default function DashboardPreview() {
                 <button style={{ background: 'transparent', border: 'none', color: 'var(--primary-600)', fontSize: '0.8125rem', fontWeight: 600, cursor: 'pointer' }}>View All</button>
               </div>
               <div style={{ borderRadius: '12px', border: '1px solid rgba(0,0,0,0.05)', overflow: 'hidden' }}>
-                <div className="table-grid" style={{
+                <div className="table-grid table-header" style={{
                   display: 'grid',
                   gridTemplateColumns: '2fr 1fr 1fr 1fr',
                   background: '#f8fafc',
@@ -237,10 +238,10 @@ export default function DashboardPreview() {
                     alignItems: 'center',
                     background: 'white'
                   }}>
-                    <div style={{ fontSize: '0.8125rem', fontWeight: 600, color: 'var(--text-primary)', textAlign: 'left' }}>{row.keyword}</div>
-                    <div style={{ fontSize: '0.8125rem', color: 'var(--text-secondary)', fontWeight: 500 }}>{row.impressions}</div>
-                    <div style={{ fontSize: '0.8125rem', color: 'var(--text-secondary)', fontWeight: 500 }}>{row.position}</div>
-                    <div className="action-col">
+                    <div data-label="Keyword" style={{ fontSize: '0.8125rem', fontWeight: 600, color: 'var(--text-primary)', textAlign: 'left' }}>{row.keyword}</div>
+                    <div data-label="Impressions" style={{ fontSize: '0.8125rem', color: 'var(--text-secondary)', fontWeight: 500 }}>{row.impressions}</div>
+                    <div data-label="Avg. Position" style={{ fontSize: '0.8125rem', color: 'var(--text-secondary)', fontWeight: 500 }}>{row.position}</div>
+                    <div className="action-col" data-label="Priority">
                       <span style={{
                         padding: '2px 8px',
                         borderRadius: '6px',
@@ -275,7 +276,7 @@ export default function DashboardPreview() {
                 </div>
               </div>
               <div style={{ borderRadius: '12px', border: '1px solid rgba(0,0,0,0.05)', overflow: 'hidden' }}>
-                <div className="table-grid" style={{
+                <div className="table-grid table-header" style={{
                   display: 'grid',
                   gridTemplateColumns: '2fr 1fr 1fr 1fr',
                   background: '#f8fafc',
@@ -302,12 +303,12 @@ export default function DashboardPreview() {
                     alignItems: 'center',
                     background: 'white'
                   }}>
-                    <div style={{ fontSize: '0.8125rem', fontWeight: 600, color: 'var(--text-primary)', textAlign: 'left' }}>{row.page}</div>
-                    <div style={{ fontSize: '0.8125rem', color: '#ef4444', fontWeight: 700, display: 'flex', alignItems: 'center', gap: '4px' }}>
+                    <div data-label="Page" style={{ fontSize: '0.8125rem', fontWeight: 600, color: 'var(--text-primary)', textAlign: 'left' }}>{row.page}</div>
+                    <div data-label="Drop" style={{ fontSize: '0.8125rem', color: '#ef4444', fontWeight: 700, display: 'flex', alignItems: 'center', gap: '4px' }}>
                       <TrendingDown size={14} />
                       {row.drop}
                     </div>
-                    <div>
+                    <div data-label="Severity">
                       <span style={{
                         padding: '2px 8px',
                         borderRadius: '6px',
@@ -319,7 +320,7 @@ export default function DashboardPreview() {
                         {row.severity}
                       </span>
                     </div>
-                    <div className="action-col">
+                    <div className="action-col" data-label="Action">
                       <button className="fix-btn-preview" style={{
                         fontSize: '0.75rem',
                         padding: '6px 12px',
