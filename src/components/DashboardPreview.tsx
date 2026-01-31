@@ -1,346 +1,524 @@
-﻿import { FileText, Eye, MousePointer, Target, TrendingUp, TrendingDown, AlertTriangle, BarChart3, Sparkles, Settings, HelpCircle, ChevronRight } from 'lucide-react';
+﻿'use client';
+
+import { useState } from 'react';
+import {
+  LayoutDashboard,
+  BarChart3,
+  Search,
+  Sparkles,
+  FileText,
+  Globe,
+  History,
+  MessageSquare,
+  User,
+  HelpCircle,
+  ChevronDown,
+  Plus,
+  Send,
+  BarChart,
+  TrendingDown,
+  Target,
+  Lightbulb,
+  Wrench,
+  Menu,
+  X
+} from 'lucide-react';
 
 export default function DashboardPreview() {
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
   return (
     <div className="dashboard-preview-container" style={{
       width: '100%',
-      maxWidth: '1000px',
+      maxWidth: '100%',
       background: 'white',
       borderRadius: '24px',
-      boxShadow: '0 40px 80px -15px rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0,0,0,0.05)',
-      padding: '0.625rem',
+      boxShadow: '0 25px 80px -20px rgba(0, 0, 0, 0.15), 0 0 0 1px rgba(0,0,0,0.04)',
+      overflow: 'hidden',
       position: 'relative',
-      overflow: 'hidden'
+      fontFamily: 'Inter, sans-serif'
     }}>
-
       {/* Window Controls */}
-      <div style={{ display: 'flex', gap: '8px', marginBottom: '0.75rem', paddingLeft: '0.75rem', paddingTop: '0.5rem' }}>
-        {['#ff5f57', '#febc2e', '#28c840'].map((c) => (
-          <div key={c} style={{ width: '12px', height: '12px', borderRadius: '50%', background: c }} />
+      <div style={{
+        display: 'flex',
+        gap: '8px',
+        padding: '1rem 1rem 0.5rem 1.25rem',
+        background: 'linear-gradient(180deg, #f8fafc 0%, #ffffff 100%)',
+        borderBottom: '1px solid #e2e8f0'
+      }}>
+        {[
+          { color: '#ff5f57', shadow: 'rgba(255, 95, 87, 0.3)' },
+          { color: '#febc2e', shadow: 'rgba(254, 188, 46, 0.3)' },
+          { color: '#28c840', shadow: 'rgba(40, 200, 64, 0.3)' }
+        ].map((dot, i) => (
+          <div key={i} style={{
+            width: '12px',
+            height: '12px',
+            borderRadius: '50%',
+            background: dot.color,
+            boxShadow: `0 0 8px ${dot.shadow}`
+          }} />
         ))}
       </div>
 
-      {/* Dashboard Content with Sidebar */}
+      {/* Main Dashboard Layout - Responsive */}
       <div className="dashboard-grid" style={{
         display: 'grid',
-        gridTemplateColumns: '200px 1fr',
-        gap: 0,
-        background: '#fcfdfe',
-        borderRadius: '16px',
-        overflow: 'hidden',
-        fontFamily: 'Inter, sans-serif',
+        gridTemplateColumns: 'minmax(200px, 240px) 1fr',
         minHeight: '650px',
-        border: '1px solid rgba(0,0,0,0.03)',
-        position: 'relative'
+        background: '#f8fafc'
       }}>
-        {/* Sidebar */}
+        {/* Left Sidebar - Hidden on mobile */}
         <div className="sidebar" style={{
-          background: 'linear-gradient(180deg, #f8fafc 0%, #f1f5f9 100%)',
-          borderRight: '1px solid var(--border-light)',
-          padding: '1rem',
+          background: 'white',
+          borderRight: '1px solid #e2e8f0',
+          padding: '1.5rem 0.75rem',
           display: 'flex',
           flexDirection: 'column'
         }}>
+          {/* Logo */}
           <div style={{
-            padding: '0.875rem',
-            marginBottom: '1.25rem',
-            borderRadius: '12px',
-            background: 'white',
-            border: '1px solid rgba(0,0,0,0.05)',
+            display: 'flex',
+            alignItems: 'center',
+            gap: '0.5rem',
+            padding: '0 0.75rem 1.5rem',
+            marginBottom: '1rem',
+            borderBottom: '1px solid #f1f5f9'
+          }}>
+            <img
+              src="/images/seoscribeslogo.webp"
+              alt="SEOScribes"
+              style={{
+                height: '32px',
+                width: 'auto',
+                objectFit: 'contain'
+              }}
+            />
+          </div>
+
+          {/* Menu Sections */}
+          <div style={{ flex: 1, overflow: 'auto' }}>
+            {/* Menu Label */}
+            <div style={{
+              fontSize: '0.6875rem',
+              fontWeight: 600,
+              color: '#94a3b8',
+              textTransform: 'uppercase',
+              letterSpacing: '0.05em',
+              padding: '0 0.75rem',
+              marginBottom: '0.5rem',
+              textAlign: 'left'
+            }}>
+              Menu
+            </div>
+
+            {/* Menu Items */}
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '0.25rem', marginBottom: '1.5rem' }}>
+              {[
+                { icon: LayoutDashboard, label: 'Dashboard', active: false },
+                { icon: BarChart3, label: 'GSC Insights', active: false },
+                { icon: Search, label: 'SERP Analysis', active: false },
+                { icon: Sparkles, label: 'AI Generate', active: false },
+                { icon: FileText, label: 'Content Editor', active: false },
+                { icon: FileText, label: 'Content', active: false },
+                { icon: Globe, label: 'Websites', active: false },
+                { icon: History, label: 'History', active: false },
+              ].map((item) => (
+                <div key={item.label} style={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: '0.75rem',
+                  padding: '0.625rem 0.75rem',
+                  borderRadius: '8px',
+                  fontSize: '0.875rem',
+                  fontWeight: 500,
+                  color: '#64748b',
+                  cursor: 'pointer',
+                  transition: 'all 0.2s ease'
+                }}>
+                  <item.icon size={18} strokeWidth={1.5} />
+                  {item.label}
+                </div>
+              ))}
+            </div>
+
+            {/* SEO Chat - Active */}
+            <div style={{
+              display: 'flex',
+              alignItems: 'center',
+              gap: '0.75rem',
+              padding: '0.625rem 0.75rem',
+              borderRadius: '8px',
+              fontSize: '0.875rem',
+              fontWeight: 600,
+              color: '#4f46e5',
+              background: '#eef2ff',
+              cursor: 'pointer',
+              marginBottom: '1.5rem',
+              marginLeft: '0'
+            }}>
+              <MessageSquare size={18} strokeWidth={2} />
+              <span style={{ marginLeft: '0' }}>SEO Chat</span>
+            </div>
+
+            {/* Support Label */}
+            <div style={{
+              fontSize: '0.6875rem',
+              fontWeight: 600,
+              color: '#94a3b8',
+              textTransform: 'uppercase',
+              letterSpacing: '0.05em',
+              padding: '0 0.75rem',
+              marginBottom: '0.5rem',
+              textAlign: 'left'
+            }}>
+              Support
+            </div>
+
+            {/* Support Items */}
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '0.25rem' }}>
+              {[
+                { icon: User, label: 'Profile' },
+                { icon: HelpCircle, label: 'Support' },
+              ].map((item) => (
+                <div key={item.label} style={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: '0.75rem',
+                  padding: '0.625rem 0.75rem',
+                  borderRadius: '8px',
+                  fontSize: '0.875rem',
+                  fontWeight: 500,
+                  color: '#64748b',
+                  cursor: 'pointer',
+                  transition: 'all 0.2s ease'
+                }}>
+                  <item.icon size={18} strokeWidth={1.5} />
+                  {item.label}
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* User Profile */}
+          <div style={{
             display: 'flex',
             alignItems: 'center',
             gap: '0.75rem',
-            boxShadow: '0 4px 12px -2px rgba(0,0,0,0.04)'
+            padding: '0.875rem',
+            marginTop: 'auto',
+            borderTop: '1px solid #f1f5f9',
+            justifyContent: 'flex-start'
           }}>
             <div style={{
-              width: '32px',
-              height: '32px',
-              borderRadius: '8px',
-              background: 'linear-gradient(135deg, var(--primary-500), var(--primary-600))',
+              width: '36px',
+              height: '36px',
+              borderRadius: '50%',
+              background: 'linear-gradient(135deg, #6366f1, #4f46e5)',
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'center',
-              fontSize: '0.875rem',
-              fontWeight: 700,
               color: 'white',
-              flexShrink: 0,
-              boxShadow: '0 4px 10px -2px rgba(79, 70, 229, 0.4)'
+              fontSize: '0.875rem',
+              fontWeight: 600
             }}>
-              JD
+              EJ
             </div>
             <div style={{ flex: 1, minWidth: 0, textAlign: 'left' }}>
-              <div style={{ fontSize: '0.8125rem', fontWeight: 700, color: 'var(--text-primary)', letterSpacing: '-0.01em' }}>John Doe</div>
-              <div style={{ fontSize: '0.6875rem', color: 'var(--text-tertiary)', opacity: 0.8 }}>Pro Plan</div>
+              <div style={{ fontSize: '0.875rem', fontWeight: 600, color: '#1e293b', textAlign: 'left' }}>Evan Johnson</div>
+              <div style={{ fontSize: '0.75rem', color: '#64748b', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap', textAlign: 'left' }}>evan@seoscribes.com</div>
             </div>
-          </div>
-
-          <div style={{ display: 'flex', flexDirection: 'column', gap: '0.25rem', marginBottom: 'auto' }}>
-            {[
-              { label: 'Dashboard', icon: BarChart3, active: true },
-              { label: 'Content Gaps', icon: Target, active: false },
-              { label: 'Decay Alerts', icon: AlertTriangle, active: false },
-              { label: 'AI Generate', icon: Sparkles, active: false }
-            ].map((item) => (
-              <div key={item.label} className={`sidebar-item ${item.active ? 'active' : ''}`} style={{
-                padding: '0.625rem 0.875rem',
-                borderRadius: '10px',
-                fontSize: '0.875rem',
-                fontWeight: item.active ? 600 : 500,
-                color: item.active ? 'var(--primary-700)' : 'var(--text-secondary)',
-                background: item.active ? 'white' : 'transparent',
-                display: 'flex',
-                alignItems: 'center',
-                gap: '0.75rem',
-                cursor: 'pointer',
-                boxShadow: item.active ? '0 4px 12px -2px rgba(0,0,0,0.06)' : 'none',
-                border: item.active ? '1px solid rgba(0,0,0,0.03)' : '1px solid transparent',
-              }}>
-                <item.icon size={16} strokeWidth={item.active ? 2.5 : 2} />
-                <span style={{ flex: 1 }}>{item.label}</span>
-                {item.active && <ChevronRight size={12} opacity={0.5} />}
-              </div>
-            ))}
-          </div>
-
-          <div style={{ display: 'flex', flexDirection: 'column', gap: '0.25rem', paddingTop: '1rem', borderTop: '1px solid rgba(0,0,0,0.05)' }}>
-            {[
-              { label: 'Settings', icon: Settings },
-              { label: 'Help Center', icon: HelpCircle },
-            ].map((item) => (
-              <div key={item.label} className="sidebar-item" style={{
-                padding: '0.5rem 0.75rem',
-                borderRadius: '8px',
-                fontSize: '0.8125rem',
-                fontWeight: 500,
-                color: 'var(--text-tertiary)',
-                display: 'flex',
-                alignItems: 'center',
-                gap: '0.625rem',
-                cursor: 'pointer'
-              }}>
-                <item.icon size={14} />
-                {item.label}
-              </div>
-            ))}
+            <ChevronDown size={16} color="#94a3b8" />
           </div>
         </div>
 
-        {/* Main Content */}
-        <div style={{ background: '#f8fafc', display: 'flex', flexDirection: 'column', position: 'relative' }}>
-          {/* Subtle background decoration */}
-          <div style={{
-            position: 'absolute',
-            top: 0,
-            right: 0,
-            width: '300px',
-            height: '300px',
-            background: 'radial-gradient(circle at top right, rgba(99, 102, 241, 0.03), transparent)',
-            pointerEvents: 'none'
-          }} />
-
-          {/* Stats Grid */}
-          <div className="stats-grid" style={{
-            padding: '1.5rem',
-            display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))',
-            gap: '1rem',
+        {/* Main Content - SEO Chat - Full width */}
+        <div className="main-content" style={{
+          display: 'flex',
+          flexDirection: 'column',
+          background: '#f8fafc',
+          position: 'relative',
+          minWidth: 0
+        }}>
+          {/* Chat Header - Responsive */}
+          <div className="chat-header" style={{
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'space-between',
+            padding: '1rem 1.5rem',
+            background: 'white',
+            borderBottom: '1px solid #e2e8f0',
+            flexWrap: 'wrap',
+            gap: '0.75rem'
           }}>
-            {[
-              { icon: FileText, value: '24', label: 'Total Posts', subtitle: '12 drafts · 12 published', badge: '12 published', badgeColor: '#ecfdf5', badgeText: '#059669', color: '#10b981' },
-              { icon: Eye, value: '127K', label: 'Impressions', subtitle: 'Last 28 days', badge: '+23.4%', badgeColor: '#ecfdf5', badgeText: '#059669', trend: true, color: '#6366f1' },
-              { icon: MousePointer, value: '3.2K', label: 'Clicks', subtitle: 'Last 28 days', badge: '+18.2%', badgeColor: '#ecfdf5', badgeText: '#059669', trend: true, color: '#8b5cf6' },
-              { icon: Target, value: '15', label: 'Content Gaps', subtitle: 'Awaiting Action', badge: 'High Priority', badgeColor: '#fffbeb', badgeText: '#b45309', color: '#f59e0b' },
-            ].map((stat, i) => (
-              <div key={i} className="stat-card-preview" style={{
-                background: 'white',
-                border: '1px solid rgba(0,0,0,0.06)',
-                borderRadius: '16px',
-                padding: '1.25rem',
-                boxShadow: '0 2px 8px -1px rgba(0,0,0,0.02)',
+            {/* Left - Title */}
+            <div className="chat-title-section" style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', flex: 1 }}>
+              <div style={{
+                width: '40px',
+                height: '40px',
+                borderRadius: '10px',
+                background: 'linear-gradient(135deg, #6366f1, #4f46e5)',
                 display: 'flex',
-                flexDirection: 'column',
-                position: 'relative',
-                overflow: 'hidden'
+                alignItems: 'center',
+                justifyContent: 'center',
+                color: 'white'
               }}>
-                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '1rem' }}>
-                  <div style={{
-                    width: '32px',
-                    height: '32px',
-                    borderRadius: '8px',
-                    background: `${stat.color}10`,
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    color: stat.color
-                  }}>
-                    <stat.icon size={16} />
-                  </div>
-                  <span style={{
-                    padding: '4px 10px',
-                    borderRadius: '20px',
-                    fontSize: '0.75rem',
-                    background: stat.badgeColor,
-                    color: stat.badgeText,
-                    fontWeight: 600,
-                    display: 'flex',
-                    alignItems: 'center',
-                    gap: '4px'
-                  }}>
-                    {stat.trend && <TrendingUp size={11} />}
-                    {stat.badge}
-                  </span>
-                </div>
-                <div style={{ fontSize: '1.5rem', fontWeight: 800, marginBottom: '2px', letterSpacing: '-0.02em', color: 'var(--text-primary)' }} className="stat-value">{stat.value}</div>
-                <div style={{ fontSize: '0.875rem', fontWeight: 600, color: 'var(--text-secondary)' }}>{stat.label}</div>
-                <div style={{ fontSize: '0.75rem', color: 'var(--text-tertiary)', marginTop: '8px', lineHeight: 1.4 }}>{stat.subtitle}</div>
+                <MessageSquare size={20} />
               </div>
-            ))}
+              <div style={{ textAlign: 'left', flex: 1 }}>
+                <div style={{ fontSize: '1rem', fontWeight: 700, color: '#1e293b', textAlign: 'left' }}>SEO Chat</div>
+                <div style={{ fontSize: '0.75rem', color: '#64748b', textAlign: 'left' }}>Chat with your website & Competitor data</div>
+              </div>
+              {/* Hamburger Menu - Visible on mobile, inline with SEO Chat */}
+              <div className="mobile-menu-btn" style={{
+                display: 'none',
+                alignItems: 'center',
+                justifyContent: 'center',
+                width: '36px',
+                height: '36px',
+                borderRadius: '8px',
+                background: '#f1f5f9',
+                cursor: 'pointer'
+              }}>
+                <Menu size={18} color="#64748b" />
+              </div>
+            </div>
+
+            {/* Right - Actions */}
+            <div className="chat-actions" style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', flexWrap: 'wrap' }}>
+              {/* Website Selector */}
+              <div style={{
+                display: 'flex',
+                alignItems: 'center',
+                gap: '0.5rem',
+                padding: '0.5rem 0.875rem',
+                background: 'white',
+                border: '1px solid #e2e8f0',
+                borderRadius: '8px',
+                fontSize: '0.875rem',
+                fontWeight: 500,
+                color: '#1e293b',
+                cursor: 'pointer'
+              }}>
+                <span style={{ color: '#ef4444' }}>♥</span>
+                seoscribes.com
+                <ChevronDown size={16} color="#64748b" />
+              </div>
+
+              {/* New Chat Button */}
+              <div style={{
+                display: 'flex',
+                alignItems: 'center',
+                gap: '0.5rem',
+                padding: '0.5rem 0.875rem',
+                background: 'white',
+                border: '1px solid #e2e8f0',
+                borderRadius: '8px',
+                fontSize: '0.875rem',
+                fontWeight: 500,
+                color: '#64748b',
+                cursor: 'pointer'
+              }}>
+                <Plus size={16} />
+                New Chat
+              </div>
+            </div>
           </div>
 
-          {/* Content Opportunities */}
-          <div className="card-section" style={{ padding: '0 1.5rem 0.75rem 1.5rem' }}>
+          {/* Chat Content - Responsive padding */}
+          <div className="chat-content" style={{
+            flex: 1,
+            padding: '1.5rem',
+            overflow: 'auto',
+            display: 'flex',
+            flexDirection: 'column',
+            gap: '1rem',
+            minHeight: 0
+          }}>
+            {/* SEO Assistant Badge */}
+            <div style={{
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: '0.5rem',
+              padding: '0.375rem 0.75rem',
+              background: '#eef2ff',
+              borderRadius: '6px',
+              fontSize: '0.75rem',
+              fontWeight: 600,
+              color: '#4f46e5',
+              width: 'fit-content'
+            }}>
+              <Sparkles size={14} />
+              SEO Assistant
+            </div>
+
+            {/* Welcome Message Card */}
             <div style={{
               background: 'white',
-              borderRadius: '20px',
-              border: '1px solid rgba(0,0,0,0.05)',
+              borderRadius: '16px',
               padding: '1.5rem',
-              boxShadow: '0 8px 24px -10px rgba(0,0,0,0.04)'
+              border: '1px solid #e2e8f0',
+              boxShadow: '0 2px 8px rgba(0,0,0,0.04)',
+              maxWidth: '100%',
+              textAlign: 'left'
             }}>
-              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
-                <div style={{ textAlign: 'left' }}>
-                  <h3 style={{ fontSize: '1rem', fontWeight: 700, marginBottom: '2px', letterSpacing: '-0.01em' }}>Content Opportunities</h3>
-                  <p style={{ fontSize: '0.75rem', color: 'var(--text-secondary)' }}>High-impact keywords with untapped potential</p>
-                </div>
-                <button style={{ background: 'transparent', border: 'none', color: 'var(--primary-600)', fontSize: '0.8125rem', fontWeight: 600, cursor: 'pointer' }}>View All</button>
+              <div style={{
+                fontSize: '1rem',
+                fontWeight: 600,
+                color: '#1e293b',
+                marginBottom: '0.75rem',
+                textAlign: 'left'
+              }}>
+                Hello 👋 Evan Johnson, Welcome to SEO Chat!
               </div>
-              <div style={{ borderRadius: '12px', border: '1px solid rgba(0,0,0,0.05)', overflow: 'hidden' }}>
-                <div className="table-grid table-header" style={{
-                  display: 'grid',
-                  gridTemplateColumns: '2fr 1fr 1fr 1fr',
-                  background: '#f8fafc',
-                  padding: '0.75rem 1rem',
-                  borderBottom: '1px solid rgba(0,0,0,0.05)'
-                }}>
-                  {['Keyword', 'Impressions', 'Avg. Position', 'Priority'].map((head) => (
-                    <div key={head} style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--text-tertiary)', textTransform: 'uppercase', letterSpacing: '0.05em', textAlign: 'left' }}>{head}</div>
-                  ))}
-                </div>
+
+              <p style={{
+                fontSize: '0.9375rem',
+                color: '#64748b',
+                lineHeight: 1.6,
+                marginBottom: '1rem',
+                textAlign: 'left'
+              }}>
+                I'm your AI-powered SEO assistant. I can help you analyze your Google Search Console data and provide actionable insights.
+              </p>
+
+              <div style={{
+                fontSize: '0.9375rem',
+                fontWeight: 600,
+                color: '#1e293b',
+                marginBottom: '0.75rem',
+                textAlign: 'left'
+              }}>
+                Here's what I can do:
+              </div>
+
+              <ul style={{
+                listStyle: 'none',
+                padding: 0,
+                margin: 0,
+                display: 'flex',
+                flexDirection: 'column',
+                gap: '0.5rem'
+              }}>
                 {[
-                  { keyword: 'best seo tools 2026', impressions: '12,482', position: '8.2', priority: 'High', color: '#ef4444' },
-                  { keyword: 'content optimization guide', impressions: '8,291', position: '12.1', priority: 'High', color: '#ef4444' },
-                  { keyword: 'ai content writing tips', impressions: '6,102', position: '15.3', priority: 'Medium', color: '#f59e0b' },
-                ].map((row, i) => (
-                  <div key={i} className="table-row-preview table-grid" style={{
-                    display: 'grid',
-                    gridTemplateColumns: '2fr 1fr 1fr 1fr',
-                    padding: '0.875rem 1rem',
-                    borderBottom: i === 2 ? 'none' : '1px solid rgba(0,0,0,0.03)',
+                  { icon: BarChart, text: 'Analyze your top performing keywords and pages' },
+                  { icon: TrendingDown, text: 'Identify ranking drops and traffic declines' },
+                  { icon: Target, text: 'Perform competitor analysis for specific keywords' },
+                  { icon: Lightbulb, text: 'Find content gaps and optimization opportunities' },
+                  { icon: Wrench, text: 'Provide technical SEO recommendations' }
+                ].map((item, i) => (
+                  <li key={i} style={{
+                    display: 'flex',
                     alignItems: 'center',
-                    background: 'white'
+                    gap: '0.625rem',
+                    fontSize: '0.9375rem',
+                    color: '#475569',
+                    textAlign: 'left'
                   }}>
-                    <div style={{ fontSize: '0.8125rem', fontWeight: 600, color: 'var(--text-primary)', textAlign: 'left' }}>{row.keyword}</div>
-                    <div style={{ fontSize: '0.8125rem', color: 'var(--text-secondary)', fontWeight: 500 }}>{row.impressions}</div>
-                    <div style={{ fontSize: '0.8125rem', color: 'var(--text-secondary)', fontWeight: 500 }}>{row.position}</div>
-                    <div className="action-col">
-                      <span style={{
-                        padding: '2px 8px',
-                        borderRadius: '6px',
-                        fontSize: '0.6875rem',
-                        fontWeight: 600,
-                        color: row.color,
-                        background: `${row.color}10`,
-                        border: `1px solid ${row.color}20`
-                      }}>
-                        {row.priority}
-                      </span>
-                    </div>
+                    <span style={{ fontSize: '1rem' }}>{item.icon === BarChart ? '📊' : item.icon === TrendingDown ? '📉' : item.icon === Target ? '🎯' : item.icon === Lightbulb ? '💡' : '🛠️'}</span>
+                    {item.text}
+                  </li>
+                ))}
+              </ul>
+
+              <p style={{
+                fontSize: '0.9375rem',
+                color: '#1e293b',
+                fontWeight: 500,
+                marginTop: '1rem',
+                textAlign: 'left'
+              }}>
+                Just type your question below or try one of the suggested queries!
+              </p>
+            </div>
+
+            {/* Suggested Queries - Elegant Pills */}
+            <div style={{ marginTop: '0.5rem' }}>
+              {/* Query Chips - All in one flow */}
+              <div style={{
+                display: 'flex',
+                flexWrap: 'wrap',
+                gap: '0.5rem'
+              }}>
+                {[
+                  'What are my top performing keywords?',
+                  'Show me pages with ranking drops',
+                  'Analyze my competitors',
+                  'Which keywords have impressions but low clicks?',
+                  'What content gaps should I focus on?',
+                  'Show me pages with low CTR'
+                ].map((query, i) => (
+                  <div key={i} style={{
+                    padding: '0.625rem 1rem',
+                    background: 'white',
+                    border: '1px solid #e2e8f0',
+                    borderRadius: '999px',
+                    fontSize: '0.875rem',
+                    color: '#475569',
+                    cursor: 'pointer',
+                    transition: 'all 0.2s ease',
+                    whiteSpace: 'nowrap',
+                    boxShadow: '0 1px 2px rgba(0,0,0,0.04)'
+                  }}>
+                    {query}
                   </div>
                 ))}
               </div>
             </div>
           </div>
 
-          {/* Decay Alerts */}
-          <div className="card-section" style={{ padding: '0 1.5rem 1.5rem 1.5rem' }}>
+          {/* Chat Input Area - Responsive */}
+          <div className="chat-input-area" style={{
+            padding: '1rem 1.5rem 1.5rem',
+            background: 'white',
+            borderTop: '1px solid #e2e8f0'
+          }}>
             <div style={{
-              background: 'white',
-              borderRadius: '20px',
-              border: '1px solid rgba(0,0,0,0.05)',
-              padding: '1.5rem',
-              boxShadow: '0 8px 24px -10px rgba(0,0,0,0.04)'
+              display: 'flex',
+              alignItems: 'center',
+              gap: '0.75rem',
+              padding: '0.875rem 1rem',
+              background: '#f8fafc',
+              borderRadius: '12px',
+              border: '1px solid #e2e8f0'
             }}>
-              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
-                <div style={{ textAlign: 'left' }}>
-                  <h3 style={{ fontSize: '1rem', fontWeight: 700, marginBottom: '2px', letterSpacing: '-0.01em' }}>Traffic Decay Alerts</h3>
-                  <p style={{ fontSize: '0.75rem', color: 'var(--text-secondary)' }}>Identifying and fixing performance drops</p>
-                </div>
-              </div>
-              <div style={{ borderRadius: '12px', border: '1px solid rgba(0,0,0,0.05)', overflow: 'hidden' }}>
-                <div className="table-grid table-header" style={{
-                  display: 'grid',
-                  gridTemplateColumns: '2fr 1fr 1fr 1fr',
-                  background: '#f8fafc',
-                  padding: '0.75rem 1rem',
-                  borderBottom: '1px solid rgba(0,0,0,0.05)'
-                }}>
-                  {['Page Path', 'Traffic Drop', 'Severity', 'Action'].map((head) => (head === 'Severity' || head === 'Action') ? (
-                    <div key={head} style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--text-tertiary)', textTransform: 'uppercase', letterSpacing: '0.05em', textAlign: 'left' }}>{head}</div>
-                  ) : head === 'Traffic Drop' ? (
-                    <div key={head} style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--text-tertiary)', textTransform: 'uppercase', letterSpacing: '0.05em', textAlign: 'left' }}>DROP</div>
-                  ) : (
-                    <div key={head} style={{ fontSize: '0.6875rem', fontWeight: 700, color: 'var(--text-tertiary)', textTransform: 'uppercase', letterSpacing: '0.05em', textAlign: 'left' }}>PAGE</div>
-                  ))}
-                </div>
-                {[
-                  { page: '/blog/seo-guide...', drop: '-42%', severity: 'Critical', color: '#ef4444' },
-                  { page: '/features/opt...', drop: '-28%', severity: 'High', color: '#f97316' },
-                ].map((row, i) => (
-                  <div key={i} className="table-row-preview table-grid" style={{
-                    display: 'grid',
-                    gridTemplateColumns: '2fr 1fr 1fr 1fr',
-                    padding: '0.875rem 1rem',
-                    borderBottom: i === 1 ? 'none' : '1px solid rgba(0,0,0,0.03)',
-                    alignItems: 'center',
-                    background: 'white'
-                  }}>
-                    <div style={{ fontSize: '0.8125rem', fontWeight: 600, color: 'var(--text-primary)', textAlign: 'left' }}>{row.page}</div>
-                    <div style={{ fontSize: '0.8125rem', color: '#ef4444', fontWeight: 700, display: 'flex', alignItems: 'center', gap: '4px' }}>
-                      <TrendingDown size={14} />
-                      {row.drop}
-                    </div>
-                    <div>
-                      <span style={{
-                        padding: '2px 8px',
-                        borderRadius: '6px',
-                        fontSize: '0.6875rem',
-                        fontWeight: 600,
-                        color: row.color,
-                        background: `${row.color}10`,
-                      }}>
-                        {row.severity}
-                      </span>
-                    </div>
-                    <div className="action-col">
-                      <button className="fix-btn-preview" style={{
-                        fontSize: '0.75rem',
-                        padding: '6px 12px',
-                        borderRadius: '8px',
-                        border: 'none',
-                        background: 'linear-gradient(135deg, var(--primary-600), var(--primary-700))',
-                        color: 'white',
-                        cursor: 'pointer',
-                        fontWeight: 700,
-                        boxShadow: '0 4px 12px rgba(79, 70, 229, 0.2)',
-                        display: 'flex',
-                        alignItems: 'center',
-                        gap: '6px'
-                      }}>
-                        Fix <Sparkles size={11} />
-                      </button>
-                    </div>
-                  </div>
-                ))}
-              </div>
+              <input
+                type="text"
+                placeholder="Ask about your GSC data..."
+                readOnly
+                style={{
+                  flex: 1,
+                  background: 'transparent',
+                  border: 'none',
+                  color: '#64748b',
+                  fontSize: '0.9375rem',
+                  outline: 'none'
+                }}
+              />
+              <button style={{
+                width: '40px',
+                height: '40px',
+                borderRadius: '10px',
+                background: '#cbd5e1',
+                border: 'none',
+                color: 'white',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                cursor: 'pointer'
+              }}>
+                <Send size={18} />
+              </button>
+            </div>
+
+            {/* Footer Note */}
+            <div style={{
+              textAlign: 'center',
+              fontSize: '0.75rem',
+              color: '#94a3b8',
+              marginTop: '0.75rem'
+            }}>
+              AI-powered insights based on your GSC data. Results may vary.
             </div>
           </div>
         </div>

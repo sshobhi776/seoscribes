@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
-import { Menu, X, ArrowRight } from 'lucide-react';
+import { Menu, X, ArrowRight, Sparkles } from 'lucide-react';
 
 const APP_URL = process.env.NEXT_PUBLIC_APP_URL || 'https://app.seoscribes.com/';
 
@@ -20,20 +20,19 @@ export default function Header() {
 
     return (
         <>
-
             <header style={{
                 position: 'fixed',
                 top: scrolled ? '1rem' : '0',
                 left: scrolled ? '1rem' : '0',
                 right: scrolled ? '1rem' : '0',
-                background: scrolled ? 'rgba(255, 255, 255, 0.75)' : 'transparent',
-                backdropFilter: scrolled ? 'blur(16px)' : 'none',
-                WebkitBackdropFilter: scrolled ? 'blur(16px)' : 'none',
-                border: scrolled ? '1px solid rgba(255, 255, 255, 0.3)' : '1px solid transparent',
+                background: scrolled ? 'rgba(255, 255, 255, 0.85)' : 'transparent',
+                backdropFilter: scrolled ? 'blur(20px)' : 'none',
+                WebkitBackdropFilter: scrolled ? 'blur(20px)' : 'none',
+                border: scrolled ? '1px solid rgba(255, 255, 255, 0.5)' : '1px solid transparent',
                 borderRadius: scrolled ? '20px' : '0',
-                boxShadow: scrolled ? '0 10px 30px -10px rgba(0,0,0,0.1)' : 'none',
+                boxShadow: scrolled ? '0 10px 40px -10px rgba(0,0,0,0.15)' : 'none',
                 zIndex: 1000,
-                height: scrolled ? '56px' : '64px',
+                height: scrolled ? '60px' : '72px',
                 transition: 'all 0.4s cubic-bezier(0.16, 1, 0.3, 1)',
                 display: 'flex',
                 alignItems: 'center',
@@ -54,7 +53,7 @@ export default function Header() {
                             src="/images/seoscribeslogo.webp"
                             alt="SEOScribes"
                             style={{
-                                height: scrolled ? '28px' : '32px',
+                                height: scrolled ? '30px' : '34px',
                                 width: 'auto',
                                 transition: 'all 0.4s ease'
                             }}
@@ -64,10 +63,10 @@ export default function Header() {
                     <nav style={{
                         display: 'flex',
                         alignItems: 'center',
-                        gap: '0.5rem',
-                        background: scrolled ? 'rgba(0,0,0,0.03)' : 'transparent',
+                        gap: '0.25rem',
+                        background: scrolled ? 'rgba(0,0,0,0.02)' : 'transparent',
                         padding: '0.375rem',
-                        borderRadius: '12px',
+                        borderRadius: '14px',
                         transition: 'all 0.3s ease'
                     }} className="desktop-nav">
                         {['Features', 'How It Works', 'Comparison', 'FAQ', 'Pricing'].map((item) => (
@@ -89,13 +88,13 @@ export default function Header() {
 
                     <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
                         <a href={APP_URL} className="btn-shimmer desktop-cta" style={{
-                            background: 'var(--primary-600)',
+                            background: 'linear-gradient(135deg, var(--primary-600), var(--primary-700))',
                             color: 'white',
-                            padding: scrolled ? '0.5rem 1.25rem' : '0.5rem 1.25rem',
+                            padding: '0.625rem 1.5rem',
                             borderRadius: '12px',
                             fontSize: '0.875rem',
                             fontWeight: 700,
-                            boxShadow: '0 8px 16px -4px rgba(79, 70, 229, 0.3)',
+                            boxShadow: '0 8px 20px -4px rgba(79, 70, 229, 0.35)',
                             fontFamily: 'Inter, sans-serif',
                             textDecoration: 'none',
                             display: 'flex',
@@ -116,10 +115,10 @@ export default function Header() {
                                 display: 'none',
                                 alignItems: 'center',
                                 justifyContent: 'center',
-                                width: '40px',
-                                height: '40px',
-                                borderRadius: '10px',
-                                border: '1px solid rgba(0,0,0,0.05)',
+                                width: '42px',
+                                height: '42px',
+                                borderRadius: '12px',
+                                border: '1px solid rgba(0,0,0,0.08)',
                                 background: scrolled ? 'white' : 'transparent',
                                 cursor: 'pointer',
                                 color: 'var(--text-primary)',
@@ -135,17 +134,19 @@ export default function Header() {
                 {mobileMenuOpen && (
                     <div style={{
                         position: 'absolute',
-                        top: 'calc(100% + 8px)',
-                        left: scrolled ? '0' : '1.5rem',
-                        right: scrolled ? '0' : '1.5rem',
-                        background: 'white',
-                        borderRadius: '20px',
-                        border: '1px solid rgba(0,0,0,0.08)',
-                        boxShadow: '0 20px 40px rgba(0,0,0,0.12)',
+                        top: 'calc(100% + 12px)',
+                        left: scrolled ? '0' : '1rem',
+                        right: scrolled ? '0' : '1rem',
+                        background: 'rgba(255, 255, 255, 0.95)',
+                        backdropFilter: 'blur(20px)',
+                        WebkitBackdropFilter: 'blur(20px)',
+                        borderRadius: '24px',
+                        border: '1px solid rgba(0,0,0,0.06)',
+                        boxShadow: '0 25px 50px -12px rgba(0,0,0,0.15)',
                         zIndex: 1000,
                         display: 'flex',
                         flexDirection: 'column',
-                        padding: '1rem',
+                        padding: '1.25rem',
                         gap: '0.25rem',
                         animation: 'slideDownHeader 0.3s ease-out'
                     }}>
@@ -157,14 +158,14 @@ export default function Header() {
                                     onClick={() => setMobileMenuOpen(false)}
                                     className="mobile-link"
                                     style={{
-                                        padding: '0.75rem 1rem',
+                                        padding: '0.875rem 1.25rem',
                                         fontSize: '1rem',
                                         fontFamily: 'Inter, sans-serif',
                                         fontWeight: 600,
                                         color: 'var(--text-primary)',
                                         textDecoration: 'none',
                                         background: 'transparent',
-                                        borderRadius: '12px',
+                                        borderRadius: '14px',
                                         display: 'flex',
                                         alignItems: 'center',
                                         justifyContent: 'space-between',
@@ -172,28 +173,28 @@ export default function Header() {
                                     }}
                                 >
                                     {item}
-                                    <ArrowRight size={16} style={{ opacity: 0.3 }} />
+                                    <ArrowRight size={18} style={{ opacity: 0.3 }} />
                                 </Link>
                             ))}
                         </div>
 
-                        <div style={{ marginTop: '0.5rem', paddingTop: '0.5rem', borderTop: '1px solid rgba(0,0,0,0.05)' }}>
+                        <div style={{ marginTop: '0.75rem', paddingTop: '0.75rem', borderTop: '1px solid rgba(0,0,0,0.06)' }}>
                             <a href={APP_URL} style={{
                                 display: 'flex',
                                 alignItems: 'center',
                                 justifyContent: 'center',
                                 gap: '0.5rem',
-                                padding: '0.875rem',
-                                background: 'var(--primary-600)',
+                                padding: '1rem',
+                                background: 'linear-gradient(135deg, var(--primary-600), var(--primary-700))',
                                 color: 'white',
-                                borderRadius: '14px',
+                                borderRadius: '16px',
                                 fontSize: '0.9375rem',
                                 fontWeight: 700,
                                 textDecoration: 'none',
-                                boxShadow: '0 8px 16px -4px rgba(79, 70, 229, 0.3)'
+                                boxShadow: '0 10px 20px -4px rgba(79, 70, 229, 0.35)'
                             }}>
+                                <Sparkles size={16} />
                                 Get Started Free
-                                <ArrowRight size={16} />
                             </a>
                         </div>
                     </div>
