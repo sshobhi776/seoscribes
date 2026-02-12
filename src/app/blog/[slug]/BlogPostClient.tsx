@@ -69,15 +69,15 @@ export default function BlogPostContent({ blogPost, relatedPosts, tocItems }: Bl
                 paddingBottom: '60px',
                 background: 'white'
             }}>
-                <div className="container" style={{ maxWidth: '1200px' }}>
+                <div className="container" style={{ maxWidth: '1200px', padding: '0 1rem' }}>
                     <div style={{
                         display: 'grid',
-                        gridTemplateColumns: '1fr 280px',
-                        gap: '4rem',
+                        gridTemplateColumns: 'minmax(0, 1fr) 280px',
+                        gap: '2rem',
                         alignItems: 'start'
-                    }}>
+                    }} className="blog-post-layout">
                         {/* Article Header and Content */}
-                        <div>
+                        <div style={{ minWidth: 0, overflow: 'hidden' }}>
                             {/* Article Header */}
                             <div style={{ marginBottom: '3rem' }}>
                                 <Link href="/blog" style={{
@@ -97,14 +97,14 @@ export default function BlogPostContent({ blogPost, relatedPosts, tocItems }: Bl
                                 {/* Featured Image with Title */}
                                 <div style={{
                                     width: '100%',
-                                    height: '320px',
+                                    height: 'clamp(200px, 40vw, 320px)',
                                     background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
-                                    borderRadius: '16px',
+                                    borderRadius: 'clamp(12px, 2vw, 16px)',
                                     display: 'flex',
                                     alignItems: 'center',
                                     justifyContent: 'center',
-                                    padding: '3rem',
-                                    marginBottom: '3rem',
+                                    padding: 'clamp(1.5rem, 5vw, 3rem)',
+                                    marginBottom: 'clamp(2rem, 5vw, 3rem)',
                                     position: 'relative',
                                     overflow: 'hidden'
                                 }}>
@@ -132,7 +132,7 @@ export default function BlogPostContent({ blogPost, relatedPosts, tocItems }: Bl
 
                                     {/* Title */}
                                     <h2 style={{
-                                        fontSize: '3rem',
+                                        fontSize: 'clamp(1.5rem, 5vw, 3rem)',
                                         fontWeight: 800,
                                         color: 'white',
                                         textAlign: 'center',
@@ -148,7 +148,7 @@ export default function BlogPostContent({ blogPost, relatedPosts, tocItems }: Bl
                                 </div>
 
                                 <h1 style={{
-                                    fontSize: '2.75rem',
+                                    fontSize: 'clamp(1.75rem, 5vw, 2.75rem)',
                                     fontWeight: 800,
                                     color: 'var(--text-primary)',
                                     marginBottom: '1rem',
@@ -162,9 +162,10 @@ export default function BlogPostContent({ blogPost, relatedPosts, tocItems }: Bl
                                 <div style={{
                                     display: 'flex',
                                     alignItems: 'center',
-                                    gap: '1.5rem',
+                                    flexWrap: 'wrap',
+                                    gap: 'clamp(0.75rem, 2vw, 1.5rem)',
                                     marginBottom: '2rem',
-                                    fontSize: '0.9375rem',
+                                    fontSize: 'clamp(0.8125rem, 2vw, 0.9375rem)',
                                     color: 'var(--text-secondary)'
                                 }}>
                                     <div style={{
@@ -172,7 +173,7 @@ export default function BlogPostContent({ blogPost, relatedPosts, tocItems }: Bl
                                         padding: '0.25rem 0.75rem',
                                         background: 'var(--primary-100)',
                                         color: 'var(--primary-700)',
-                                        fontSize: '0.8125rem',
+                                        fontSize: 'clamp(0.75rem, 2vw, 0.8125rem)',
                                         fontWeight: 600,
                                         borderRadius: '6px'
                                     }}>
@@ -180,11 +181,13 @@ export default function BlogPostContent({ blogPost, relatedPosts, tocItems }: Bl
                                     </div>
                                     <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
                                         <User size={16} />
-                                        {blogPost.author}
+                                        <span style={{ whiteSpace: 'nowrap' }}>{blogPost.author}</span>
                                     </div>
                                     <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
                                         <Calendar size={16} />
-                                        {new Date(blogPost.date).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
+                                        <span style={{ whiteSpace: 'nowrap' }}>
+                                            {new Date(blogPost.date).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
+                                        </span>
                                     </div>
                                     <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
                                         <Clock size={16} />
@@ -206,17 +209,17 @@ export default function BlogPostContent({ blogPost, relatedPosts, tocItems }: Bl
                         </div>
 
                         {/* Table of Contents Sidebar */}
-                        <aside style={{
+                        <aside className="toc-sidebar" style={{
                             position: 'sticky',
                             top: '100px'
                         }}>
                             <div style={{
                                 background: 'var(--bg-secondary)',
                                 borderRadius: '12px',
-                                padding: '1.5rem'
+                                padding: 'clamp(1rem, 3vw, 1.5rem)'
                             }}>
                                 <h3 style={{
-                                    fontSize: '0.875rem',
+                                    fontSize: 'clamp(0.8125rem, 2vw, 0.875rem)',
                                     fontWeight: 700,
                                     color: 'var(--text-primary)',
                                     marginBottom: '1rem',
@@ -238,8 +241,8 @@ export default function BlogPostContent({ blogPost, relatedPosts, tocItems }: Bl
                                                     style={{
                                                         width: '100%',
                                                         textAlign: 'left',
-                                                        padding: '0.5rem 0.75rem',
-                                                        fontSize: '0.875rem',
+                                                        padding: 'clamp(0.375rem, 1vw, 0.5rem) clamp(0.5rem, 2vw, 0.75rem)',
+                                                        fontSize: 'clamp(0.8125rem, 2vw, 0.875rem)',
                                                         fontWeight: activeSection === item.id ? 600 : 500,
                                                         color: activeSection === item.id ? 'var(--primary-600)' : 'var(--text-secondary)',
                                                         background: activeSection === item.id ? 'white' : 'transparent',
@@ -368,6 +371,11 @@ export default function BlogPostContent({ blogPost, relatedPosts, tocItems }: Bl
           transform: translateY(-4px);
         }
 
+        .blog-content {
+          max-width: 100%;
+          overflow-x: hidden;
+        }
+
         .blog-content h2 {
           font-size: 1.75rem;
           font-weight: 700;
@@ -376,6 +384,7 @@ export default function BlogPostContent({ blogPost, relatedPosts, tocItems }: Bl
           margin-bottom: 1.25rem;
           line-height: 1.3;
           scroll-margin-top: 100px;
+          word-wrap: break-word;
         }
 
         .blog-content h3 {
@@ -385,11 +394,13 @@ export default function BlogPostContent({ blogPost, relatedPosts, tocItems }: Bl
           margin-top: 2rem;
           margin-bottom: 1rem;
           line-height: 1.4;
+          word-wrap: break-word;
         }
 
         .blog-content p {
           margin-bottom: 1.5rem;
           color: var(--text-secondary);
+          word-wrap: break-word;
         }
 
         .blog-content ul {
@@ -402,6 +413,7 @@ export default function BlogPostContent({ blogPost, relatedPosts, tocItems }: Bl
           margin-bottom: 0.75rem;
           color: var(--text-secondary);
           display: list-item;
+          word-wrap: break-word;
         }
 
         .blog-content strong {
@@ -421,12 +433,14 @@ export default function BlogPostContent({ blogPost, relatedPosts, tocItems }: Bl
           margin: 1.5rem 0;
           color: var(--text-secondary);
           border-radius: 0 8px 8px 0;
+          word-wrap: break-word;
         }
 
         .blog-content a {
           color: var(--primary-600);
           text-decoration: none;
           font-weight: 500;
+          word-wrap: break-word;
         }
 
         .blog-content a:hover {
@@ -435,10 +449,13 @@ export default function BlogPostContent({ blogPost, relatedPosts, tocItems }: Bl
 
         .blog-content table {
           width: 100%;
+          max-width: 100%;
           border-collapse: collapse;
           margin: 1.5rem 0;
           color: var(--text-secondary);
           font-size: 0.9375rem;
+          display: block;
+          overflow-x: auto;
         }
 
         .blog-content table th {
@@ -448,25 +465,42 @@ export default function BlogPostContent({ blogPost, relatedPosts, tocItems }: Bl
           background: var(--bg-secondary);
           font-weight: 600;
           color: var(--text-primary);
+          white-space: nowrap;
         }
 
         .blog-content table td {
           padding: 0.75rem;
           border: 1px solid var(--border-color);
+          word-wrap: break-word;
         }
 
         .blog-content table tr:nth-child(even) {
           background: var(--bg-secondary);
         }
 
+        .blog-content img {
+          max-width: 100%;
+          height: auto;
+          display: block;
+        }
+
         @media (max-width: 968px) {
-          .container > div {
+          .blog-post-layout {
             grid-template-columns: 1fr !important;
           }
 
-          aside {
+          .toc-sidebar {
             position: static !important;
             order: -1;
+          }
+
+          .blog-content table {
+            font-size: 0.8125rem;
+          }
+
+          .blog-content table th,
+          .blog-content table td {
+            padding: 0.5rem;
           }
         }
       `}</style>

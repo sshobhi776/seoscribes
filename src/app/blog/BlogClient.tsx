@@ -19,12 +19,18 @@ interface BlogClientProps {
 
 export default function BlogClient({ blogPosts }: BlogClientProps) {
     return (
-        <div className="blog-grid" style={{
+        <div style={{
             display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fill, minmax(350px, 1fr))',
+            gridTemplateColumns: '1fr',
             gap: '2rem'
         }}>
-            {blogPosts.map((post) => (
+            {/* Main Content - Blog Posts */}
+            <div className="blog-grid" style={{
+                display: 'grid',
+                gridTemplateColumns: 'repeat(auto-fill, minmax(min(100%, 300px), 1fr))',
+                gap: 'clamp(1rem, 3vw, 1.5rem)'
+            }}>
+                {blogPosts.map((post) => (
                 <Link
                     key={post.slug}
                     href={`/blog/${post.slug}`}
@@ -56,7 +62,7 @@ export default function BlogClient({ blogPosts }: BlogClientProps) {
 
                         {/* Title */}
                         <h3 style={{
-                            fontSize: '1.5rem',
+                            fontSize: 'clamp(1rem, 3vw, 1.5rem)',
                             fontWeight: 800,
                             color: 'white',
                             textAlign: 'center',
@@ -65,21 +71,21 @@ export default function BlogClient({ blogPosts }: BlogClientProps) {
                             position: 'relative',
                             zIndex: 1,
                             textShadow: '0 2px 15px rgba(0, 0, 0, 0.2)',
-                            padding: '0 1.5rem',
+                            padding: '0 1rem',
                             maxWidth: '100%'
                         }}>
                             {post.title}
                         </h3>
                     </div>
 
-                    <div style={{ padding: '1.5rem' }}>
+                    <div style={{ padding: 'clamp(1rem, 3vw, 1.5rem)' }}>
                         {/* Category Badge */}
                         <div style={{
                             display: 'inline-block',
                             padding: '0.25rem 0.75rem',
                             background: 'var(--primary-100)',
                             color: 'var(--primary-700)',
-                            fontSize: '0.75rem',
+                            fontSize: 'clamp(0.7rem, 2vw, 0.75rem)',
                             fontWeight: 600,
                             borderRadius: '6px',
                             marginBottom: '1rem'
@@ -88,7 +94,7 @@ export default function BlogClient({ blogPosts }: BlogClientProps) {
                         </div>
 
                         <h3 style={{
-                            fontSize: '1.25rem',
+                            fontSize: 'clamp(1.125rem, 3vw, 1.25rem)',
                             fontWeight: 700,
                             color: 'var(--text-primary)',
                             marginBottom: '0.75rem',
@@ -98,7 +104,7 @@ export default function BlogClient({ blogPosts }: BlogClientProps) {
                         </h3>
 
                         <p style={{
-                            fontSize: '0.9375rem',
+                            fontSize: 'clamp(0.875rem, 2vw, 0.9375rem)',
                             color: 'var(--text-secondary)',
                             lineHeight: 1.6,
                             marginBottom: '1.25rem'
@@ -110,15 +116,18 @@ export default function BlogClient({ blogPosts }: BlogClientProps) {
                         <div style={{
                             display: 'flex',
                             alignItems: 'center',
-                            gap: '1rem',
-                            fontSize: '0.8125rem',
+                            flexWrap: 'wrap',
+                            gap: 'clamp(0.5rem, 2vw, 1rem)',
+                            fontSize: 'clamp(0.75rem, 2vw, 0.8125rem)',
                             color: 'var(--text-tertiary)',
                             paddingTop: '1rem',
                             borderTop: '1px solid var(--border-light)'
                         }}>
                             <div style={{ display: 'flex', alignItems: 'center', gap: '0.375rem' }}>
                                 <Calendar size={14} />
-                                {new Date(post.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
+                                <span style={{ whiteSpace: 'nowrap' }}>
+                                    {new Date(post.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
+                                </span>
                             </div>
                             <div style={{ display: 'flex', alignItems: 'center', gap: '0.375rem' }}>
                                 <Clock size={14} />
@@ -127,7 +136,102 @@ export default function BlogClient({ blogPosts }: BlogClientProps) {
                         </div>
                     </div>
                 </Link>
-            ))}
+                ))}
+            </div>
+
+            {/* Sidebar - Desktop Only */}
+            <aside className="blog-sidebar" style={{
+                display: 'none'
+            }}>
+                {/* Categories */}
+                <div style={{
+                    background: 'var(--bg-secondary)',
+                    borderRadius: '12px',
+                    padding: '1.5rem',
+                    marginBottom: '1.5rem'
+                }}>
+                    <h3 style={{
+                        fontSize: '1.125rem',
+                        fontWeight: 700,
+                        color: 'var(--text-primary)',
+                        marginBottom: '1rem'
+                    }}>
+                        Categories
+                    </h3>
+                    <ul style={{
+                        listStyle: 'none',
+                        padding: 0,
+                        margin: 0
+                    }}>
+                        <li style={{ marginBottom: '0.5rem' }}>
+                            <Link href="/blog?category=seo-tools" style={{
+                                color: 'var(--text-secondary)',
+                                textDecoration: 'none',
+                                fontSize: '0.9375rem',
+                                transition: 'color 0.2s'
+                            }}>
+                                SEO Tools
+                            </Link>
+                        </li>
+                        <li style={{ marginBottom: '0.5rem' }}>
+                            <Link href="/blog?category=content-strategy" style={{
+                                color: 'var(--text-secondary)',
+                                textDecoration: 'none',
+                                fontSize: '0.9375rem',
+                                transition: 'color 0.2s'
+                            }}>
+                                Content Strategy
+                            </Link>
+                        </li>
+                        <li style={{ marginBottom: '0.5rem' }}>
+                            <Link href="/blog?category=ai-seo" style={{
+                                color: 'var(--text-secondary)',
+                                textDecoration: 'none',
+                                fontSize: '0.9375rem',
+                                transition: 'color 0.2s'
+                            }}>
+                                AI & SEO
+                            </Link>
+                        </li>
+                    </ul>
+                </div>
+
+                {/* Recent Posts */}
+                <div style={{
+                    background: 'var(--bg-secondary)',
+                    borderRadius: '12px',
+                    padding: '1.5rem'
+                }}>
+                    <h3 style={{
+                        fontSize: '1.125rem',
+                        fontWeight: 700,
+                        color: 'var(--text-primary)',
+                        marginBottom: '1rem'
+                    }}>
+                        Recent Posts
+                    </h3>
+                    <ul style={{
+                        listStyle: 'none',
+                        padding: 0,
+                        margin: 0
+                    }}>
+                        {blogPosts.slice(0, 3).map((post) => (
+                            <li key={post.slug} style={{ marginBottom: '1rem' }}>
+                                <Link href={`/blog/${post.slug}`} style={{
+                                    color: 'var(--text-secondary)',
+                                    textDecoration: 'none',
+                                    fontSize: '0.875rem',
+                                    lineHeight: 1.4,
+                                    display: 'block',
+                                    transition: 'color 0.2s'
+                                }}>
+                                    {post.title}
+                                </Link>
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+            </aside>
 
             <style jsx>{`
                 .blog-card {
@@ -146,7 +250,7 @@ export default function BlogClient({ blogPosts }: BlogClientProps) {
                 }
                 .blog-card-image {
                     width: 100%;
-                    height: 240px;
+                    height: clamp(180px, 30vw, 240px);
                     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
                     display: flex;
                     align-items: center;
@@ -154,6 +258,25 @@ export default function BlogClient({ blogPosts }: BlogClientProps) {
                     position: relative;
                     overflow: hidden;
                     border-radius: 12px;
+                }
+                
+                @media (max-width: 640px) {
+                    .blog-card {
+                        border-radius: 12px;
+                    }
+                }
+
+                /* Desktop Layout with Sidebar */
+                @media (min-width: 1024px) {
+                    div:has(> .blog-grid) {
+                        grid-template-columns: 1fr 300px;
+                    }
+                    .blog-sidebar {
+                        display: block !important;
+                        position: sticky;
+                        top: 100px;
+                        height: fit-content;
+                    }
                 }
             `}</style>
         </div>

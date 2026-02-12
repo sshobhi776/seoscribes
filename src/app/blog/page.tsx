@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import type { Metadata } from 'next';
@@ -55,10 +54,10 @@ export default function BlogPage() {
                 background: 'var(--bg-secondary)',
                 position: 'relative'
             }}>
-                <div className="container" style={{ maxWidth: '1200px' }}>
+                <div className="container" style={{ maxWidth: '1200px', padding: '0 1rem' }}>
                     <div style={{ textAlign: 'center' }}>
                         <h1 style={{
-                            fontSize: '3rem',
+                            fontSize: 'clamp(2rem, 5vw, 3rem)',
                             fontWeight: 800,
                             color: 'var(--text-primary)',
                             marginBottom: '1rem',
@@ -67,11 +66,12 @@ export default function BlogPage() {
                             SEO Insights & Strategies
                         </h1>
                         <p style={{
-                            fontSize: '1.125rem',
+                            fontSize: 'clamp(1rem, 2vw, 1.125rem)',
                             color: 'var(--text-secondary)',
                             maxWidth: '600px',
                             margin: '0 auto',
-                            lineHeight: 1.6
+                            lineHeight: 1.6,
+                            padding: '0 1rem'
                         }}>
                             Expert insights on SEO, content optimization, and AI-powered strategies to grow your organic traffic
                         </p>
@@ -81,7 +81,7 @@ export default function BlogPage() {
 
             {/* Blog Posts Grid */}
             <section style={{
-                padding: '60px 0 100px',
+                padding: '60px 1rem 100px',
                 background: 'white'
             }}>
                 <div className="container" style={{ maxWidth: '1200px' }}>
