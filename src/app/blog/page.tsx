@@ -23,6 +23,24 @@ export const metadata: Metadata = {
 // Blog posts data
 const blogPosts = [
     {
+        slug: 'ahrefs-vs-google-search-console',
+        title: 'Ahrefs vs Google Search Console: 2026 Feature Guide',
+        excerpt: 'Ahrefs and Google Search Console serve different purposes in your SEO workflow. GSC gives you direct data from Google. Ahrefs provides competitive intelligence. SEOScribes bridges the gap with AI-powered insights.',
+        category: 'SEO Tools',
+        date: '2026-02-12',
+        readTime: '8 min read',
+        author: 'Evan Johnson'
+    },
+    {
+        slug: 'ahrefs-vs-moz-pro',
+        title: 'Ahrefs vs Moz Pro: Complete 2026 Comparison',
+        excerpt: 'Ahrefs leads with 35 trillion backlinks and daily updates. Moz Pro offers the industry-standard Domain Authority. Compare features, pricing, and find out why SEOScribes provides a modern alternative.',
+        category: 'SEO Tools',
+        date: '2026-02-12',
+        readTime: '10 min read',
+        author: 'Evan Johnson'
+    },
+    {
         slug: 'ahrefs-vs-long-tail-pro',
         title: 'Ahrefs vs Long Tail Pro: Best 2026 Alternatives',
         excerpt: 'Long Tail Pro is dead. You need a new tool. Ahrefs provides data. SEOScribes provides action. Compare your options and pick the right tool for 2026.',
